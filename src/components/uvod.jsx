@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container, AppBar, Toolbar, Typography, Hidden } from '@mui/material';
-import { Link } from 'react-router-dom'; // Import Link z react-router-dom
+import {AppBar, Toolbar, Typography, Hidden } from '@mui/material';
+import { Link } from 'react-router-dom';
 import './uvod.css';
 
 const Uvod = () => {
@@ -11,7 +11,7 @@ const Uvod = () => {
         <Hidden mdUp>
           <div className="logo-container">
             <Link to="/" style={{ textDecoration: 'none' }}>
-              <img className="logo small-logo" src="%PUBLIC_URL%/logo.png" alt="Logo" />
+              <img className="logo small-logo" src="./logo.png" alt="Logo" />
             <Typography className="title small-design">WIKIPEDIA</Typography>
             </Link>
           </div>
@@ -19,7 +19,7 @@ const Uvod = () => {
         <Hidden mdDown>
           <div className="logo-container">
             <Link to="/" style={{ textDecoration: 'none' }}>
-              <img className="logo big-logo" src="%PUBLIC_URL%/logo.png" alt="Logo" />
+              <img className="logo big-logo" src="./logo.png" alt="Logo" />
             <Typography className="title design">WIKIPEDIA</Typography>
             </Link>
           </div>
