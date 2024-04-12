@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/emtgen2-wiki/static/css/main.478a67f2.css",
-    "main.js": "/emtgen2-wiki/static/js/main.dbd77344.js",
-    "static/js/787.1a3cf225.chunk.js": "/emtgen2-wiki/static/js/787.1a3cf225.chunk.js",
-    "index.html": "/emtgen2-wiki/index.html",
-    "main.478a67f2.css.map": "/emtgen2-wiki/static/css/main.478a67f2.css.map",
-    "main.dbd77344.js.map": "/emtgen2-wiki/static/js/main.dbd77344.js.map",
-    "787.1a3cf225.chunk.js.map": "/emtgen2-wiki/static/js/787.1a3cf225.chunk.js.map"
+    "main.css": "/static/css/main.1e54f039.css",
+    "main.js": "/static/js/main.67a64f68.js",
+    "static/js/787.1a3cf225.chunk.js": "/static/js/787.1a3cf225.chunk.js",
+    "index.html": "/index.html",
+    "main.1e54f039.css.map": "/static/css/main.1e54f039.css.map",
+    "main.67a64f68.js.map": "/static/js/main.67a64f68.js.map",
+    "787.1a3cf225.chunk.js.map": "/static/js/787.1a3cf225.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.478a67f2.css",
-    "static/js/main.dbd77344.js"
+    "static/css/main.1e54f039.css",
+    "static/js/main.67a64f68.js"
   ]
 }
