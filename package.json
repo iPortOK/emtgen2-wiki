@@ -1,5 +1,5 @@
 {
-  "homepage": "https://iPortOK.github.io/",
+  "homepage": "https://iPortOK.github.io",
   "name": "wikipedia",
   "version": "0.1.0",
   "private": true,
@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy":"npm run build",
-    "deploy":" gh-pages -b master -d build"
+    "deploy":"gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
