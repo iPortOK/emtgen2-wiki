@@ -1,0 +1,302 @@
+.kontejnr{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    display: block;
+    background-color: rgba(0,0,0,0.25);;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    backdrop-filter: blur(10px);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  background-color: #242323;
+  }
+  
+  body::before {
+  background-image: url('https://r4.wallpaperflare.com/wallpaper/295/653/112/digital-art-asian-architecture-fantasy-art-town-wallpaper-8990d82dd1cadd3b8627d88f801186cd.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  content: "";
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.07;
+  }
+
+.title.header{
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 3em;
+    background: -webkit-linear-gradient(#ffe8aa, #9b754f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(1px 1px 1px #503a2c);
+    margin-top: 0px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title.header {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .title.header::before,
+  .title.header::after {
+    background-color: #daa982;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 35%;
+    opacity: 0.3;
+  }
+  
+  .title.header::before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  .title.header::after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+  h4 {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  h4::before,
+  h4::after {
+    background-color: #daa982;
+    content: "";
+    display: inline-block;
+    height: 0px;
+    position: relative;
+    vertical-align: middle;
+    width: 35%;
+    opacity: 0.3;
+  }
+  
+  h4::before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  h4::after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+
+Button{
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.vybava-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  .vybava.button{
+    font-size: 0.79em;
+    color: #fff;
+    filter: drop-shadow(1px 1px 1px #503a2c);
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  
+  .vybava-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 10px;
+    color: white;
+    background-color: rgb(155, 117, 79, 0.3);
+    width: 109px;
+    height: 80px;
+    border-radius: .75rem;
+    cursor: pointer;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.5);
+    transition: all .3s ease-in-out;
+  }
+
+  .vybava-item.mapy{
+    width: 150px;
+  }
+
+  .vybava-item:hover{
+    background: transparent;
+    color: #FEC195;
+  }
+
+  .vybava-item:hover > img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: #fff;
+    transform: scale(1.20);
+    transition: .3s cubic-bezier(.28,-0.03,0,.99);
+  }
+  
+  .vybava-image {
+    height: auto;
+  }
+  
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    height: 400px;
+    min-width: 20px;
+    border-radius: .75rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin: 0 12px 20px 12px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,1);
+}
+
+.card:hover::before {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+}
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(20deg, rgb(17, 17, 16) 0%, rgba(0,212,255,0) 95%);
+    z-index: 2;
+}
+
+.card > .row {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    background: linear-gradient(10deg, rgb(17, 17, 16,0.7) 0%, rgba(0,212,255,0) 75%);
+}
+
+
+.buttonzbrane {
+  position: relative;
+  color: white !important;
+  width: 10px !important;
+  height: 80px !important;
+  border-radius: .75rem !important;
+  border-style: ridge !important;
+}
+
+.buttonzbrane::after {
+  content: "";
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  left: 100%; 
+  width: 1px; 
+  background-color: rgba(241, 195, 125, 0.5);
+}
+
+
+.buttonzbrane:last-child::after {
+  display: none;
+}
+.buttonzbrane > img:hover {
+  filter: drop-shadow(0px 0px 10px rgb(206, 155, 124));
+  -webkit-background-clip: text; 
+  background-clip: text;
+  color: #fff;
+  transform: scale(1.10);
+  transition: .3s cubic-bezier(.28,-0.03,0,.99);
+}
+.buttonzbrane:hover{
+  background-color: transparent !important;
+}
+
+
+.card > .row > .description {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    opacity: 1;
+    transform: translateY(30px);
+    transition-delay: .3s;
+    transition: all .3s ease;
+    margin-bottom: 50px;
+    z-index: 2;
+}
+
+
+.description h4 {
+    text-transform: uppercase;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 1.8em;
+    background: -webkit-linear-gradient(#ffe8aa, #9b754f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(1px 1px 1px #503a2c);
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.card[for="c1"] {
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/015/626/314/large/deiv-calviz-david-villegas-metin-2-warrior-deiv-calviz.jpg?1549014773');
+    background-position: 16cm;
+}
+.card[for="c2"] {
+    background-image: url('https://i.pinimg.com/originals/f2/06/20/f20620e7228e310aa57e060f4c3f4146.jpg');
+    background-position: 9.3cm;
+}
+.card[for="c3"] {
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/015/612/371/large/deiv-calviz-david-villegas-metin-2-shaman-deiv-calviz.jpg?1550752814');
+    background-position: 15.3cm;
+}
+.card[for="c4"] {
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/833638718030054706/AD2A8062583A0004A83329D2786F266AD35289FE/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
+}
+
+@media only screen and (max-width: 800px) {
+
+}

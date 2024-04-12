@@ -1,0 +1,41 @@
+.vyber {
+    justify-content: center !important;
+    display: flex !important;
+    align-items: center !important;
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(6px);
+  }
+  
+  .x2 {
+    padding: 6px;
+    font-size: 15px;
+    border: 1px solid rgb(255, 204, 127, 0.3);
+    margin-top: 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(rgb(255, 204, 127, 0.4), rgb(255, 204, 127, 0.4));
+    -webkit-background-clip: text;
+    color: transparent;
+    filter: drop-shadow(1px 1px 1px #503a2c);
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  
+  .x2.active {
+    color: rgb(255, 204, 127);
+    border: 1px solid rgb(255, 204, 127);
+    content: '';
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg,  rgb(255, 204, 127), rgb(255, 204, 127),  rgb(255, 252, 235), rgb(255, 204, 127));
+    border-radius: calc(7 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    border-radius: 10px;
+    background: #1D1F20;
+  }

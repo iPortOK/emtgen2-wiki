@@ -1,0 +1,42 @@
+.text.nadpis{
+   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+   font-size: 1.7em;
+   background: -webkit-linear-gradient(#ffe8aa, #9b754f);
+   -webkit-background-clip: text;
+   color: transparent;
+   filter: drop-shadow(1px 1px 1px #503a2c);
+   margin-top: 0px;
+   letter-spacing: 2px;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.text.nadpis{
+   overflow: hidden;
+   text-align: center;
+ }
+ 
+ .text.nadpis::before,
+ .text.nadpis::after {
+   background-color: #daa982;
+   content: "";
+   display: inline-block;
+   height: 1px;
+   position: relative;
+   vertical-align: middle;
+   width: 35%;
+   opacity: 0.3;
+ }
+ 
+ .text.nadpis::before {
+   right: 0.5em;
+   margin-left: -50%;
+ }
+ .text.nadpis::after {
+   left: 0.5em;
+   margin-right: -50%;
+ }
+
+ .niz{
+   padding-top: 20px;
+ }

@@ -1,0 +1,43 @@
+.tabulkos{
+    margin-top: 10px;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.3);
+    padding-bottom: 8px;
+    backdrop-filter: blur(6px);
+}
+
+.nazevtabulky{
+    border-color: rgb(223, 190, 146) !important;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif !important;
+    font-size: 1.2em !important;
+    background: -webkit-linear-gradient(#ffe8aa, #9b754f) !important;
+    -webkit-background-clip: text !important;
+    color: transparent !important;
+    filter: drop-shadow(1px 1px 1px #503a2c) !important;
+    text-transform: uppercase !important;
+  }
+
+  .radecek{
+    color:white !important;
+    border: none !important;
+  }
+
+  .nazevtabulky.one, .radecek.one{
+    text-align: left !important;
+    width: 30%;
+  }
+
+  .nazevtabulky.two, .radecek.two{
+    text-align: left !important;
+  }
+
+  .fix{
+    display: flex;
+    align-items: center;
+  }
+
+  .schopnostifix{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 20px 20px 20px 20px;
+  }

@@ -1,0 +1,116 @@
+.dungeony{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgb(37, 37, 37);
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.7);
+}
+
+.dungeony::before {
+    background-image: url('https://cdn.discordapp.com/attachments/1082778538702295101/1188202279979982848/nemere_b.png?ex=6599aa9b&is=6587359b&hm=b1a0b19af111e5284ef1af17bd0154f728a5317cd4f9711e80e18adb5e0e3d22&');
+    background-size: cover;
+    background-attachment: fixed;
+    content: "";
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.3;
+    border-radius: 20px;
+    }
+
+    
+.obalovac{
+    display: block;
+    width: 100%;
+}
+  
+.nazev.boss{
+    font-size: 30px;
+}
+.dung{
+    text-align: left;
+    justify-content: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50px;
+    border-radius: 20px 20px 0 0;
+    backdrop-filter: blur(10px);
+}
+
+.drop{
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+    backdrop-filter: blur(4px);
+    display: block;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.jj{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.jj.dropu{
+    margin-bottom: 8px;
+}
+
+.detaily {
+    width: 40%;
+    min-width: 410px;
+    height: 400px;
+}
+.seznam{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.doporucene{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+}
+.uroven{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-end;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.35);
+
+}
+
+.img_boss {
+    width: 60%;
+    min-width: 410px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-end;
+}
+.obrz_boss{
+    height: 370px;
+}
+.hlavnicast{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+@media (max-width: 1080px) {
+    .hlavnicast {
+        height: 700px;
+    }
+}

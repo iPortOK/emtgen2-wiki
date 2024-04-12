@@ -1,0 +1,62 @@
+.textbox{
+border-radius: 20px;
+background: rgba(0,0,0,0.2);
+padding: 20px 25px 10px 25px;
+}
+
+.boxnadpis1{
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 1.7em;
+    background: -webkit-linear-gradient(#ffe8aa, #9b754f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(1px 1px 1px #503a2c);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.boxnadpis1{
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .boxnadpis1::before,
+  .boxnadpis1::after {
+    background-color: #daa982;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 65%;
+    opacity: 0.3;
+  }
+  
+  .boxnadpis1::before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  .boxnadpis1::after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+  .boxnadpis2{
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 1.3em;
+    background: -webkit-linear-gradient(#ffe8aa, #9b754f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(1px 1px 1px #503a2c);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.text1{
+    color:#dbd7cc;
+}
