@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Vybava from './vybava';
 import { ninjaZbranDykyData, ninjaZbranLukData } from './data/dataNinjaZbran';
-import { warZbran2Data } from './data/dataWarZbran';
+import { warZbranData } from './data/dataWarZbran';
 import './vyber.css';
 import { Container } from '@mui/material';
 
@@ -42,8 +42,8 @@ const NinjaZbran = () => {
   <Vybava equipmentType={selectedEquipment} data={
     selectedEquipment === "dyky" ? ninjaZbranDykyData :
     selectedEquipment === "luk" ? ninjaZbranLukData :
-    selectedEquipment === "sekera" ? warZbran2Data :
-    warZbran2Data
+    selectedEquipment === "sekera" ? warZbranData :
+    warZbranData
   } />
 </div>
 );
