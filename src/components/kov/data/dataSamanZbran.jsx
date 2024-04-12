@@ -40,7 +40,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
     IMG_7: createImage("", "", "", "", "", "", "", "", "", "", ""),
     IMG_8: createImage("", "", "", "", "", "", "", "", "", "", ""),
     IMG_9: createImage("", "", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
-    IMG_10: createImage("", "", "", "", "", "", "", "", "", "", "./items/Zub orka.png"),
+    IMG_10: createImage("", "", "", "", "", "", "", "", "", "", "./items/Zub Orka.png"),
       }),
     
   createEquipmentItem(10, 'Zvon zlatobrouka', './items/05070.png', 'Silný vrchní ork', {
@@ -99,7 +99,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
     IMG_10: createImage("", "", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Prastaré texty.png", "./items/Prastaré texty.png", "./items/Bílá perla.png"),
     IMG_11: createImage("", "", "", "", "", "", "", "", "./items/Krvavá maska.png", "./items/Krvavá maska.png", "./items/Plán zbroje.png"),
     IMG_12: createImage("", "", "", "", "", "", "", "", "./items/Ostří meče.png", "./items/Ostří meče.png", "./items/Pavoučí noha.png"),
-    IMG_13: createImage("", "", "", "", "", "", "", "", "./items/Bílá perla.png", "./items/Bílá perla.png", "./items/Zub orka.png"),
+    IMG_13: createImage("", "", "", "", "", "", "", "", "./items/Bílá perla.png", "./items/Bílá perla.png", "./items/Zub Orka.png"),
       }),
   
   createEquipmentItem(10, 'Zvon ocelového brouka', './items/05080.png', 'Silný vrchní ork', {
@@ -126,7 +126,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
     IMG_7: createImage("", "", "", "", "", "", "", "", "", "", ""),
     IMG_8: createImage("", "", "", "", "", "", "", "", "", "", ""),
     IMG_9: createImage("", "", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
-    IMG_10: createImage("", "", "", "", "", "", "", "", "", "", "./items/Zub orka.png"),
+    IMG_10: createImage("", "", "", "", "", "", "", "", "", "", "./items/Zub Orka.png"),
     IMG_11: createImage("", "", "", "", "", "", "", "", "", "", "./items/Shuriken.png"),
     IMG_12: createImage("", "", "", "", "", "", "", "", "", "", "./items/Pavoučí noha.png"),
       }),
@@ -362,7 +362,7 @@ createEquipmentItem(10, 'Trojitý vějíř', './items/07100.png', 'Silný vrchn�
   IMG_7: createImage("", "", "", "", "", "", "", "", "", "", ""),
   IMG_8: createImage("", "", "", "", "", "", "", "", "", "", ""),
   IMG_9: createImage("", "", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
-  IMG_10: createImage("", "", "", "", "", "", "", "", "", "", "./items/Zub orka.png"),
+  IMG_10: createImage("", "", "", "", "", "", "", "", "", "", "./items/Zub Orka.png"),
     }),
 
 createEquipmentItem(10, 'Vějíř vdovy', './items/21905.png', 'Craftem u Bauchana', {
@@ -395,7 +395,7 @@ createEquipmentItem(10, 'Vějíř vdovy', './items/21905.png', 'Craftem u Baucha
   IMG_10: createImage("", "", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Prastaré texty.png", "./items/Prastaré texty.png", "./items/Bílá perla.png"),
   IMG_11: createImage("", "", "", "", "", "", "", "", "./items/Krvavá maska.png", "./items/Krvavá maska.png", "./items/Plán zbroje.png"),
   IMG_12: createImage("", "", "", "", "", "", "", "", "./items/Ostří meče.png", "./items/Ostří meče.png", "./items/Pavoučí noha.png"),
-  IMG_13: createImage("", "", "", "", "", "", "", "", "./items/Bílá perla.png", "./items/Bílá perla.png", "./items/Zub orka.png"),
+  IMG_13: createImage("", "", "", "", "", "", "", "", "./items/Bílá perla.png", "./items/Bílá perla.png", "./items/Zub Orka.png"),
     }),
   
 createEquipmentItem(10, 'Vějíř spásy', './items/07140.png', 'Pavoučí baronka', {

@@ -46,7 +46,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_4: createImage("", "", "", "", "", "", "", "", "", "", ""),
         MEZERA_Y: createStats(),
         IMG_5: createImage("", "", "", "", "", "", "", "", "./items/Rybí kůstky.png", "./items/Rybí kůstky.png", "./items/Rybí kůstky.png"),
-        IMG_6: createImage("", "", "", "", "", "", "", "", "", "", "./items/Zub orka.png"),
+        IMG_6: createImage("", "", "", "", "", "", "", "", "", "", "./items/Zub Orka.png"),
     }),
 
     createEquipmentItem(10,'Náramek z nebes. slz', './items/14200.png', 'Jedovatý voj. pavouk', {
