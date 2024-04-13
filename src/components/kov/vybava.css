@@ -76,13 +76,15 @@
     letter-spacing: 2px;
     text-align: center;
     text-transform: uppercase;
+    animation: textChange 1s forwards;
   }
 
   .table-container{
     margin-top: 10px;
     border-radius: 20px;
     background: rgba(0,0,0,0.3);
-    padding-bottom: 8px;
+    padding-bottom: 10px;
+    animation: textChange 1s forwards;
   }
 
   .podhlavicka{
@@ -96,7 +98,7 @@
     filter: drop-shadow(1px 1px 1px #503a2c) !important;
     letter-spacing: 2px !important;
     text-transform: uppercase !important;
-    height: 45px;
+    height: 40px;
     padding-bottom: 10px !important;
   }
 
@@ -105,7 +107,7 @@
     color:white !important;
     border: none !important;
     width: 80px !important;
-    height: 33px;
+    height: 25px;
   }
   .bunka:first-child{
     text-align: right !important;
@@ -206,17 +208,26 @@
       margin-bottom: -10px;
     }
 
-    @keyframes slideIn {
+
+    @keyframes textChange {
       from {
-        opacity: 0;
-        transform: translateX(-20px);
+          opacity: 0;
       }
       to {
-        opacity: 1;
-        transform: translateX(0);
+          opacity: 1;
       }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 1;
     }
-    
-    .slideIn {
-      animation: slideIn 0.5s ease;
+    to {
+      opacity: 1;
     }
+  }
+  
+  .fadeIn {
+    animation: fadeIn 1s ease;
+  }
+  

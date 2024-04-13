@@ -38,7 +38,7 @@ body {
 
 .title.header{
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-    font-size: 3em;
+    font-size: 2.5em;
     background: -webkit-linear-gradient(#ffe8aa, #9b754f);
     -webkit-background-clip: text;
     background-clip: text;

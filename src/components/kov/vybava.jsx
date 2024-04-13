@@ -1,16 +1,25 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate  } from 'react-router-dom';
-import { Container, Typography, Box, Table, TableBody, TableCell, TableContainer, TableHead, TableRow} from '@mui/material';
+import { useNavigate } from 'react-router-dom';
+import { Container, Typography, Box, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material';
 import './vybava.css';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 const Vybava = ({ equipmentType, data }) => {
   const [selectedItem, setSelectedItem] = useState(null);
-  const navigate = useNavigate ();  
+  const navigate = useNavigate();
 
   useEffect(() => {
     setSelectedItem(0);
   }, []);
+
+  useEffect(() => {
+    const detailElement = document.querySelector('.detail');
+    if (detailElement) {
+      detailElement.classList.remove('fadeIn');
+      void detailElement.offsetWidth;
+      detailElement.classList.add('fadeIn');
+    }
+  }, [selectedItem]);
 
   const handleItemClick = (index) => {
     setSelectedItem(index);
@@ -20,11 +29,10 @@ const Vybava = ({ equipmentType, data }) => {
     navigate('/');
   };
 
-
   const renderDetail = () => {
     if (selectedItem !== null && data.length > 0) {
       const selectedItemData = data[selectedItem];
-      
+
       return (
         <div className="detail">
           <Typography variant="h4" className='nazev'>{selectedItemData.name}</Typography>
@@ -39,7 +47,7 @@ const Vybava = ({ equipmentType, data }) => {
     }
     return null;
   };
-  
+
   return (
     <Container className='main'>
       <div className='tlacitkozpet'>
@@ -65,15 +73,13 @@ const Vybava = ({ equipmentType, data }) => {
 const ItemTable = ({ stats, images, item }) => {
   const statKeys = Object.keys(stats[0]);
   const imageKeys = Object.keys(images[0]);
-  console.log(statKeys)
-  console.log(imageKeys)
   const pocet = item.pocet;
 
   return (
     <TableContainer className="table-container fadeIn">
-       <Table size="small" aria-label="a dense table" >
+      <Table size="small" aria-label="a dense table">
         <TableHead className='hlavicka' >
-        <TableRow>
+          <TableRow>
             <TableCell className='podhlavicka'><img src={item.images.IMG_0} alt='' className="vybava-image" /></TableCell>
             {[...Array(pocet).keys()].map((num) => (
               <TableCell className='podhlavicka' key={num}>+{num}</TableCell>
@@ -109,5 +115,4 @@ const ItemTable = ({ stats, images, item }) => {
     </TableContainer>
   );
 };
-export default Vybava
-
+export default Vybava;
