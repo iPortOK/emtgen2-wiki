@@ -76,7 +76,6 @@
     letter-spacing: 2px;
     text-align: center;
     text-transform: uppercase;
-    animation: textChange 1s forwards;
   }
 
   .table-container{
@@ -84,7 +83,6 @@
     border-radius: 20px;
     background: rgba(0,0,0,0.3);
     padding-bottom: 10px;
-    animation: textChange 1s forwards;
   }
 
   .podhlavicka{
@@ -208,26 +206,11 @@
       margin-bottom: -10px;
     }
 
-
-    @keyframes textChange {
-      from {
-          opacity: 0;
-      }
-      to {
-          opacity: 1;
-      }
-  }
-
-  @keyframes fadeIn {
-    from {
-      opacity: 1;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
   .fadeIn {
     animation: fadeIn 1s ease;
+  }
+  
+  .animate__animated {
+    animation: fadeIn; 
   }
   

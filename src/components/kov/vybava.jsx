@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Container, Typography, Box, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material';
 import './vybava.css';
+import 'animate.css';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 const Vybava = ({ equipmentType, data }) => {
@@ -15,9 +16,9 @@ const Vybava = ({ equipmentType, data }) => {
   useEffect(() => {
     const detailElement = document.querySelector('.detail');
     if (detailElement) {
-      detailElement.classList.remove('fadeIn');
+      detailElement.classList.remove('animate__animated');
       void detailElement.offsetWidth;
-      detailElement.classList.add('fadeIn');
+      detailElement.classList.add('animate__animated');
     }
   }, [selectedItem]);
 
