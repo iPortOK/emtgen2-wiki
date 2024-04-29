@@ -36,7 +36,7 @@ const Vybava = ({ equipmentType, data }) => {
 
       return (
         <div className="detail">
-          <Typography variant="h4" className='nazev'>{selectedItemData.name}</Typography>
+          <Typography className='nazev nadtabulkou'>{selectedItemData.name}</Typography>
           <ItemTable stats={Object.values(selectedItemData.stats)} images={Object.values(selectedItemData.images)} item={selectedItemData} />
           {selectedItemData.description && selectedItemData.description.trim() !== '' && (
             <div className='popis'>

@@ -39,7 +39,7 @@ const WarriorSkills = ({ schopnosti, nadpis }) => {
 
 const WarSchopnost = () => {
   const warrior1Skills = [
-    { obrazek: 'https://img3.m2icondb.com/eunhyeong_03.png', nazev: 'Zamaskování', popis: 'Zvyšuje PvM hodnotu útoku a učinní tě dočasně neviditelným, dokud nezautočíš, Zesílení pomocí POH.' },
+    { obrazek: 'https://img3.m2icondb.com/eunhyeong_03.png', nazev: 'Zamaskování', popis: 'Zvyšuje PvM hodnotu útoku a učiní tě dočasně neviditelným, dokud nezautočíš, Zesílení pomocí POH.' },
     { obrazek: 'https://img3.m2icondb.com/amseup_03.png', nazev: 'Léčka', popis: 'Silné poškození s menším plošným účinkem, bonusové poškození se zamaskováním a zásahem zad soupeře' },
     { obrazek: 'https://img3.m2icondb.com/charyun_03.png', nazev: 'Víření kordů', popis: 'Přímé plošné poškození, bonusové poškození za odhození nepřítele a následnou aktivací schopnosti .' },
     { obrazek: 'https://img3.m2icondb.com/gungsin_03.png', nazev: 'Bleskový útok', popis: 'Teleport k nepříteli,  plošné poškození ' },

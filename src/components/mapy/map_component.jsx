@@ -1,10 +1,11 @@
-import React from 'react';
+
 import { Container, Box, Typography } from '@mui/material';
 import './mapy.css';
 
-const MapComponent = ({ nazev, imgSrc, pozadi, dostupneOd, doporuceneBonusy, dropItems }) => {
+const MapComponent = ({ nazev, imgSrc, pozadi, dostupneOd, doporuceneBonusy, dropItems, activeIndex }) => {
+
   return (
-    <Container>
+    <Container className='celek'>
        <Box className='dungeony' style={{ backgroundImage: `url(${pozadi})` }}>
         <Box className="obalovac">
           <Box className='dung'>
@@ -17,7 +18,7 @@ const MapComponent = ({ nazev, imgSrc, pozadi, dostupneOd, doporuceneBonusy, dro
             <Box className="detaily">
               <Box className='seznam'>
               <Box>
-                <Typography className='nazev'>Dostupné od úrovně</Typography>
+                <Typography className='nazev textos'>Dostupné od úrovně</Typography>
                 <Box className='uroven'>
                   <Typography>{dostupneOd}</Typography>
                   </Box>
@@ -25,7 +26,7 @@ const MapComponent = ({ nazev, imgSrc, pozadi, dostupneOd, doporuceneBonusy, dro
               </Box>
               <Box className='seznam'>
               <Box>
-                <Typography className='nazev'>Doporučené bonusy</Typography>
+                <Typography className='nazev textos'>Doporučené bonusy</Typography>
                   {doporuceneBonusy.map((bonus, index) => (
                     <Box className='doporucene' key={index}>
                     <img className='iconka' src={bonus.imgSrc} alt=""></img>
@@ -42,7 +43,10 @@ const MapComponent = ({ nazev, imgSrc, pozadi, dostupneOd, doporuceneBonusy, dro
             </Box>
             <Box className='jj'>
               {dropItems.map((item, index) => (
-                <img key={index} src={item.imgSrc} alt=""></img>
+                <div key={index} className='tooltip-container'>
+                  <img src={item.imgSrc} alt="" className='objazek' />
+                  <span className='tooltip'>{item.imgSrc.split('/').pop().replace('.png', '')}</span>
+                </div>
               ))}
             </Box>
           </Box>

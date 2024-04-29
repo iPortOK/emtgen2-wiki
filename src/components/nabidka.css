@@ -1,3 +1,5 @@
+
+
 .kontejnr{
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
     display: block;
@@ -297,6 +299,12 @@ Button{
     background-image: url('https://cdn.discordapp.com/attachments/492372726317711378/1228344488607617064/steamuserimages-a.png?ex=662bb3f3&is=66193ef3&hm=b33e24d8e82085f43d1466dd0a592ec08d947642c4fbdf9dd9f8d0ea176bec3e&');
 }
 
+.nazev.nadtabulkou{
+font-size: 30px !important;
+}
 @media only screen and (max-width: 800px) {
 
+  .nazev.nadtabulkou{
+    font-size: 25px !important;
+    }
 }
