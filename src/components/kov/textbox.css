@@ -4,9 +4,31 @@ background: rgba(0,0,0,0.2);
 padding: 20px 25px 10px 25px;
 }
 
+.textbox2{
+  margin-top: 10px;
+  border-radius: 20px;
+  background: rgba(0,0,0,0.2);
+  }
+
+  .textbox3{
+    margin-top: 20px;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.2);
+    padding: 20px 25px 10px 25px;
+    }
+
+.spodnicastfix{
+  border: none !important;
+}
+.spodnicastfix:nth-child(2){
+  border-left: 1px solid #554737 !important;
+  padding-left: 30px;
+}
+
+
 .boxnadpis1{
-    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-    font-size: 1.7em;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif !important;
+    font-size: 1.8em !important;
     background: -webkit-linear-gradient(#ffe8aa, #9b754f);
     -webkit-background-clip: text;
     background-clip: text;
@@ -14,7 +36,7 @@ padding: 20px 25px 10px 25px;
     filter: drop-shadow(1px 1px 1px #503a2c);
     padding-top: 30px;
     padding-bottom: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 2px !important;
     text-align: center;
     text-transform: uppercase;
 }
@@ -45,18 +67,106 @@ padding: 20px 25px 10px 25px;
     margin-right: -50%;
   }
 
+  .test{
+    background-color: rgba(0, 0, 0, 0.2);
+  }
   .boxnadpis2{
-    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-    font-size: 1.3em;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif !important;
+    font-size: 1.25em !important;
     background: -webkit-linear-gradient(#ffe8aa, #9b754f);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     filter: drop-shadow(1px 1px 1px #503a2c);
-    letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-.text1{
-    color:#dbd7cc;
+.boxnadpis3{
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  background: -webkit-linear-gradient(#ffe8aa, #9b754f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+}
+
+.boxnadpis4{
+  background: -webkit-linear-gradient(#ffe8aa, #9b754f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 1.2em;
+}
+
+.text1 {
+  position: relative;
+  color: #dfd8c6 !important;
+}
+
+.text1::before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.text1 > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cell-container {
+  justify-content: center !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.cell-text {
+  margin-left: 8px;
+  font-size: 1.3em;
+}
+
+.hello{
+  max-width: 120px;
+  background: rgba(0,0,0,0.15);
+
+}
+.hello2{
+  max-width: 240px;
+}
+
+.stred{
+  justify-content: center !important;
+  display: flex !important;
+  align-items: center !important;
+  margin-top: -20px;
+  flex-wrap: wrap;
+
+}
+
+
+.spesl{
+font-size: 1em !important;
+margin-bottom: 5px !important;
+color:#ffdaaa !important;
+text-transform: uppercase;
+}
+
+.odstup{
+  margin-bottom: 14px;
+}
+.trosku{
+  margin-top: 7px;
+}
+
+.mene{
+  margin-top: -7px;
+}
+
+@media (max-width: 1080px) {
+  .boxnadpis4{
+    font-size: 1em;
+  }
+  .boxnadpis3{
+    font-size: 0.9em;
+  }
 }
