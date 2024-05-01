@@ -87,9 +87,12 @@ const Serpa = () => {
         Podobně jako kostýmy, i šerpy můžou propůjčovat postavám bonusy, které vylepšují jejich vlastnosti. Na rozdíl od kostýmů ale šerpy tyto bonusy nezískávají automaticky.
         Tyto bonusy se aktivují absorbováním jiného předmětu.
         </Typography>
-        <Typography className="boxnadpis2">Vylepšování šerp</Typography>
+        <Typography className="boxnadpis2">Kombinování šerp</Typography>
         <Typography paragraph className="text1">
-        Šerpy se dají vylepšovat do 4 úrovní kvality. Pro dosažení vyšší úrovně je potřeba sloučit dvě šerpy o úroveň nižší.<br></br><br></br>
+        Šerpy se dají vylepšovat do 4 úrovní kvality. Pro dosažení vyšší úrovně je potřeba sloučit dvě šerpy o úroveň nižší.
+        </Typography>
+        <img src="./imgs/kombinace.png" alt="" className='odstup'></img>
+        <Typography paragraph className="text1">
         &times; Při kombinaci šerp je šance na neúspěch, v takovém případě se spodní šerpa zničí.<br></br>
         &times; Uživatelské šerpy se dají dále vylepšovat pro navýšení absorpčního bonusu kombinací s jinou uživatelskou šerpou. Riziko neúspěchu nehrozí, šerpa si ponechá stávající bonus nebo se o 1-5% zlepší (maximálně na 25%).
         </Typography>
@@ -112,6 +115,7 @@ const Serpa = () => {
         Šerpy můžou absorbovat část vlastností z jiného předmětu (brnění, zbraně). Množství absorbovaných vlastností závisí na typu šerpy a její úrovni:
         </Typography>
 
+      <img src="./imgs/absorpce.png" alt="" className='odstup'></img>
 
       <Typography paragraph className="text1">
       &times; Absorbované vlastnosti nelze upravovat. Jediná možnost je je smazat certifikátem zrušení a absorbovat je znovu.
@@ -128,6 +132,7 @@ const Serpa = () => {
         &times; Poškození schopností: 10% z -11% = -1,1% (zaokrouhleno na 1%)<br></br>
         &times; Síla proti nemrtvým: 10% z 20% = 2%
         </Typography>
+
 
         <Typography className="boxnadpis2">Výroba:</Typography>
         <Typography paragraph className="text1">
