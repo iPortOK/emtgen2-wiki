@@ -34,7 +34,7 @@ padding: 20px 25px 10px 25px;
     background-clip: text;
     color: transparent;
     filter: drop-shadow(1px 1px 1px #503a2c);
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 20px;
     letter-spacing: 2px !important;
     text-align: center;
@@ -114,6 +114,29 @@ padding: 20px 25px 10px 25px;
   display: inline-block;
   vertical-align: middle;
 }
+
+.uppkybox {
+  position: relative;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.2);
+padding: 10px 20px 10px 10px;
+margin-top: 7px;
+
+}
+
+.uppkybox::before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.uppkybox > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
 
 .cell-container {
   justify-content: center !important;
