@@ -1,5 +1,7 @@
 import './App.css';
-import { BrowserRouter, Routes, Route, Navigate  } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { useLocation } from 'react-router-dom';
+import React, { useEffect } from 'react';
 import Uvod from './components/uvod';
 import Nabidka from './components/nabidka';
 import WarZbran from './components/kov/war_zbran';
@@ -28,12 +30,23 @@ import NinjaSchopnost from './components/kov/ninja_schopnost';
 import SamanSchopnost from './components/kov/saman_schopnost';
 import SuraSchopnost from './components/kov/sura_schopnost';
 import Dungeony from './components/mapy/dungeony';
+import ZakladniMapy from './components/mapy/zakladni_mapy';
 
+function ScrollToTopOnNavigate() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
   const Layout = ({ children }) => {
     return (
       <>
+        <ScrollToTopOnNavigate />
         <Uvod />
         <Routes>
           {children}
@@ -76,6 +89,7 @@ function App() {
               <Route path="/ninja_zbran" element={<NinjaZbran />} />
               <Route path="/ninja_schopnost" element={<NinjaSchopnost />} />
               <Route path="/dungeony" element={<Dungeony />} />
+              <Route path="/zakladni_mapy" element={<ZakladniMapy />} />
               <Route path="*" element={<Navigate to="/" />} />
             </Layout>
           }

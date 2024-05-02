@@ -2,7 +2,7 @@
 import { Container, Box, Typography } from '@mui/material';
 import './mapy.css';
 
-const MapComponent = ({ nazev, imgSrc, pozadi, dostupneOd, doporuceneBonusy, dropItems, activeIndex }) => {
+const MapComponent = ({ nazev, imgSrc, pozadi, cekacidoba, dostupneOd, doporuceneBonusy, dropItems, activeIndex }) => {
 
   return (
     <Container className='celek'>
@@ -21,6 +21,14 @@ const MapComponent = ({ nazev, imgSrc, pozadi, dostupneOd, doporuceneBonusy, dro
                 <Typography className='nazev textos'>Dostupné od úrovně</Typography>
                 <Box className='uroven'>
                   <Typography>{dostupneOd}</Typography>
+                  </Box>
+                </Box>
+              </Box>
+              <Box className='seznam'>
+              <Box>
+                <Typography className='nazev textos'>Čekací doba</Typography>
+                <Box className='uroven'>
+                  <Typography>{cekacidoba} minut</Typography>
                   </Box>
                 </Box>
               </Box>

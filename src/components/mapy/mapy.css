@@ -5,12 +5,14 @@
     backdrop-filter: blur(4px);
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.7);
     background-position: 50% 37%;
+    
 }
 .maindung{
     background-color: rgba(0, 0, 0, 0.15);
     padding-bottom: 42px;
     border-radius: 0 0 30px 30px;
     backdrop-filter: blur(6px);
+    
 }
 .dungeony::before {
     content: "";
@@ -21,8 +23,9 @@
     z-index: -2;
     opacity: 0.5;
     border-radius: 20px;
-    background-color: rgb(5, 4, 4,0.7);
+    background-color: rgb(5, 4, 4,0.9);
     backdrop-filter: blur(400px);
+    
     }
 .obrz_boss{
 filter: drop-shadow(-10px 5px 10px rgb(0, 0, 0, 0.));
@@ -30,7 +33,7 @@ filter: drop-shadow(-10px 5px 10px rgb(0, 0, 0, 0.));
 .iconka{
 width: 28px;
 padding: 1px;
-margin-right: 2px;
+margin-right: 5px;
 }
     
 .obalovac{
@@ -43,10 +46,12 @@ margin-right: 2px;
 }
 .nazev.textos{
     font-size: 18px;
+    filter: drop-shadow(1px 1px 3px #000000);
 }
 .dung{
-    text-align: left;
-    justify-content: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.45);
     width: 100%;
     height: 50px;
@@ -60,6 +65,7 @@ margin-right: 2px;
     backdrop-filter: blur(4px);
     display: block;
     background-color: rgba(0, 0, 0, 0.25);
+    min-height: 110px;
 }
 .jj{
     display: flex;
@@ -74,7 +80,10 @@ margin-right: 2px;
 .detaily {
     width: 55%;
     min-width: 410px;
-    height: 400px;
+    min-height: 400px;
+}
+.map .detaily{
+    width: 100%;
 }
 .seznam{
     display: flex;
@@ -83,18 +92,19 @@ margin-right: 2px;
     align-items: center;
     border-radius: 20px;
     color: white;
-    margin-top: 20px;
+    margin-top: 14px;
     margin-right: 100px;
     }
 .doporucene{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.35);
     border-radius: 12px;
-    padding: 5px;
+    padding: 6px 15px 6px 10px;
     color: white;
     margin-bottom: 5px;
-    min-width: 210px;
+    min-width: 250px;
 }
 .doporucene:nth-child(2), .uroven:nth-child(2){
     margin-top: 2px;
@@ -105,10 +115,10 @@ margin-right: 2px;
     justify-content: center;
     align-items:flex-end;
     border-radius: 12px;
-    padding: 5px;
+    padding: 6px 15px 6px 10px;
     color: white;
     background-color: rgba(0, 0, 0, 0.35);
-    min-width: 210px;
+    min-width: 250px;
 }
 
 .img_boss {
@@ -137,23 +147,35 @@ margin-right: 2px;
     flex-wrap: wrap;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1000px) {
     .hlavnicast {
-        height: 700px;
-        overflow: auto;
+        overflow: hidden;
+
     }
     .seznam{
         justify-content: center;
         margin-right: 0px;
     }
     .img_boss {
-        width: 45%;
-        min-width: 410px;
-        height: 510px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items:flex-end;
+        height: 285px;
+        border-bottom: 1px solid rgb(255, 204, 127, 0.5);
+        width: 100%;
+        overflow: hidden;
+        backdrop-filter: blur(10px);
+
+    }
+    .obrz_boss{
+        height: 285px;
+    }
+    .dungeony {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .nazev.boss{
+        font-size: 1.6em;
     }
 
 }
@@ -181,8 +203,8 @@ margin-right: 2px;
     object-position: -5px 19px;
 }
 .mapaboss.boss_3{
-    scale: 1.6;
-    object-position: 3px 8px;
+    scale: 1.9;
+    object-position: -3px 2px;
 }
 .mapaboss.boss_4{
     scale: 2.2;
@@ -194,41 +216,90 @@ margin-right: 2px;
 }
 .mapaboss.boss_6{
     scale: 2.5;
-    object-position: -10px -3px;
+    object-position: -12px -3px;
 }
 .mapaboss.boss_7{
-    scale: 3;
-    object-position: -14px 15px;
+    scale: 2.6;
+    object-position: -8px 15px;
 }
 .mapaboss.boss_8{
-    scale: 3;
-    object-position: -14px 15px;
+    scale: 2.1;
+    object-position: -8px 15px;
 }
 .mapaboss.boss_9{
-    scale: 2.5;
-    object-position: 0px 15px;
+    scale: 2.6;
+    object-position: 1px 16px;
 }
 .mapaboss.boss_10{
-    scale: 2.5;
-    object-position: 0px 15px;
+    scale: 1.5;
+    object-position: -13px 1px;
 }
 .mapaboss.boss_11{
-    scale: 2.5;
-    object-position: -10px 19px;
+    scale: 2.7;
+    object-position: -12px 17px;
 }
 .mapaboss.boss_12{
-    scale: 2.5;
-    object-position: -10px 19px;
+    scale: 2;
+    object-position: -30px 10px;
 }
 .mapaboss.boss_13{
-    scale: 2.5;
-    object-position: -10px 19px;
+    scale: 2.3;
+    object-position: -12px 3px;
 }
 .mapaboss.boss_14{
     scale: 2.5;
-    object-position: -10px 19px;
+    object-position: -2px 15px;
 }
 .mapaboss.boss_15{
-    scale: 2.5;
-    object-position: -10px 19px;
+    scale: 2.7;
+    object-position: -3px 10px;
+}
+.jenprototo .boxik {
+    position: relative;
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+}
+
+.jenprototo .boxik img {
+    width: 100%;
+    height: auto;
+    filter: blur(1px);
+    opacity: 0.3;
+
+}
+
+.jenprototo .boxik .fixik {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.jenprototo .boxik .fixik .nazev-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: transparent;
+    margin-top: 0px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.jenprototo .boxik .fixik .nazev-overlay {
+    background: -webkit-linear-gradient(#ffe8aa, #9b754f);
+    -webkit-background-clip: text;
+    filter: drop-shadow(1px 1px 3px #000000);
+}
+
+.jenprototo .velikostmapa {
+    height: 55px;
+    width: 180px;
+    margin-bottom: 5px;
+}
+.mapaboss.mapa_1{
+}
+.mapaboss.mapa_2{
 }

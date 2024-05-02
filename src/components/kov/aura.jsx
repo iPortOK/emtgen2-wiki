@@ -9,12 +9,12 @@ const AuraTable = ({ data }) => {
         <TableBody>
           {data.map((row, index) => (
             <TableRow key={index}>
-              <TableCell className='spodnicastfix hello' align="center" component="th" scope="row" style={{ verticalAlign: 'middle' }}>
-                <div className="cell-container">
-                  <img className='obrz' src={row.imgIcon} alt={row.nazev} />
-                  <span className="cell-text boxnadpis3">{row.nazev}</span>
-                </div>
-              </TableCell>
+                <TableCell className='spodnicastfix hello' align="center" component="th" scope="row" style={{ verticalAlign: 'middle' }}>
+                  <div className="cell-container" style={{ textAlign: 'center' }}>
+                    <img className='obrz' src={row.imgIcon} alt={row.nazev} />
+                    <span className="cell-text boxnadpis3">{row.nazev}</span>
+                  </div>
+                </TableCell>
               <TableCell align="left" className='spodnicastfix hello2'>
               {row.bonusy.map((bonus, bonusIndex) => (
                   <div className='boxnadpis4' key={bonusIndex} style={{ color: row.barvy[bonusIndex] }}>{bonus}</div>
@@ -72,38 +72,38 @@ const Aura = () => {
     { 
       nazev: 'Zářivý kostým s aurou',
       imgIcon: 'https://img.m2icondb.com/49004.png',
-      bonusy: ['Hodnota absorbace: 15%', 'Magický útok/útok zbraní +6%', 'Úroveň aury: 150-199'],
+      bonusy: ['Hodnota absorbace: 15%', 'Magický útok/útok zbraní +6%', 'Úroveň aury: 150-249'],
       barvy: ['', '', '#dfd8c6']
     },
     { 
       nazev: 'Úžasný kostým s aurou',
       imgIcon: 'https://img.m2icondb.com/49005.png',
-      bonusy: ['Hodnota absorbace: 20%', 'Magický útok/útok zbraní +8%', 'Úroveň aury: 200-249'],
+      bonusy: ['Hodnota absorbace: 20%', 'Magický útok/útok zbraní +8%', 'Úroveň aury: 250-499'],
       barvy: ['', '', '#dfd8c6']
     },
     { 
       nazev: 'Zářivý kostým s aurou',
       imgIcon: 'https://img.m2icondb.com/49006.png',
-      bonusy: ['Hodnota absorbace: 25%', 'Magický útok/útok zbraní +10%', 'Úroveň aury: 250'],
+      bonusy: ['Hodnota absorbace: 25%', 'Magický útok/útok zbraní +10%', 'Úroveň aury: 500'],
       barvy: ['', '', '#dfd8c6']
     },
     { 
       nazev: 'Zesilovač aury (3%)',
       imgIcon: './items/Zesilovač3.png',
       bonusy: ['Hodnota absorbace: +3%', 'Lze vyrobit u pirátského čističe.'],
-      barvy: ['', '', '']
+      barvy: ['', '#dfd8c6', '']
     },
     { 
       nazev: 'Zesilovač aury (5%)',
       imgIcon: './items/Zesilovač5.png',
       bonusy: ['Hodnota absorbace: +5%', 'Lze vyrobit u pirátského čističe.'],
-      barvy: ['', '', '']
+      barvy: ['', '#dfd8c6', '']
     },
     { 
       nazev: 'Zesilovač aury (10%)',
       imgIcon: './items/Zesilovač10.png',
       bonusy: ['Hodnota absorbace: +10%', 'Lze dropnout z Worldbosse, který se nachází na ostrově přeludů.'],
-      barvy: ['', '', '']
+      barvy: ['', '#dfd8c6', '']
     },
   ];
 

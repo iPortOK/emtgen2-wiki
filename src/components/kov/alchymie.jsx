@@ -634,12 +634,12 @@ const Alchymie = () => {
         <Typography paragraph className="text1">Existují tři způsoby vylepšování dračích kamenů:</Typography>
         <Typography paragraph className="text1 spesl">a) Stupeň</Typography>
         <img src="./imgs/stupne.png" alt="" className=''></img>
-        <Typography paragraph className="text1">Celkem 6 stupňů: <br></br> &#x2022; Surový<br></br>&#x2022; Broušený<br></br>&#x2022; Vzácný<br></br>&#x2022; Starověký<br></br>&#x2022; Legendární<br></br>&#x2022; Mýtický <br></br></Typography>
+        <Typography paragraph className="text1"><b>Celkem 6 stupňů:</b> <br></br> &#x2022; Surový<br></br>&#x2022; Broušený<br></br>&#x2022; Vzácný<br></br>&#x2022; Starověký<br></br>&#x2022; Legendární<br></br>&#x2022; Mýtický <br></br></Typography>
         <Typography paragraph className="text1">Stupeň vylepšujeme spojením 2 stejných kamenů. Čím lepší stupeň alchymie, tím silnější jsou bonusy v danném kameni.</Typography>
         <Typography paragraph className="text1">Zvyšuje se také počet bonusů, které kámen může mít.</Typography>
         <img src="./imgs/stupen.png" alt="" className='odstup mene'></img>
         <Typography paragraph className="text1 spesl">b) Stupeň čirosti</Typography>
-        <Typography paragraph className="text1">5 stupňů čirosti: <br></br> &#x2022; Matný<br></br>&#x2022; Čistý<br></br>&#x2022; Bezchybný<br></br>&#x2022; Briliantní<br></br>&#x2022; Excelentní</Typography>
+        <Typography paragraph className="text1"><b>5 stupňů čirosti:</b> <br></br> &#x2022; Matný<br></br>&#x2022; Čistý<br></br>&#x2022; Bezchybný<br></br>&#x2022; Briliantní<br></br>&#x2022; Excelentní</Typography>
         <img src="./imgs/cirost.png" alt="" className='odstup mene'></img>
         <Typography paragraph className="text1">Stupeň vylepšujeme spojením 2 stejných kamenů. Čím lepší stupeň alchymie, tím silnější jsou bonusy v danném kameni. Zvyšuje se také počet bonusů, které kámen může mít.</Typography>
         <Typography paragraph className="text1 spesl">c) Úroveň</Typography>
@@ -650,7 +650,7 @@ const Alchymie = () => {
         <Typography paragraph className="text1">Čím vyšší úroveň kámen má, tím silnější je.</Typography>
         <Typography className="boxnadpis2">Změna bonusů:</Typography>
         <Typography paragraph className="text1">
-        Bonusy u dračí alchymie lze měnit pomocí <img src="https://img.m2icondb.com/100700.png" alt="" className=''></img> Dračího plamane. Tento vzácný předmět s nízkou šancí na dropnutí získáte z Kostlivého draka.
+        Bonusy u dračí alchymie lze měnit pomocí <img src="https://img.m2icondb.com/100700.png" alt="" className=''></img> Dračího plamane. Tento vzácný předmět lze s nízkou šancí získat z Truhly Kostlivého draka.
         </Typography>
       </Box>
 

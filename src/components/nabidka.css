@@ -146,7 +146,6 @@ Button{
     height: 80px;
     border-radius: .75rem;
     cursor: pointer;
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.5);
     transition: all .3s ease-in-out;
   }
 

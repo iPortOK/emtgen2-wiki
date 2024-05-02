@@ -32,7 +32,6 @@ const ostatni = [
 const mapy = [
   { name: 'Základní mapy',path: 'zakladni_mapy', imageSrc: 'https://img.m2icondb.com/27988.png' },
   { name: 'Dungeony',path: 'dungeony', imageSrc: 'https://img2.m2icondb.com/2cb19463-6b7f-426f-83ab-3ffad50f8af4.png' },
-  { name: 'cechovní Vesnice',path: 'cech_vesnice', imageSrc: 'https://img.m2icondb.com/50734.png' },
 ];
 
 const classes = [
