@@ -139,7 +139,9 @@
     background-color: #1D1F20;
     padding: 5px;
     border-radius: 10px;
-    min-width: 100px;
+    white-space: nowrap;
+    width: auto;
+    text-align: center;
   }
   
   .tooltip-container:hover .tooltip {
