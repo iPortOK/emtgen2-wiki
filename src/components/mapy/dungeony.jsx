@@ -441,7 +441,7 @@ const Dungeony = () => {
       dostupneOd: "115 - 120",
       cekacidoba: "240",
       doporuceneBonusy: [
-        { imgSrc: './items/Element_země.png', text: 'Odolnost a sílá proti země' },
+        { imgSrc: './items/Element_země.png', text: 'Odolnost a sílá proti zemi' },
         { imgSrc: './items/Element_blesku.png', text: 'Odolnost a sílá proti blesku' },
         { imgSrc: 'https://img.m2icondb.com/30255.png', text: 'Silný proti nemrtvým' },
       ],

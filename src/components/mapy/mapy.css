@@ -177,6 +177,12 @@ margin-right: 5px;
     .nazev.boss{
         font-size: 1.6em;
     }
+    .detaily {
+        width: 55%;
+        min-width: 410px;
+        min-height: 200px;
+        margin-bottom: 20px;
+    }
 
 }
 .fixik{
