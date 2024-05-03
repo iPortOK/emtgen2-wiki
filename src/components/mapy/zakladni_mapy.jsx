@@ -24,8 +24,8 @@ const ZakladniMapy = () => {
         { imgSrc: 'https://img.m2icondb.com/30613.png', text: 'Krystal stromů [Lv 60]' },
       ],
       dropItems: [
-        { imgSrc: './items/Božské ovoce.png' },
-        { imgSrc: './items/Božské ovoce.png' },
+        { imgSrc: './items/Božské ovoce.png', ks: '' },
+        { imgSrc: './items/Božské ovoce.png', ks: '' },
       ]
     },
     {
@@ -43,8 +43,8 @@ const ZakladniMapy = () => {
         { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Obrana' }
       ],
       dropItems: [
-        { imgSrc: './items/Božské ovoce.png' },
-        { imgSrc: './items/Božské ovoce.png' },
+        { imgSrc: './items/Božské ovoce.png', ks: '' },
+        { imgSrc: './items/Božské ovoce.png', ks: '' },
       ]
     },
     {
@@ -62,8 +62,8 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Obrana' }
         ],
         dropItems: [
-          { imgSrc: './items/Božské ovoce.png' },
-          { imgSrc: './items/Božské ovoce.png' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
         ]
       },
       {
@@ -81,8 +81,8 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Obrana' }
         ],
         dropItems: [
-          { imgSrc: './items/Božské ovoce.png' },
-          { imgSrc: './items/Božské ovoce.png' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
         ]
       },
       {
@@ -100,8 +100,8 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Obrana' }
         ],
         dropItems: [
-          { imgSrc: './items/Božské ovoce.png' },
-          { imgSrc: './items/Božské ovoce.png' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
         ]
       },
       {
@@ -119,8 +119,8 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Obrana' }
         ],
         dropItems: [
-          { imgSrc: './items/Božské ovoce.png' },
-          { imgSrc: './items/Božské ovoce.png' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
         ]
       },
       {
@@ -138,8 +138,8 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Obrana' }
         ],
         dropItems: [
-          { imgSrc: './items/Božské ovoce.png' },
-          { imgSrc: './items/Božské ovoce.png' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
         ]
       },
       {
@@ -157,8 +157,8 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Obrana' }
         ],
         dropItems: [
-          { imgSrc: './items/Božské ovoce.png' },
-          { imgSrc: './items/Božské ovoce.png' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
         ]
       },
       {
@@ -176,8 +176,8 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Obrana' }
         ],
         dropItems: [
-          { imgSrc: './items/Božské ovoce.png' },
-          { imgSrc: './items/Božské ovoce.png' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
         ]
       },
       {
@@ -195,8 +195,8 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Obrana' }
         ],
         dropItems: [
-          { imgSrc: './items/Božské ovoce.png' },
-          { imgSrc: './items/Božské ovoce.png' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
         ]
       },
       {
@@ -214,8 +214,8 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Obrana' }
         ],
         dropItems: [
-          { imgSrc: './items/Božské ovoce.png' },
-          { imgSrc: './items/Božské ovoce.png' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
         ]
       },
       {
@@ -233,8 +233,8 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Obrana' }
         ],
         dropItems: [
-          { imgSrc: './items/Božské ovoce.png' },
-          { imgSrc: './items/Božské ovoce.png' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
         ]
       },
       {
@@ -252,8 +252,8 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Obrana' }
         ],
         dropItems: [
-          { imgSrc: './items/Božské ovoce.png' },
-          { imgSrc: './items/Božské ovoce.png' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
         ]
       },
       {
@@ -271,8 +271,8 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Obrana' }
         ],
         dropItems: [
-          { imgSrc: './items/Božské ovoce.png' },
-          { imgSrc: './items/Božské ovoce.png' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
         ]
       },
       {
@@ -290,8 +290,8 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Obrana' }
         ],
         dropItems: [
-          { imgSrc: './items/Božské ovoce.png' },
-          { imgSrc: './items/Božské ovoce.png' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
         ]
       },
       {
@@ -309,8 +309,8 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Obrana' }
         ],
         dropItems: [
-          { imgSrc: './items/Božské ovoce.png' },
-          { imgSrc: './items/Božské ovoce.png' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
         ]
       },
       {
@@ -328,8 +328,8 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Obrana' }
         ],
         dropItems: [
-          { imgSrc: './items/Božské ovoce.png' },
-          { imgSrc: './items/Božské ovoce.png' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
         ]
       },
       {
@@ -347,8 +347,8 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Obrana' }
         ],
         dropItems: [
-          { imgSrc: './items/Božské ovoce.png' },
-          { imgSrc: './items/Božské ovoce.png' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
+          { imgSrc: './items/Božské ovoce.png', ks: '' },
         ]
       },
   ];

@@ -50,13 +50,14 @@ const MapComponent2 = ({ nazev, imgSrc, metins, pozadi, dostupneOd, doporuceneBo
               <Typography className='nazev'>Lze dropnout</Typography>
             </Box>
             <Box className='jj'>
-              {dropItems.map((item, index) => (
-                <div key={index} className='tooltip-container'>
-                  <img src={item.imgSrc} alt="" className='objazek' />
-                  <span className='tooltip'>{item.imgSrc.split('/').pop().replace('.png', '')}</span>
-                </div>
-              ))}
-            </Box>
+            {dropItems.map((item, index) => (
+              <div key={index} className='tooltip-container inv' style={{ backgroundImage: `url('./imgs/inv.png')` }}>
+                <img src={item.imgSrc} alt={item.imgSrc} className='objazek'/>
+                <span className='tooltip'>{item.ks ? (item.ks === "+0" ? `${item.imgSrc.split('/').pop().replace('.png', '')} +0` : `${item.ks}x ${item.imgSrc.split('/').pop().replace('.png', '')}`) : `${item.imgSrc.split('/').pop().replace('.png', '')}`}</span>
+                <span className='pocet' >{item.ks}</span>
+              </div>
+            ))}
+          </Box>
           </Box>
         </Box>
       </Box>

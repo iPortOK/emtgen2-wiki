@@ -381,6 +381,7 @@ const Dungeony = () => {
       doporuceneBonusy: [
         { imgSrc: './items/Element_temnoty.png', text: 'Odolnost a sílá proti temnotě' },
         { imgSrc: './items/Element_ohně.png', text: 'Odolnost a sílá proti ohni' },
+        { imgSrc: 'https://img.m2icondb.com/50289.png', text: 'Odol. proti poš. schopností' },
       ],
       dropItems: [
         { imgSrc: './items/Skeletoní lebka.png', ks: '3' },
@@ -411,6 +412,7 @@ const Dungeony = () => {
       doporuceneBonusy: [
         { imgSrc: './items/Element_větru.png', text: 'Odolnost a sílá proti větru' },
         { imgSrc: './items/Element_ohně.png', text: 'Odolnost a sílá proti ohni' },
+        { imgSrc: 'https://img.m2icondb.com/50289.png', text: 'Odol. proti poš. schopností' },
         { imgSrc: 'https://img.m2icondb.com/30255.png', text: 'Silný proti zvířatům' },
       ],
       dropItems: [
@@ -443,6 +445,7 @@ const Dungeony = () => {
       doporuceneBonusy: [
         { imgSrc: './items/Element_země.png', text: 'Odolnost a sílá proti zemi' },
         { imgSrc: './items/Element_blesku.png', text: 'Odolnost a sílá proti blesku' },
+        { imgSrc: 'https://img.m2icondb.com/50289.png', text: 'Odol. proti poš. schopností' },
         { imgSrc: 'https://img.m2icondb.com/30255.png', text: 'Silný proti nemrtvým' },
       ],
       dropItems: [
@@ -486,6 +489,7 @@ const Dungeony = () => {
       doporuceneBonusy: [
         { imgSrc: './items/Element_ledu.png', text: 'Odolnost a sílá proti ledu' },
         { imgSrc: './items/Element_blesku.png', text: 'Odolnost a sílá proti blesku' },
+        { imgSrc: 'https://img.m2icondb.com/50289.png', text: 'Odol. proti poš. schopností' },
         { imgSrc: 'https://img.m2icondb.com/30255.png', text: 'Průraznost Alastora' },
         { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Odolnost u Alastora' },
       ],
@@ -497,7 +501,7 @@ const Dungeony = () => {
         { imgSrc: './items/Elixír Alastora.png', ks: '' },
         { imgSrc: './items/Truhla se svitky.png', ks: '2' },
         { imgSrc: './items/Začarovat předmět.png', ks: '1800' },
-        { imgSrc: './items/Cor Draconis (ametyst).png', ks: '15' },
+        { imgSrc: './items/Cor Draconis (ametyst).png', ks: '15-20' },
         { imgSrc: './items/Krystal (Neobvyklý).png', ks: '' },
         { imgSrc: './items/Krystal (Vzácný).png', ks: '' },
         { imgSrc: './items/Krystal (Epický).png', ks: '' },
