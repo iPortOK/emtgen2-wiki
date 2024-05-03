@@ -133,15 +133,16 @@
   .tooltip {
     display: none;
     position: absolute;
-    margin-left: -30px;
-    margin-top: -60px;
     color: white;
     background-color: #1D1F20;
-    padding: 5px;
+    padding: 6px;
     border-radius: 10px;
     white-space: nowrap;
     width: auto;
     text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px outset rgb(223, 190, 146, 0.5);
   }
   
   .tooltip-container:hover .tooltip {

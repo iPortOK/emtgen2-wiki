@@ -299,7 +299,22 @@ margin-right: 5px;
     width: 180px;
     margin-bottom: 5px;
 }
-.mapaboss.mapa_1{
-}
-.mapaboss.mapa_2{
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gruppo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Secular+One&family=Teko:wght@300..700&display=swap');
+
+.pocet {
+    opacity: 1;
+    position: absolute;
+    bottom: -1px;
+    right: 3.5px;
+    color: white;
+    font-family: "Secular One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 10px;
+    text-shadow: 
+    -2px -2px 0 black,  
+    1px -1px 0 black,
+    -2px 2px 0 black,
+    1px 1px 0 black;
 }
