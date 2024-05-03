@@ -68,7 +68,7 @@ const Dungeony = () => {
         { imgSrc: './items/Půlměsíční meč.png' },
         { imgSrc: './items/Ledovcová píka.png' },
         { imgSrc: './items/Meč Dvanáct duchů.png' },
-        { imgSrc: './items/čepel spásy.png' },
+        { imgSrc: './items/Čepel spásy.png' },
         { imgSrc: './items/Zabiják lvů.png' },
         { imgSrc: './items/Dýka ďábelské pěsti.png' },
         { imgSrc: './items/Krvavá dýka.png' },

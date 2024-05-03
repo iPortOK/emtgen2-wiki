@@ -51,8 +51,8 @@ const MapComponent = ({ nazev, imgSrc, pozadi, cekacidoba, dostupneOd, doporucen
             </Box>
             <Box className='jj'>
               {dropItems.map((item, index) => (
-                <div key={index} className='tooltip-container'>
-                  <img src={item.imgSrc} alt="" className='objazek' />
+                <div key={index} className='tooltip-container inv'  >
+                  <img src={item.imgSrc} alt="" className='objazek' style={{ backgroundImage: `url('./imgs/inv.png')` }}/>
                   <span className='tooltip'>{item.imgSrc.split('/').pop().replace('.png', '')}</span>
                 </div>
               ))}
