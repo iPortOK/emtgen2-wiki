@@ -376,7 +376,7 @@ const Dungeony = () => {
       imgSrc: "./imgs/boss_12.png",
       imgIcon: "./imgs/boss_12.png",
       pozadi: "./imgs/dung_12.png",
-      dostupneOd: "105 - 120",
+      dostupneOd: "105 - 120 [SKUPINOVÝ]",
       cekacidoba: "320",
       doporuceneBonusy: [
         { imgSrc: './items/Element_temnoty.png', text: 'Odolnost a sílá proti temnotě' },
@@ -487,7 +487,7 @@ const Dungeony = () => {
         { imgSrc: './items/Element_ledu.png', text: 'Odolnost a sílá proti ledu' },
         { imgSrc: './items/Element_blesku.png', text: 'Odolnost a sílá proti blesku' },
         { imgSrc: 'https://img.m2icondb.com/30255.png', text: 'Průraznost Alastora' },
-        { imgSrc: 'https://img.m2icondb.com/30255.png', text: 'Odolnost u Alastora' },
+        { imgSrc: 'https://img.m2icondb.com/30256.png', text: 'Odolnost u Alastora' },
       ],
       dropItems: [
         { imgSrc: './items/Alastorova duše.png', ks: '' },
