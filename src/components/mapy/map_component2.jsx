@@ -2,7 +2,7 @@
 import { Container, Box, Typography } from '@mui/material';
 import './mapy.css';
 
-const MapComponent2 = ({ nazev, imgSrc, metins, pozadi, dostupneOd, doporuceneBonusy, dropItems, activeIndex }) => {
+const MapComponent2 = ({ nazev, imgSrc, metins, cotoje, pozadi, dostupneOd, doporuceneBonusy, dropItems, activeIndex }) => {
 
   return (
     <Container className='celek map'>
@@ -34,7 +34,7 @@ const MapComponent2 = ({ nazev, imgSrc, metins, pozadi, dostupneOd, doporuceneBo
               </Box>
               <Box className='seznam'>
               <Box>
-                <Typography className='nazev textos'>Metiny</Typography>
+                <Typography className='nazev textos'>{cotoje}</Typography>
                   {metins.map((bonus, index) => (
                     <Box className='doporucene' key={index}>
                     <img className='iconka' src={bonus.imgSrc} alt=""></img>
@@ -47,7 +47,7 @@ const MapComponent2 = ({ nazev, imgSrc, metins, pozadi, dostupneOd, doporuceneBo
           </Box>
           <Box className='drop'>
             <Box className='jj dropu'>
-              <Typography className='nazev'>Lze dropnout</Typography>
+              <Typography className='nazev'>Lze získat</Typography>
             </Box>
             <Box className='jj'>
             {dropItems.map((item, index) => (
