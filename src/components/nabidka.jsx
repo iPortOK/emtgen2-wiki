@@ -21,11 +21,8 @@ const vybaveni = [
 
 const ostatni = [
   { name: 'Biolog', path: 'biolog', imageSrc: 'https://img.m2icondb.com/30006.png' },
-  { name: 'Strom dovedností', path: 'strom_dovednosti', imageSrc: 'https://img.m2icondb.com/31099.png' },
   { name: 'Krystaly', path: 'krystaly', imageSrc: 'https://img.m2icondb.com/31108.png' },
   { name: 'Denní úkoly', path: 'denni_ukoly', imageSrc: 'https://img.m2icondb.com/scroll_close.png' },
-  { name: 'Eventy', path: 'eventy', imageSrc: 'https://img.m2icondb.com/25106.png' },
-  { name: 'Cech', path: 'cech', imageSrc: 'https://img.m2icondb.com/50042.png' },
   { name: 'Bonusy', path: 'bonusy', imageSrc: 'https://img.m2icondb.com/71084.png' },
 ];
 

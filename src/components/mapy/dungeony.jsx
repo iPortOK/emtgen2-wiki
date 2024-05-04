@@ -376,7 +376,7 @@ const Dungeony = () => {
       imgSrc: "./imgs/boss_12.png",
       imgIcon: "./imgs/boss_12.png",
       pozadi: "./imgs/dung_12.png",
-      dostupneOd: "105 - 120 [SKUPINOVÝ]",
+      dostupneOd: "110 - 120 [SKUPINOVÝ]",
       cekacidoba: "320",
       doporuceneBonusy: [
         { imgSrc: './items/Element_temnoty.png', text: 'Odolnost a sílá proti temnotě' },

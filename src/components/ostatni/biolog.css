@@ -1,0 +1,27 @@
+.biolog .spodnicastfix:nth-child(3){
+    border-left: 1px solid rgb(85, 71, 55, 0.3) !important;
+    border-bottom: 1px solid rgb(85, 71, 55, 0.3) !important;
+    padding-left: 30px;
+  }
+  .biolog .spodnicastfix:nth-child(2){
+    border-left: 1px solid rgb(85, 71, 55, 0.3) !important;
+    border-bottom: 1px solid rgb(85, 71, 55, 0.3) !important;
+  }
+  .biolog .spodnicastfix:nth-child(1){
+    border-bottom: 1px solid rgb(85, 71, 55, 0.3) !important;
+  }
+.biologgg{
+    margin-top: -10px;
+}
+
+  @media (max-width: 1080px) {
+    .biolog .spodnicastfix:nth-child(3){
+        padding-left: 15px;
+    }
+    .spodnicastfix:nth-child(2){
+        border-left: 1px solid #554737 !important;
+        padding-left: 15px;
+      }
+      
+  }
+  
