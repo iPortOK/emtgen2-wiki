@@ -96,14 +96,14 @@ const ItemTable = ({ stats, images, item }) => {
                     {stat[key]}
                     {imageKeys[index] && images[statIndex] && images[statIndex][imageKeys[index]] && (
                       <div className='tooltip-container'>
+                        <span className='tooltip'>
+                          {images[statIndex][imageKeys[index]].split('/').pop().replace('.png', '')}
+                        </span>
                         <img
                           className='objazek'
                           src={images[statIndex][imageKeys[index]]}
                           alt={``}
                         />
-                        <span className='tooltip'>
-                          {images[statIndex][imageKeys[index]].split('/').pop().replace('.png', '')}
-                        </span>
                       </div>
                     )}
                   </div>
