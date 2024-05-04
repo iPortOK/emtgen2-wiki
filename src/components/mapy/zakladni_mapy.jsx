@@ -42,12 +42,20 @@ const ZakladniMapy = () => {
       ],
       cotoje:"Metiny",
       metins: [
-        { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen duše' },
-        { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen stínu' },
+        { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen duše [Lv 40]' },
+        { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen stínu [Lv 45]' },
       ],
       dropItems: [
         { imgSrc: './items/Kameny ducha.png', ks: '+4' },
         { imgSrc: './items/Truhla schopností.png', ks: '' },
+        { imgSrc: './items/Ebenový náramek.png', ks: '+0' },
+        { imgSrc: './items/Náramek z bílého zlata.png', ks: '+0' },
+        { imgSrc: './items/Kožené holínky.png', ks: '+0' },
+        { imgSrc: './items/Černý kulatý štít.png', ks: '+0' },
+        { imgSrc: './items/Smrtelné plátové brnění.png', ks: '+0' },
+        { imgSrc: './items/Pancéřové brnění Ying-Yang.png', ks: '+0' },
+        { imgSrc: './items/Mravencolví oblek.png', ks: '+0' },
+        { imgSrc: './items/Nebeské oblečení.png', ks: '+0' },
         { imgSrc: './items/Oblek ninjů.png', ks: '+0' },
         { imgSrc: './items/Pancéřové brnění mystika.png', ks: '+0' },
         { imgSrc: './items/Sluneční oblečení.png', ks: '+0' },
@@ -68,7 +76,7 @@ const ZakladniMapy = () => {
         ],
         cotoje:"Metiny",
         metins: [
-          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen tvrdosti' },
+          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen tvrdosti [Lv 50]' },
         ],
         dropItems: [
           { imgSrc: './items/Kameny ducha.png', ks: '+4' },
@@ -81,6 +89,9 @@ const ZakladniMapy = () => {
           { imgSrc: './items/Hradní přilba.png', ks: '+0' },
           { imgSrc: './items/Solární klobouk.png', ks: '+0' },
           { imgSrc: './items/Ocelová kapuce.png', ks: '+0' },
+          { imgSrc: './items/Boty extáze.png', ks: '+0' },
+          { imgSrc: './items/Náhrdelník z bílého zlata.png', ks: '+0' },
+          { imgSrc: './items/Náušnice z bílého zlata.png', ks: '+0' },
         ]
       },
       {
@@ -94,8 +105,8 @@ const ZakladniMapy = () => {
         ],
         cotoje:"Metiny",
         metins: [
-          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen ďábla' },
-          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen smrti' },
+          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen ďábla [Lv 55]' },
+          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen smrti [Lv 65]' },
         ],
         dropItems: [
           { imgSrc: './items/Kameny ducha.png', ks: '+4' },
@@ -105,6 +116,16 @@ const ZakladniMapy = () => {
           { imgSrc: './items/Začarovat předmět.png', ks: '3' },
           { imgSrc: './items/Runa I.png', ks: '3' },
           { imgSrc: './items/Runa II.png', ks: '1' },
+          { imgSrc: './items/Šupinaté plátové brnění.png', ks: '+0' },
+          { imgSrc: './items/Pancéřové mlžné brnění.png', ks: '+0' },
+          { imgSrc: './items/Oblek mladého draka.png', ks: '+0' },
+          { imgSrc: './items/Oblečení morálky.png', ks: '+0' },
+          { imgSrc: './items/Hradní přilba.png', ks: '+0' },
+          { imgSrc: './items/Solární klobouk.png', ks: '+0' },
+          { imgSrc: './items/Ocelová kapuce.png', ks: '+0' },
+          { imgSrc: './items/Boty extáze.png', ks: '+0' },
+          { imgSrc: './items/Náhrdelník z bílého zlata.png', ks: '+0' },
+          { imgSrc: './items/Náušnice z bílého zlata.png', ks: '+0' },
         ]
       },
       {
@@ -118,7 +139,7 @@ const ZakladniMapy = () => {
         ],
         cotoje:"Metiny",
         metins: [
-          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen pádu' },
+          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen pádu [Lv 60]' },
         ],
         dropItems: [
           { imgSrc: './items/Kameny ducha.png', ks: '+4' },
@@ -127,6 +148,10 @@ const ZakladniMapy = () => {
           { imgSrc: './items/Soustředěné čtení.png', ks: '' },
           { imgSrc: './items/Začarovat předmět.png', ks: '3' },
           { imgSrc: './items/Runa I.png', ks: '3' },
+          { imgSrc: './items/Šupinaté plátové brnění.png', ks: '+0' },
+          { imgSrc: './items/Pancéřové mlžné brnění.png', ks: '+0' },
+          { imgSrc: './items/Oblek mladého draka.png', ks: '+0' },
+          { imgSrc: './items/Oblečení morálky.png', ks: '+0' },
         ]
       },
       {
@@ -146,7 +171,17 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Žádné' },
         ],
         dropItems: [
-          { imgSrc: '', ks: '' },
+          { imgSrc: './items/Hradní přilba.png', ks: '+0' },
+          { imgSrc: './items/Solární klobouk.png', ks: '+0' },
+          { imgSrc: './items/Ocelová kapuce.png', ks: '+0' },
+          { imgSrc: './items/Boty extáze.png', ks: '+0' },
+          { imgSrc: './items/Šupinaté plátové brnění.png', ks: '+0' },
+          { imgSrc: './items/Pancéřové mlžné brnění.png', ks: '+0' },
+          { imgSrc: './items/Oblek mladého draka.png', ks: '+0' },
+          { imgSrc: './items/Oblečení morálky.png', ks: '+0' },
+          { imgSrc: './items/Náušnice z nebeských slz.png', ks: '+0' },
+          { imgSrc: './items/Náramek z nebeských slz.png', ks: '+0' },
+          { imgSrc: './items/Náhrdelník z nebeských slz.png', ks: '+0' },
 
         ]
       },
@@ -163,7 +198,7 @@ const ZakladniMapy = () => {
         ],
         cotoje:"Metiny",
         metins: [
-          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen vraždy' },
+          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen vraždy [Lv 70]' },
         ],
         dropItems: [
           { imgSrc: './items/Kameny ducha.png', ks: '+4' },
@@ -186,7 +221,7 @@ const ZakladniMapy = () => {
         ],
         cotoje:"Metiny",
         metins: [
-          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen Jeon-Un' },
+          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen Jeon-Un [Lv 90]' },
         ],
         dropItems: [
           { imgSrc: './items/Kameny ducha.png', ks: '+4' },
@@ -198,6 +233,10 @@ const ZakladniMapy = () => {
           { imgSrc: './items/Začarovat předmět.png', ks: '5' },
           { imgSrc: './items/Bílá perla.png', ks: '' },
           { imgSrc: './items/Runa II.png', ks: '2' },
+          { imgSrc: './items/Zlaté plátové brnění.png', ks: '+0' },
+          { imgSrc: './items/Pancéř masek duchů.png', ks: '+0' },
+          { imgSrc: './items/Oblek vražedného větru.png', ks: '+0' },
+          { imgSrc: './items/Oranžové kočičí oblečení.png', ks: '+0' },
         ]
       },
       {
@@ -217,7 +256,7 @@ const ZakladniMapy = () => {
           { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Žádné' },
         ],
         dropItems: [
-          { imgSrc: '', ks: '' },
+          { imgSrc: './items/Zkušenosti.png', ks: '' },
         ]
       },
       {
@@ -232,7 +271,7 @@ const ZakladniMapy = () => {
         ],
         cotoje:"Metiny",
         metins: [
-          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen zloby' },
+          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen zloby [Lv 99]' },
         ],
         dropItems: [
           { imgSrc: './items/Kameny ducha.png', ks: '+5' },
@@ -260,7 +299,7 @@ const ZakladniMapy = () => {
         ],
         cotoje:"Metiny",
         metins: [
-          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen žáru' },
+          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen žáru [Lv 99]' },
         ],
         dropItems: [
           { imgSrc: './items/Kameny ducha.png', ks: '+5' },
@@ -288,7 +327,7 @@ const ZakladniMapy = () => {
         ],
         cotoje:"Metiny",
         metins: [
-          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen soumraku' },
+          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen soumraku [Lv 99]' },
         ],
         dropItems: [
           { imgSrc: './items/Kameny ducha.png', ks: '+5' },
@@ -318,7 +357,7 @@ const ZakladniMapy = () => {
         ],
         cotoje:"Metiny",
         metins: [
-          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen lesů' },
+          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen lesů [Lv 110]' },
         ],
         dropItems: [
           { imgSrc: './items/Kameny ducha.png', ks: '+5' },
@@ -344,9 +383,9 @@ const ZakladniMapy = () => {
         ],
         cotoje:"Metiny",
         metins: [
-          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen starověků džungle' },
-          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen starověké škeble' },
-          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen vraku lodi' },
+          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen starověků džungle [Lv 120]' },
+          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen starověké škeble [Lv 120]' },
+          { imgSrc: 'https://img.m2icondb.com/71080.png', text: 'Kámen vraku lodi [Lv 120]' },
         ],
         dropItems: [
           { imgSrc: './items/Kameny ducha.png', ks: '+6' },
@@ -388,7 +427,7 @@ const ZakladniMapy = () => {
         doporuceneBonusy: [
           { imgSrc: 'https://img.m2icondb.com/27591.png', text: 'Legendární prut' },
         ],
-        cotoje:"Metiny",
+        cotoje:"Rybník",
         metins: [
           { imgSrc: 'https://img.m2icondb.com/27823.png', text: 'Rybník plný ryb' },
         ],
@@ -397,6 +436,24 @@ const ZakladniMapy = () => {
           { imgSrc: './items/Mandarínová ryba.png', ks: '' },
           { imgSrc: './items/Velký candát.png', ks: '' },
           { imgSrc: './items/Kapr.png', ks: '' },
+          { imgSrc: './items/Losos.png', ks: '' },
+          { imgSrc: './items/Amur bílý.png', ks: '' },
+          { imgSrc: './items/Pstruh.png', ks: '' },
+          { imgSrc: './items/Úhoř.png', ks: '' },
+          { imgSrc: './items/Pstruh duhový.png', ks: '' },
+          { imgSrc: './items/Pstruh říční.png', ks: '' },
+          { imgSrc: './items/Perlín ostrobřichý.png', ks: '' },
+          { imgSrc: './items/Okoun.png', ks: '' },
+          { imgSrc: './items/Tenchi.png', ks: '' },
+          { imgSrc: './items/Sumec.png', ks: '' },
+          { imgSrc: './items/Mřenka.png', ks: '' },
+          { imgSrc: './items/Lotosová ryba.png', ks: '' },
+          { imgSrc: './items/Ayu.png', ks: '' },
+          { imgSrc: './items/Koruška.png', ks: '' },
+          { imgSrc: './items/Shiri.png', ks: '' },
+          { imgSrc: './items/Kapr hladký.png', ks: '' },
+          { imgSrc: './items/Zlatá rybka.png', ks: '' },
+
         ]
       },
       {
