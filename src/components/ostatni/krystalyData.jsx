@@ -87,7 +87,7 @@ import { createStats, createImage, createEquipmentItem } from './funkceTabulkos.
         IMG_5: createImage("", "", "./items/Krystalový prach.png", "./items/Krystalový prach.png", "./items/Krystalový prach.png", "./items/Krystalový prach.png", "./items/Krystalový prach.png", "./items/Krystalový prach.png"),
     }),
     createEquipmentItem(7, 'Krystal Celestium', './items/Krystal Celestium.png', 'Lze získat z cechovního World Bosse - Bestie', {
-        R_1: createStats("Síla:", "1", "1", "2", "2", "3", "5", "8"),
+        R_1: createStats("Síla:", "+1", "+1", "+2", "+2", "+3", "+5", "+8"),
         R_M1: createStats(),
         R_2: createStats("Šance:", "-", "40%", "50%", "60%", "70%", "80%", "90%"),
         R_3: createStats("Cena:", "-", "500kk", "400kk", "800kk", "1,2kkk", "1,6kkk", "2kkk"),
@@ -104,7 +104,7 @@ import { createStats, createImage, createEquipmentItem } from './funkceTabulkos.
         IMG_5: createImage("", "", "./items/Krystalový prach.png", "./items/Krystalový prach.png", "./items/Krystalový prach.png", "./items/Krystalový prach.png", "./items/Krystalový prach.png", "./items/Krystalový prach.png"),
     }),
     createEquipmentItem(7, 'Krystal Aetherion', './items/Krystal Aetherion.png', 'Lze získat z cechovního World Bosse - Bestie', {
-        R_1: createStats("Inteligence:", "1", "1", "2", "2", "3", "5", "8"),
+        R_1: createStats("Inteligence:", "+1", "+1", "+2", "+2", "+3", "+5", "+8"),
         R_M1: createStats(),
         R_2: createStats("Šance:", "-", "40%", "50%", "60%", "70%", "80%", "90%"),
         R_3: createStats("Cena:", "-", "500kk", "400kk", "800kk", "1,2kkk", "1,6kkk", "2kkk"),
@@ -138,7 +138,7 @@ import { createStats, createImage, createEquipmentItem } from './funkceTabulkos.
         IMG_5: createImage("", "", "./items/Krystalový prach.png", "./items/Krystalový prach.png", "./items/Krystalový prach.png", "./items/Krystalový prach.png", "./items/Krystalový prach.png", "./items/Krystalový prach.png"),
     }),
     createEquipmentItem(7, 'Krystal Auralith', './items/Krystal Auralith.png', 'Lze získat z cechovního World Bosse - Bestie', {
-        R_1: createStats("Vitalita:", "1", "1", "2", "2", "3", "5", "8"),
+        R_1: createStats("Vitalita:", "+1", "+1", "+2", "+2", "+3", "+5", "+8"),
         R_M1: createStats(),
         R_2: createStats("Šance:", "-", "40%", "50%", "60%", "70%", "80%", "90%"),
         R_3: createStats("Cena:", "-", "500kk", "400kk", "800kk", "1,2kkk", "1,6kkk", "2kkk"),
