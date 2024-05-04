@@ -32,6 +32,7 @@ import SuraSchopnost from './components/kov/sura_schopnost';
 import Dungeony from './components/mapy/dungeony';
 import ZakladniMapy from './components/mapy/zakladni_mapy';
 import Biolog from './components/ostatni/biolog';
+import Krystaly from './components/ostatni/krystaly';
 
 function ScrollToTopOnNavigate() {
   const { pathname } = useLocation();
@@ -93,6 +94,7 @@ function App() {
               <Route path="/zakladni_mapy" element={<ZakladniMapy />} />
               <Route path="*" element={<Navigate to="/" />} />
               <Route path="/biolog" element={<Biolog />} />
+              <Route path="/krystaly" element={<Krystaly />} />
             </Layout>
           }
         />
