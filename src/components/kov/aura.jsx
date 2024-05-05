@@ -126,7 +126,7 @@ const Aura = () => {
         &#x2022; 25x <img src="./items/Šupiny Hydry.png" alt="" className=''></img> Šupiny Hydry <br></br>
         &#x2022; 25x <img src="./items/Ztracený list.png" alt="" className=''></img> Ztracený list <br></br>
         &#x2022; 300x <img src="./items/Zelená dračí fazole.png" alt="" className=''></img> Zelená dračí fazole <br></br>
-        &#x2022; 100x <img src="./items/Kus Šerpy.png" alt="" className=''></img> Kus Šerpy<br></br>
+        &#x2022; 100x <img src="./items/Kus šerpy.png" alt="" className=''></img> Kus Šerpy<br></br>
         &#x2022; <img src="./items/Yang.png" alt="" className=''></img> 2.000.000.000 yangů
         </Box>
         </Typography>

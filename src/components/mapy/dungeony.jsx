@@ -195,7 +195,6 @@ const Dungeony = () => {
       cekacidoba: "60",
       doporuceneBonusy: [
         { imgSrc: './items/Element_blesku.png', text: 'Odolnost a sílá proti blesku' },
-        { imgSrc: 'https://img.m2icondb.com/30255.png', text: 'Silný proti ďáblům' },
       ],
       dropItems: [
         { imgSrc: './items/Dračí šupiny.png', ks: '' },
