@@ -498,7 +498,7 @@ createEquipmentItem(16, 'Hadí meč', './items/00380.png', 'Craft u Pirátského
   R_17: createStats("Odolnost u Alastora", "1%", "2%", "3%", "5%", "7%", "10%", "15%", "20%", "25%", "40%", "45%", "50%", "55%", "60%", "65%", "70%"),
   R_5mezera: createStats("", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
   R_6: createStats("Šance", "100%", "85%", "85%", "85%", "85%", "85%", "85%", "85%", "85%", "85%", "25%", "20%", "15%", "10%", "5%", "1%"),
-  R_7: createStats("Cena", "2kkk", "5kkk", "5kkk", "5kkk", "5kkk", "5kkk", "5kkk", "5kkk", "5kkk", "5kkk", "5kkk", "5kkk", "5kkk", "5kkk", "5kkk", "5kkk"),
+  R_7: createStats("Cena", "2kkk", "10kkk", "10kkk", "10kkk", "10kkk", "10kkk", "10kkk", "10kkk", "10kkk", "10kkk", "5kkk", "5kkk", "5kkk", "5kkk", "5kkk", "5kkk"),
   R_8mezera: createStats("", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
   R_9: createStats("Potřebné předměty", "10x", "1x", "2x", "3x", "4x", "5x", "6x", "7x", "8x", "9x", "3x", "3x", "3x", "2x", "2x", "2x"),
   R_10: createStats("", "150x", "72x", "84x", "108x", "144x", "180x", "216x", "252x", "276x", "300x", "5x", "6x", "7x", "7x", "6x", "5x"),

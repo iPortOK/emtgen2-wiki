@@ -118,7 +118,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         R_8: createStats("", "", "", "", "", "", "", "", "", "", ""),
         R_9: createStats("Potřebné předměty:", "+9", "2x", "3x", "4x", "6x", "8x", "10x", "3x", "4x", "5x"),
         R_10: createStats("", "+9", "4x", "8x", "12x", "14x", "16x", "20x", "1x", "2x", "2x"),
-        R_11: createStats("", "30x", "", "", "", "", "", "", "1x", "2x", "2x"),
+        R_11: createStats("", "20x", "", "", "", "", "", "", "1x", "2x", "2x"),
         R_12: createStats("", "15x", "", "", "", "", "", "", "1x", "1x", "1x"),
         R_13: createStats("", "15x", "", "", "", "", "", "", "", "", ""),
       }, {
@@ -149,7 +149,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         R_8: createStats("", "", "", "", "", "", "", "", "", "", ""),
         R_9: createStats("Potřebné předměty:", "+9", "2x", "3x", "4x", "6x", "8x", "10x", "3x", "4x", "5x"),
         R_10: createStats("", "+9", "4x", "8x", "12x", "14x", "16x", "20x", "1x", "2x", "2x"),
-        R_11: createStats("", "30x", "", "", "", "", "", "", "1x", "2x", "2x"),
+        R_11: createStats("", "20x", "", "", "", "", "", "", "1x", "2x", "2x"),
         R_12: createStats("", "15x", "", "", "", "", "", "", "1x", "1x", "1x"),
         R_13: createStats("", "15x", "", "", "", "", "", "", "", "", ""),
       }, {
