@@ -34,6 +34,7 @@ import ZakladniMapy from './components/mapy/zakladni_mapy';
 import Biolog from './components/ostatni/biolog';
 import Krystaly from './components/ostatni/krystaly';
 import Ukoly from './components/ostatni/ukoly';
+import Prezentace from './components/ostatni/prezentace';
 
 function ScrollToTopOnNavigate() {
   const { pathname } = useLocation();
@@ -97,6 +98,7 @@ function App() {
               <Route path="/biolog" element={<Biolog />} />
               <Route path="/krystaly" element={<Krystaly />} />
               <Route path="/denni_ukoly" element={<Ukoly />} />
+              <Route path="/prezentace" element={<Prezentace />} />
             </Layout>
           }
         />

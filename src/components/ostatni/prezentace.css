@@ -1,0 +1,325 @@
+.celaprezentace {
+    position: relative;
+    background-color: rgb(36, 22, 22);
+    text-align: center;
+    font-family: BAHNSCHRIFT;
+    height: 100%;
+    margin: 0;
+}
+
+.celaprezentace::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(''); /* background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.03;
+    z-index: -5;
+}
+
+.celaprezentace img,
+.celaprezentace iframe {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 1px 1px 11px 4px rgba(0,0,0,0.32);
+    -webkit-box-shadow: 1px 1px 11px 4px rgba(0,0,0,0.32);
+    -moz-box-shadow: 1px 1px 11px 4px rgba(0,0,0,0.32);
+}
+
+.celaprezentace .image-container {
+    position: relative;
+}
+
+.celaprezentace .image-wrapper {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.celaprezentace .btn2 {
+    position: absolute;
+    top: 560px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border-style: solid;
+    border-color: #facd7b;
+    background-color: transparent;
+    color: #facd7b;
+    padding: 8px;
+    border-radius: 6px;
+    font-family: BAHNSCHRIFT;
+    cursor: pointer;
+    transition: ease-in 0.5s;
+}
+
+.celaprezentace .btn2:hover {
+    transition: ease-out 0.5s;
+    font-size: 16px;
+    border-color: rgb(250, 205, 122, 0.5);
+    background-color: rgb(250, 205, 122, 0.2);
+}
+
+.celaprezentace .image-container img[alt="71"] {
+    position: absolute;
+    top: 335px;
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    transform: translate(0, -50%);
+    z-index: 1;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+.celaprezentace .image-container img[alt="5"] {
+    position: absolute;
+    top: 1600px;
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    transform: translate(0, -50%);
+    z-index: 1;
+}
+
+.celaprezentace .button-container {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    z-index: 2;
+}
+
+.celaprezentace .button-container .btn {
+    background-color: #facd7b;
+    color: #000;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.celaprezentace .button-container .btn:hover {
+    background-color: #e0b963;
+    transform: scale(1.1);
+}
+
+.celaprezentace .image-container iframe {
+    position: absolute;
+    top: 820px;
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    transform: translate(0, -50%);
+    z-index: 1;
+}
+
+.celaprezentace .button-container2 {
+    position: absolute;
+    top: 963px;
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    transform: translate(0, -50%);
+    z-index: 2;
+    height: 420px;
+}
+
+.celaprezentace .button-container2 .btn {
+    background-color: #facd7b;
+    color: #000;
+    padding: 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 120px;
+    margin-right: 5px;
+}
+
+.celaprezentace .button-container2 .btn:hover {
+    background-color: #e0b963;
+    transform: scale(1.05);
+}
+
+.celaprezentace .image-container img[alt="107"] {
+    position: absolute;
+    top: 1790px;
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    transform: translate(0, -50%);
+    z-index: -1;
+    height: 420px;
+}
+
+.celaprezentace .image-container img[alt="126"] {
+    position: absolute;
+    top: 430px;
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    transform: translate(0, -50%);
+    z-index: -1;
+    height: 420px;
+}
+
+.celaprezentace .image-container img[alt="127"] {
+    position: absolute;
+    top: 1840px;
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    transform: translate(0, -50%);
+    z-index: -1;
+    height: 420px;
+}
+
+.celaprezentace .image-container img[alt="128"] {
+    position: absolute;
+    top: 2340px;
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    transform: translate(0, -50%);
+    z-index: -1;
+    height: 420px;
+}
+
+.celaprezentace .image-container img[alt="129"] {
+    position: absolute;
+    top: 3240px;
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    transform: translate(0, -50%);
+    z-index: -1;
+    height: 420px;
+}
+
+.celaprezentace .image-container img[alt="130"] {
+    position: absolute;
+    top: 3720px;
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    transform: translate(0, -50%);
+    z-index: -1;
+    height: 420px;
+}
+
+.celaprezentace .image-container img[alt="131"] {
+    position: absolute;
+    top: 4840px;
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    transform: translate(0, -50%);
+    z-index: -1;
+    height: 420px;
+}
+
+.celaprezentace .image-container img[alt="132"] {
+    position: absolute;
+    top: 7440px;
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    transform: translate(0, -50%);
+    z-index: -1;
+    height: 420px;
+}
+
+.celaprezentace .image-container img[alt="150"] {
+    position: absolute;
+    top: 270px;
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    transform: translate(0, -50%);
+    z-index: -1;
+    height: 230px;
+}
+
+.celaprezentace .pagination {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.celaprezentace .pager {
+    height: 17px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.celaprezentace .pager .dot {
+    margin-top: 4px;
+    height: 9px;
+    width: 9px;
+    background: rgb(83, 51, 51);
+    display: inline-block;
+    margin-right: 1px;
+}
+
+.celaprezentace .pager label {
+    display: none;
+    color: rgb(83, 51, 51);
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.celaprezentace .pager.active .dot,
+.celaprezentace .pager:hover .dot {
+    height: 11px;
+    width: 11px;
+    background: rgba(250, 205, 123, 0.9);
+    margin-right: 0px;
+}
+
+.celaprezentace .pager.active label,
+.celaprezentace .pager:hover label {
+    font-weight: 500;
+    font-size: 14px;
+    color: #facd7b;
+    line-height: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+@media (max-width:850px) {
+    .celaprezentace .pagination {
+        display: none;
+    }
+    .celaprezentace .button-container {
+        display: none;
+    }
+}
