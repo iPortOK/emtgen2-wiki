@@ -24,7 +24,7 @@ const ostatni = [
   { name: 'Krystaly', path: 'krystaly', imageSrc: './items/Krystal Celestium.png' },
   { name: 'Denní úkoly', path: 'denni_ukoly', imageSrc: 'https://img.m2icondb.com/scroll_close.png' },
   { name: 'Bonusy', path: 'bonusy', imageSrc: 'https://img.m2icondb.com/71084.png' },
-  { name: 'PVP systém', path: 'pvp', imageSrc: 'https://img.m2icondb.com/71084.png' },
+  { name: 'PVP - systém', path: 'pvp', imageSrc: 'https://img.m2icondb.com/71084.png' },
 ];
 
 const mapy = [
