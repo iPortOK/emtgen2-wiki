@@ -146,7 +146,7 @@ const Bossologie = () => {
         {
             stupen: "Stupeň 21",
             odmeny: ["3x Prsten bohů egypta"],
-            boss: ["30x Faraon"],
+            boss: ["40x Faraon"],
         },
         {
             stupen: "Stupeň 22",
