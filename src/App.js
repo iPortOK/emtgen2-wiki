@@ -35,6 +35,9 @@ import Biolog from './components/ostatni/biolog';
 import Krystaly from './components/ostatni/krystaly';
 import Ukoly from './components/ostatni/ukoly';
 import Prezentace from './components/ostatni/prezentace';
+import Kamenologie from './components/loveckeukoly/kamenologie';
+import Bossologie from './components/loveckeukoly/bossologie';
+import Mobologie from './components/loveckeukoly/mobologie';
 
 function ScrollToTopOnNavigate() {
   const { pathname } = useLocation();
@@ -99,6 +102,9 @@ function App() {
               <Route path="/krystaly" element={<Krystaly />} />
               <Route path="/denni_ukoly" element={<Ukoly />} />
               <Route path="/prezentace" element={<Prezentace />} />
+              <Route path="/kamenologie" element={<Kamenologie />} />
+              <Route path="/bossologie" element={<Bossologie />} />
+              <Route path="/mobologie" element={<Mobologie />} />              
             </Layout>
           }
         />

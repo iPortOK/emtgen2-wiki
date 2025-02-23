@@ -27,6 +27,12 @@ const ostatni = [
   { name: 'PVP - systém', path: 'pvp', imageSrc: 'https://img.m2icondb.com/71084.png' },
 ];
 
+const lovecke_ukoly = [
+  { name: 'Mobologie', path: 'mobologie', imageSrc: 'https://img.m2icondb.com/scroll_close.png' },
+  { name: 'Bossologie', path: 'bossologie', imageSrc: 'https://img.m2icondb.com/scroll_close.png' },
+  { name: 'Kamenologie', path: 'kamenologie', imageSrc: 'https://img.m2icondb.com/scroll_close.png' },
+];
+
 const mapy = [
   { name: 'Základní mapy',path: 'zakladni_mapy', imageSrc: 'https://img.m2icondb.com/27988.png' },
   { name: 'Dungeony',path: 'dungeony', imageSrc: 'https://img2.m2icondb.com/2cb19463-6b7f-426f-83ab-3ffad50f8af4.png' },
@@ -141,6 +147,22 @@ const Nabidka = () => {
       <div className="vybava-container">
       {mapy.map((item, index) => (
         <div key={index} className='vybava-item mapy' onClick={() => handleItemButtonClick(item.path)}>
+          <img src={item.imageSrc} alt={item.name} className="vybava-image" />
+          <Typography className='vybava button'>
+            {item.name}
+          </Typography>
+        </div>
+      ))}
+    </div>
+  </Box>
+
+  <Typography className='title header' gutterBottom>Lovecké úkoly
+    </Typography>
+
+    <Box>
+      <div className="vybava-container">
+      {lovecke_ukoly.map((item, index) => (
+        <div key={index} className='vybava-item'onClick={() => handleItemButtonClick(item.path)}>
           <img src={item.imageSrc} alt={item.name} className="vybava-image" />
           <Typography className='vybava button'>
             {item.name}
