@@ -281,7 +281,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
       RADEK_8: createStats("Potřebné předměty:", "2500x", "500x", "600x", "700x", "800x", "3x Stínový klenot", "4x Stínový klenot", "4x Stínový klenot", "6x Stínový klenot", "8x Stínový klenot"),
       RADEK_9: createStats("",                    "20x", "5x", "5x", "5x", "5x", "6x", "7x", "8x", "9x", "10x"),
       RADEK_10: createStats("",                   "10x Stínový klenot", "150x", "200x", "250x", "300x", "4x Prsten bohů egypta", "6x Prsten bohů egypta", "8x Prsten bohů egypta", "10x Prsten bohů egypta", "12x Prsten bohů egypta"),
-      RADEK_11: createStats("",                   "50x Hadí hlava", "4x Kapka jedu", "4x Kapka jedu", "6x Kapka jedu", "6x Kapka jedu", "8x Kapka jedu", "8x Kapka jedu", "10x Kapka jedu", "10x Kapka jedu", "12x Kapka jedu"),
+      RADEK_11: createStats("",                   "50x", "4x Kapka jedu", "4x Kapka jedu", "6x Kapka jedu", "6x Kapka jedu", "8x Kapka jedu", "8x Kapka jedu", "10x Kapka jedu", "10x Kapka jedu", "12x Kapka jedu"),
     }, {
       IMG_0: createImage("", "", "", "", "", "", "", "", "", "", ""),
       RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
@@ -296,7 +296,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
       IMG_8: createImage("",  "./items/Božské ovoce.png",     "./items/Runa V.png","./items/Runa V.png","./items/Runa V.png","./items/Runa V.png","./items/Stínový klenot.png","./items/Stínový klenot.png","./items/Stínový klenot.png","./items/Stínový klenot.png","./items/Stínový klenot.png",),
       IMG_9: createImage("",  "./items/Dračí kovadlina.png",  "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png"),
       IMG_10: createImage("", "",                             "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Prsten bohů egypta.png", "./items/Prsten bohů egypta.png", "./items/Prsten bohů egypta.png", "./items/Prsten bohů egypta.png", "./items/Prsten bohů egypta.png"),
-      IMG_11: createImage("", "",                             "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png"),
+      IMG_11: createImage("", "./items/Hadí hlava.png",       "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png"),
   }),
 
   ];

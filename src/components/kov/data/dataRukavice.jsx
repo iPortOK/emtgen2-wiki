@@ -136,7 +136,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         RADEK_8: createStats("Potřebné itemy:", "1250x", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9"),
         RADEK_9: createStats("",                "10x", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9"),
         RADEK_10: createStats("",               "10x Stínový klenot", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9"),
-        RADEK_11: createStats("",               "50x Hadí hlava", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9"),
+        RADEK_11: createStats("",               "50x", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9"),
         RADEK_12: createStats("",               "", "", "", "", "", "", "", "", "", ""),
       }, {
         IMG_0: createImage("", "", "", "", "", "", "", "", "", "", ""),
@@ -153,7 +153,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_9: createImage("", "./items/Božské ovoce.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png"),
         IMG_10: createImage("", "./items/Dračí kovadlina.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png"),
         IMG_11: createImage("", "", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png"),
-        IMG_12: createImage("", "", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png"),
+        IMG_12: createImage("", "./items/Hadí hlava.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png"),
         IMG_13: createImage("", "", "", "", "", "", "", "", "", "", ""),
       }),
 
