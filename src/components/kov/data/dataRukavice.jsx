@@ -121,7 +121,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_10: createImage("", "", "./items/Pavoučí noha.png", "", "", "", "", "", "", "", ""),
       }),
       
-      createEquipmentItem(10,'Hadí rukavice', 'x', 'Karim - NPC v mapě Dva světy Nilu', {
+      createEquipmentItem(10,'Hadí rukavice', './items/Hadí rukavice.png', 'Překov z Rukavic (VIT/INT/SIL/POH)', {
         RADEK_0: createStats("Od úrovně:", 121, 121, 121, 121, 121, 121, 121, 121, 121, 121),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_1: createStats("VIT,INT,SIL,POH:", "+11", "x", "x", "x", "x", "x", "x", "x", "x", "+15"),
