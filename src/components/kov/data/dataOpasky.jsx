@@ -268,7 +268,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_15: createImage("", "./items/18060.png", "", "", "", "", "", "", "", "", ""),
       }),
 
-      createEquipmentItem(10, 'Opasek duší', './items/18100.png', 'Craftem u Starosty', {
+      createEquipmentItem(10, 'Opasek zatracení', './items/18100.png', 'Craftem u Starosty', {
         R_0: createStats("Od úrovně:", "120", "120", "120", "120", "120", "120", "120", "120", "120", "120"),
         R_1: createStats("", "", "", "", "", "", "", "", "", "", ""),
         R_13: createStats("Max. ZB", "+2600", "+2800", "+3000", "+3200", "+3400", "+3600", "+3800", "+4000", "+4400", "+5000"),

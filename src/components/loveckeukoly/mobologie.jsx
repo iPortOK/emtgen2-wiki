@@ -1,5 +1,4 @@
 import { Container, Typography, Box, Table, TableBody, TableCell, TableContainer, TableRow } from '@mui/material';
-import React, { useState, useEffect } from 'react';
 import '../ostatni/biolog.css';
 
 const MobTable = ({ data }) => {
