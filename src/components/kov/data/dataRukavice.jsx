@@ -121,14 +121,14 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_10: createImage("", "", "./items/Pavoučí noha.png", "", "", "", "", "", "", "", ""),
       }),
       
-      createEquipmentItem(10,'Hadí rukavice', './items/Hadí rukavice.png', 'Překov z Rukavic (VIT/INT/SIL/POH)', {
+      createEquipmentItem(10,'Hadí rukavice', './items/Hadi_gear/Hadí rukavice.png', 'Překov z Rukavic (VIT/INT/SIL/POH)', {
         RADEK_0: createStats("Od úrovně:", 121, 121, 121, 121, 121, 121, 121, 121, 121, 121),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-        RADEK_1: createStats("VIT,INT,SIL,POH:", "+11", "x", "x", "x", "x", "x", "x", "x", "x", "+15"),
-        RADEK_2: createStats("Obrana v PvP eventech:", "31%", "x", "x", "x", "x", "x", "x", "x", "x", "35%"),
-        RADEK_3: createStats("Magický útok/útok zbraní(PvM):", "5%", "x", "x", "x", "x", "x", "x", "x", "x", "10%"),        
-        RADEK_4: createStats("Šance na návrat z podsvětí:", "1%", "x", "x", "x", "x", "x", "x", "x", "x", "10%"),
-        RADEK_5: createStats("Magický útok/útok zbraní:", "6%", "x", "x", "x", "x", "x", "x", "x", "x", "10%"),
+        RADEK_1: createStats("VIT,INT,SIL,POH:", "+11", "+11", "+11", "+11", "+12", "+12", "+12", "+13", "+14", "+15"),
+        RADEK_2: createStats("Obrana v PvP eventech:", "31%", "31%", "31%", "31%", "32%", "32%", "32%", "33%", "34%", "35%"),
+        RADEK_3: createStats("Magický útok/útok zbraní(PvM):", "+5%", "+5%", "+5%", "+6%", "+6%", "+6%", "+6%", "+7%", "+8%", "+10%"),        
+        RADEK_4: createStats("Šance na návrat z podsvětí:", "+1%", "+1%", "+2%", "+2%", "+3%", "+3%", "+4%", "+5%", "+7%", "+10%"),
+        RADEK_5: createStats("Magický útok/útok zbraní:", "+6%", "+6%", "+6%", "+6%", "+7%", "+7%", "+7%", "+8%", "+9%", "+10%"),
         MEZERA_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_6: createStats("Šance: ", "100%", "100%", "100%", "100%", "100%", "100%", "100%", "100%", "100%", "100%"),
         RADEK_7: createStats("cena: ", "250kkk", "20kkk", "30kkk", "40kkk", "50kkk", "60kkk", "70kkk", "80kkk", "90kkk", "100kkk"),

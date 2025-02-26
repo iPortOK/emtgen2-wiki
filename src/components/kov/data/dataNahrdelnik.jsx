@@ -267,13 +267,13 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_11: createImage("", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Světlo z jiného světa.png", "./items/Světlo z jiného světa.png", "./items/Světlo z jiného světa.png", "./items/Světlo z jiného světa.png"),
     }),
 
-    createEquipmentItem(10,'Hadí náhrdelník', './items/Hadí náhrdelník.png', 'Překov z Náhrdelníku Slun. nefritu', {
+    createEquipmentItem(10,'Hadí náhrdelník', './items/hadi_gear/Hadí náhrdelník.png', 'Překov z Náhrdelníku Slun. nefritu', {
       RADEK_0: createStats("Od úrovně:", 121, 121, 121, 121, 121, 121, 121, 121, 121, 121),
       RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-      RADEK_1: createStats("Průraznost Hadům:", "x", "x", "x", "x", "x", "x", "x", "x", "x", "+15%"),
-      RADEK_2: createStats("Silný proti bossům:", "x", "x", "x", "x", "x", "x", "x", "x", "x", "80%"),
-      RADEK_3: createStats("Poškození je abs. ZB:", "x", "x", "x", "x", "x", "x", "x", "x", "x", "+15%"),
-      RADEK_4: createStats("PvM hodnota útoku:", "x", "x", "x", "x", "x", "x", "x", "x", "x", "+320"),
+      RADEK_1: createStats("Průraznost Hadům:", "+1%", "+2%", "+3%", "+4%", "+5%", "+6%", "+7%", "+9%", "+12%", "+15%"),
+      RADEK_2: createStats("Silný proti bossům:", "61%", "62%", "63%", "64%", "65%", "66%", "68%", "71%", "75%", "80%"),
+      RADEK_3: createStats("Poškození je abs. ZB:", "+15%", "+15%", "+15%", "+15%", "+15%", "+15%", "+15%", "+15%", "+15%", "+15%"),
+      RADEK_4: createStats("PvM hodnota útoku:", "+245", "+250", "+255", "+260", "+265", "+270", "+275", "+285", "+300", "+320"),
       MEZERA_X: createStats(),
       RADEK_6: createStats("Šance: ", "100%", "x", "x", "x", "x", "x", "x", "x", "x", "x"),
       RADEK_7: createStats("cena: ", "x", "12,5kkk", "15kkk", "17,5kkk", "20kkk", "22,5kkk", "25kkk", "27,5kkk", "30kkk", "32,5kkk"),
@@ -281,7 +281,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
       RADEK_8: createStats("Potřebné předměty:", "2500x", "500x", "600x", "700x", "800x", "3x Stínový klenot", "4x Stínový klenot", "4x Stínový klenot", "6x Stínový klenot", "8x Stínový klenot"),
       RADEK_9: createStats("",                    "20x", "5x", "5x", "5x", "5x", "6x", "7x", "8x", "9x", "10x"),
       RADEK_10: createStats("",                   "10x Stínový klenot", "150x", "200x", "250x", "300x", "4x Prsten bohů egypta", "6x Prsten bohů egypta", "8x Prsten bohů egypta", "10x Prsten bohů egypta", "12x Prsten bohů egypta"),
-      RADEK_11: createStats("",                   "50x", "4x Kapka jedu", "4x Kapka jedu", "6x Kapka jedu", "6x Kapka jedu", "8x Kapka jedu", "8x Kapka jedu", "10x Kapka jedu", "10x Kapka jedu", "12x Kapka jedu"),
+      RADEK_11: createStats("",                   "50x", "4x", "4x", "6x", "6x", "8x", "8x", "10x", "10x", "12x"),
     }, {
       IMG_0: createImage("", "", "", "", "", "", "", "", "", "", ""),
       RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
