@@ -121,7 +121,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_10: createImage("", "", "./items/Pavoučí noha.png", "", "", "", "", "", "", "", ""),
       }),
       
-      createEquipmentItem(10,'Hadí rukavice', './items/Hadi_gear/Hadí rukavice.png', 'Překov z Rukavic (VIT/INT/SIL/POH)', {
+      createEquipmentItem(10,'Hadí rukavice', './items/hadi_gear/Hadí rukavice.png', 'Překov z Rukavic (VIT/INT/SIL/POH)', {
         RADEK_0: createStats("Od úrovně:", 121, 121, 121, 121, 121, 121, 121, 121, 121, 121),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_1: createStats("VIT,INT,SIL,POH:", "+11", "+11", "+11", "+11", "+12", "+12", "+12", "+13", "+14", "+15"),
