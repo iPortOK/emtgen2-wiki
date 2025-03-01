@@ -264,6 +264,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_10: createImage("", "./items/Skeletoní lebka.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png"),
         IMG_11: createImage("", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Světlo z jiného světa.png", "./items/Světlo z jiného světa.png", "./items/Světlo z jiného světa.png", "./items/Světlo z jiného světa.png"),
     }),
+
     createEquipmentItem(10,'Hadí náušnice', './items/hadi_gear/Hadí náušnice.png', 'Překov z Náušnic Slun. nefritu', {
       RADEK_0: createStats("Od úrovně:", 121, 121, 121, 121, 121, 121, 121, 121, 121, 121),
       RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
@@ -272,12 +273,12 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
       RADEK_3: createStats("Šance na kritický zásah:", "+25%", "+26%", "+27%", "+28%", "+29%", "+30%", "+31%", "+33%", "+36%", "+40%"),
       RADEK_4: createStats("Průraznost Egypťanům:", "+1%", "+2%", "+3%", "+4%", "+5%", "+6%", "+7%", "+9%", "+12%", "+15%"),
       MEZERA_X: createStats(),
-      RADEK_6: createStats("Šance: ", "100%", "x", "x", "x", "x", "x", "x", "x", "x", "x"),
-      RADEK_7: createStats("cena: ", "x", "12,5kkk", "15kkk", "17,5kkk", "20kkk", "22,5kkk", "25kkk", "27,5kkk", "30kkk", "32,5kkk"),
+      RADEK_6: createStats("Šance: ", "100%", "35%", "31%", "27%", "23%", "19%", "15%", "11%", "7%", "3%"),
+      RADEK_7: createStats("cena: ", "250kkk", "12,5kkk", "15kkk", "17,5kkk", "20kkk", "22,5kkk", "25kkk", "27,5kkk", "30kkk", "32,5kkk"),
       MEZERA_Y: createStats(),
       RADEK_8: createStats("Potřebné předměty:", "2500x", "500x", "600x", "700x", "800x", "3x Stínový klenot", "4x Stínový klenot", "4x Stínový klenot", "6x Stínový klenot", "8x Stínový klenot"),
       RADEK_9: createStats("",                    "20x", "5x", "5x", "5x", "5x", "6x", "7x", "8x", "9x", "10x"),
-      RADEK_10: createStats("",                   "10x Stínový klenot", "150x", "200x", "250x", "300x", "4x Prsten bohů egypta", "6x Prsten bohů egypta", "8x Prsten bohů egypta", "10x Prsten bohů egypta", "12x Prsten bohů egypta"),
+      RADEK_10: createStats("",                   "10x Stínový klenot", "150x", "200x", "250x", "300x", "4x", "6x", "8x", "10x", "12x"),
       RADEK_11: createStats("",                   "50x", "4x", "4x", "6x", "6x", "8x", "8x", "10x", "10x", "12x"),
     }, {
       IMG_0: createImage("", "", "", "", "", "", "", "", "", "", ""),

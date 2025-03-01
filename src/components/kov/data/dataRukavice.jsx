@@ -152,7 +152,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_8: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_9: createImage("", "./items/Božské ovoce.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png"),
         IMG_10: createImage("", "./items/Dračí kovadlina.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png"),
-        IMG_11: createImage("", "", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png"),
+        IMG_11: createImage("", "./items/Stínový klenot.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png"),
         IMG_12: createImage("", "./items/Hadí hlava.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png"),
         IMG_13: createImage("", "", "", "", "", "", "", "", "", "", ""),
       }),
