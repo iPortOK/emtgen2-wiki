@@ -135,7 +135,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         MEZERA_XXX: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_8: createStats("Potřebné itemy:", "1250x", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9"),
         RADEK_9: createStats("",                "10x", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9"),
-        RADEK_10: createStats("",               "10x Stínový klenot", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9"),
+        RADEK_10: createStats("",               "10x", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9"),
         RADEK_11: createStats("",               "50x", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9"),
         RADEK_12: createStats("",               "", "", "", "", "", "", "", "", "", ""),
       }, {
