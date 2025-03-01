@@ -1,5 +1,4 @@
 import { Container, Typography, Box, Table, TableBody, TableCell, TableContainer, TableRow } from '@mui/material';
-import React, { useState, useEffect } from 'react';
 import '../ostatni/biolog.css';
 
 const BossTable = ({ data }) => {
@@ -146,7 +145,7 @@ const Bossologie = () => {
         {
             stupen: "Stupeň 21",
             odmeny: ["3x Prsten bohů egypta"],
-            boss: ["30x Faraon"],
+            boss: ["40x Faraon"],
         },
         {
             stupen: "Stupeň 22",
