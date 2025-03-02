@@ -270,7 +270,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
       R_7: createStats("Cena", "2kkk", "10kkk", "10kkk", "10kkk", "10kkk", "10kkk", "10kkk", "10kkk", "10kkk", "10kkk", "5kkk", "5kkk", "5kkk", "5kkk", "5kkk", "5kkk"),
       R_8mezera: createStats("", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
       R_9: createStats("Potřebné předměty", "10x", "1x", "2x", "3x", "4x", "5x", "6x", "7x", "8x", "9x", "3x", "3x", "3x", "2x", "2x", "2x"),
-      R_10: createStats("", "150x", "72x", "84x", "108x", "144x", "180x", "216x", "252x", "276x", "300x", "5x", "6x", "7x", "7x", "6x", "5x"),
+      R_10: createStats("", "150x", "72x", "84x", "108x", "144x", "180x", "216x", "252x", "276x", "300x", "10x", "12x", "14x", "14x", "12x", "10x"),
       R_11: createStats("", "50x", "100x", "125x", "145x", "165x", "185x", "205x", "225x", "245x", "265x", "300x", "320x", "350x", "390x", "440x", "500x"),
       R_12: createStats("", "50x", "10x", "14x", "18x", "22x", "26x", "30x", "34x", "38x", "42x", "10x", "9x", "8x", "7x", "6x", "5x"),
       R_13: createStats("", "1x", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
