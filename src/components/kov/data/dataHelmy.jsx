@@ -296,14 +296,14 @@ export const helmyData = [
       IMG_7: createImage("", "", "", "", "", "", "", "", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
       IMG_8: createImage("", "", "", "", "", "", "", "", "./items/Bílá perla.png", "./items/Žlutá perla.png", "./items/Žlutá perla.png"),
     }),
-    createEquipmentItem(10, 'Dračí helma', './items/12690.png', 'Lze získat: překovem u Strážce ', {
+    createEquipmentItem(10, 'Dračí helma', './items/12690.png', 'Lze získat: překovem u Strážce ', { // last changed 03/02/2025
       RADEK_0: createStats("Od úrovně:", 90, 90, 90, 90, 90, 90, 90, 90, 90, 90),
       RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-      RADEK_1: createStats("Obrana", "+21", "+25", "+29", "+39", "+49", "+59", "+69", "+79", "+89", "+99"),
+      RADEK_1: createStats("Obrana", "+23", "+27", "+31", "+41", "+51", "+61", "+71", "+81", "+91", "+101"),
       RADEK_2: createStats("Magická hodnota útoku:", "+10", "+15", "+20", "+25", "+30", "+35", "+40", "+50", "+60", "+80"),
       RADEK_3: createStats("Šance vyhnout se šípům:", "1%", "1%", "2%", "2%", "3%", "3%", "4%", "5%", "7%", "10%"),
       RADEK_4: createStats("Silný proti příšerám:", "11%", "11%", "12%", "12%", "13%", "13%", "14%", "15%", "17%", "20%"),
-      RADEK_5: createStats("Max. ZB:", "+50", "+80", "+160", "+250", "+350", "+420", "+700", "+960", "+1500", "+2000"),
+      RADEK_5: createStats("Navýšení ZB výbavy:", "+1%", "+2%", "+3%", "+4%", "+5%", "+6%", "+7%", "+9%", "+12%", "+16%"),
       MEZERA_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
       RADEK_6: createStats("Šance: ", "100%", "100%", "80%", "65%", "50%", "40%", "30%", "25%", "20%", "15%"),
       RADEK_7: createStats("cena: ", "500kk", "2kk", "3kk", "4kk", "5kk", "6kk", "7kk", "8kk", "9kk", "10kk"),
@@ -330,14 +330,14 @@ export const helmyData = [
       IMG_11: createImage("", "./items/Dračí šupiny.png", "", "", "", "", "", "", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
     }),
 
-    createEquipmentItem(10, 'Okřídlená kápě', './items/12780.png', 'Lze získat: překovem Dračí helmy ', {
+    createEquipmentItem(10, 'Okřídlená kápě', './items/12780.png', 'Lze získat: překovem Dračí helmy ', { // last changed 03/02/2025
       RADEK_0: createStats("Od úrovně:", 105, 105, 105, 105, 105, 105, 105, 105, 105, 105),
       MEZERA_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
       RADEK_1: createStats("Obrana", "+23", "+27", "+31", "+41", "+51", "+61", "+71", "+81", "+91", "+101"),
       RADEK_2: createStats("Magická hodnota útoku:", "+85", "+90", "+95", "+100", "+105", "+110", "+115", "+120", "+135", "+160"),
-      RADEK_3: createStats("Šance vyhnout se šípům:", "11%", "11%", "12%", "12%", "13%", "13%", "13%", "13%", "14%", "15%"),
+      RADEK_3: createStats("Šance vyhnout se šípům:", "11%", "11%", "11%", "11%", "12%", "12%", "12%", "13%", "14%", "15%"),
       RADEK_4: createStats("Silný proti příšerám:", "21%", "21%", "22%", "22%", "23%", "23%", "24%", "25%", "27%", "30%"),
-      RADEK_5: createStats("Max. ZB:", "+2050", "+2080", "+2160", "+2250", "+2350", "+2420", "+2700", "+2960", "+3500", "+4000"),
+      RADEK_5: createStats("Navýšení ZB výbavy:", "+17%", "+18%", "+19%", "+20%", "+21%", "+22%", "+23%", "+25%", "+28%", "+32%"),
       MEZERA_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
       RADEK_6: createStats("Šance: ", "100%", "1%", "1%", "1%", "1%", "30%", "25%", "20%", "15%", "10%"),
       RADEK_7: createStats("cena: ", "2kkk", "1,5kkk", "1,5kkk", "1,5kkk", "1,5kkk", "150kk", "150kk", "150kk", "150kk", "150kk"),
@@ -364,14 +364,14 @@ export const helmyData = [
       IMG_11: createImage("", "./items/Ztracený list.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Niť žáru.png", "./items/Niť žáru.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
     }),
     
-    createEquipmentItem(10, 'Helma Zarytosti', './items/11975.png', 'Překovem z okřídlený kápě', {
+    createEquipmentItem(10, 'Helma Zarytosti', './items/11975.png', 'Překovem z okřídlený kápě', { // last changed 03/02/2025
       RADEK_0: createStats("Od úrovně:", 115, 115, 115, 115, 115, 115, 115, 116, 118, 120),
       RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
       RADEK_1: createStats("Obrana", "+23", "+27", "+31", "+41", "+51", "+61", "+71", "+81", "+91", "+101"),
-      RADEK_2: createStats("Magická hodnota útoku:", "+165", "+170", "+175", "+180", "+185", "+190", "+195", "+200", "+215", "+240"),
-      RADEK_3: createStats("Šance vyhnout se šípům:", "16%", "16%", "17%", "17%", "18%", "18%", "18%", "18%", "19%", "20%"),
+      RADEK_2: createStats("Magická hodnota útoku:", "+165", "+170", "+175", "+180", "+185", "+190", "+195", "+205", "+220", "+240"),
+      RADEK_3: createStats("Šance vyhnout se šípům:", "15%", "15%", "15%", "16%", "16%", "16%", "17%", "18%", "19%", "20%"),
       RADEK_4: createStats("Silný proti příšerám:", "31%", "32%", "33%", "34%", "35%", "36%", "38%", "41%", "45%", "50%"),
-      RADEK_5: createStats("Max. ZB:", "+4100", "+4200", "+4300", "+4400", "+4500", "+4600", "+4700", "+5000", "+6000", "+8000"),
+      RADEK_5: createStats("Navýšení ZB výbavy:", "+34%", "+36%", "+38%", "+40%", "+42%", "+46%", "+50%", "+56%", "+62%", "+70%"),
       MEZERA_X: createStats(),
       RADEK_6: createStats("Šance: ", "33%", "1%", "1%", "1%", "1%", "25%", "20%", "15%", "10%", "5%"),
       RADEK_7: createStats("cena: ", "2kkk", "2kkk", "2kkk", "2kkk", "2kkk", "500kk", "500kk", "500kk", "500kk", "500kk"),
@@ -397,7 +397,7 @@ export const helmyData = [
       IMG_10: createImage("", "./items/Skeletoní lebka.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png"),
       IMG_11: createImage("", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Světlo z jiného světa.png", "./items/Světlo z jiného světa.png", "./items/Světlo z jiného světa.png", "./items/Světlo z jiného světa.png"),
   }),
-  createEquipmentItem(10,'Hadí helma', './items/hadi_gear/Hadí helma.png', 'Překov z Helmy Zarytosti', {
+  createEquipmentItem(10,'Hadí helma', './items/hadi_gear/Hadí helma.png', 'Překov z Helmy Zarytosti', { // last changed February 26th, 2025
     RADEK_0: createStats("Od úrovně:", 121, 121, 121, 121, 121, 121, 121, 121, 121, 121),
     RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
     RADEK_1: createStats("Obrana", "+23", "+27", "+31", "+41", "+51", "+61", "+71", "+81", "+91", "+101"),
