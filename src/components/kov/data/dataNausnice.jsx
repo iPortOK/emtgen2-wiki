@@ -235,7 +235,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_10: createImage("", "./items/Ohnivý kámen.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png"),
       }),
 
-      createEquipmentItem(10,'Náušnice Slun. nefritu', './items/17580.png', 'Překov z Náušnic Temn. nefritu', {
+      createEquipmentItem(10,'Náušnice Slun. nefritu', './items/17580.png', 'Překov z Náušnic Temn. nefritu', { // last updated 04/03/2025
         RADEK_0: createStats("Od úrovně:", 115, 115, 115, 115, 115, 115, 115, 116, 118, 120),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_1: createStats("VIT, INT, SIL, POH", "+25", "+25", "+25", "+25", "+26", "+26", "+26", "+27", "+28", "+30"),
