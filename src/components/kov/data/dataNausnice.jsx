@@ -139,12 +139,13 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_10: createImage("", "./items/Dračí šupiny.png", "", "", "", "", "", "", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
       }),
 
-      createEquipmentItem(10,'Rubínové náušnice', './items/17500.png', 'Craft', {
+      createEquipmentItem(10,'Rubínové náušnice', './items/17500.png', 'Craft', { // last updated 04/03/2025
         RADEK_0: createStats("Od úrovně:", 90, 90, 90, 90, 90, 90, 90, 90, 90, 90),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-        RADEK_1: createStats("VIT, INT, SIL, POH", "+15", "+15", "+15", "+16", "+16", "+16", "+16", "+17", "+18", "+20"),
-        RADEK_2: createStats("Max. ZB:", "+1200", "+1300", "+1400", "+1500", "+1600", "+1700", "+1800", "+2100", "+3000", "+4000"),
-        RADEK_3: createStats("Průměrná odol. proti škodě:", "1%", "1%", "1%", "1%", "2%", "2%", "2%", "3%", "4%", "5%"),
+        RADEK_1: createStats("VIT, INT, SIL, POH", "+15", "+15", "+15", "+15", "+16", "+16", "+16", "+17", "+18", "+20"),
+        RADEK_2: createStats("Max. ZB:", "+1000", "+1250", "+1500", "+1750", "+2000", "+2250", "+2750", "+3250", "+4000", "+5000"),
+        RADEK_3: createStats("Průměrná odol. proti škodě:", "1%", "1%", "1%", "1%", "1%", "1%", "1%", "2%", "2%", "3%"),
+        RADEK_4: createStats("Odolnost proti lidem:", "1%", "1%", "2%", "2%", "3%", "3%", "4%", "5%", "6%", "8%"),
         MEZERA_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_6: createStats("Šance: ", "100%", "100%", "80%", "65%", "50%", "40%", "30%", "25%", "20%", "15%"),
         RADEK_7: createStats("cena: ", "500kk", "2kk", "8kk", "10kk", "20kk", "30kk", "40kk", "50kk", "60kk", "70kk"),
@@ -159,6 +160,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_1: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_2: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_3: createImage("", "", "", "", "", "", "", "", "", "", ""),
+        IMG_4: createImage("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
         IMG_5: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_6: createImage("", "", "", "", "", "", "", "", "", "", ""),
@@ -169,12 +171,12 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_10: createImage("", "", "", "", "", "", "", "", "./items/Dračí šupiny.png", "./items/Žlutá perla.png", "./items/Žlutá perla.png"),
       }),
 
-      createEquipmentItem(10,'Náušnice Temn. nefritu', './items/17590.png', 'Překov z Náušnic Kouř. nefritu', {
+      createEquipmentItem(10,'Náušnice Temn. nefritu', './items/17590.png', 'Překov z Náušnic Kouř. nefritu', { // last updated 04/03/2025
         RADEK_0: createStats("Od úrovně:", 105, 105, 105, 105, 105, 105, 105, 105, 105, 105),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-        RADEK_1: createStats("VIT, INT, SIL, POH", "+20", "+20", "+20", "+21", "+21", "+21", "+21", "+22", "+23", "+25"),
+        RADEK_1: createStats("VIT, INT, SIL, POH", "+20", "+20", "+20", "+20", "+21", "+21", "+21", "+22", "+23", "+25"),
         RADEK_2: createStats("Silný proti příšerám:", "21%", "21%", "22%", "22%", "23%", "23%", "24%", "25%", "27%", "30%"),
-        RADEK_3: createStats("Poškození je abs. MB:", "11%", "11%", "11%", "12%", "12%", "12%", "12%", "13%", "14%", "15%"),
+        RADEK_3: createStats("Poškození je abs. MB:", "11%", "11%", "11%", "11%", "12%", "12%", "12%", "13%", "14%", "15%"),
         RADEK_4: createStats("Obnovení ZB:", "11%", "11%", "12%", "12%", "13%", "13%", "14%", "15%", "17%", "20%"),
         MEZERA_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_6: createStats("Šance: ", "100%", "1%", "1%", "1%", "1%", "30%", "25%", "20%", "15%", "10%"),
@@ -201,13 +203,13 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_10: createImage("", "./items/Ztracený list.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Niť žáru.png", "./items/Niť žáru.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
       }),
 
-        createEquipmentItem(10,'Safírové náušnice', './items/17560.png', 'Překov z Rubínových náušnic', {
+        createEquipmentItem(10,'Safírové náušnice', './items/17560.png', 'Překov z Rubínových náušnic', { // last updated 04/03/2025
         RADEK_0: createStats("Od úrovně:", 105, 105, 105, 105, 105, 105, 105, 105, 105, 105),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-        RADEK_1: createStats("VIT, INT, SIL, POH", "+20", "+20", "+20", "+21", "+21", "+21", "+21", "+22", "+23", "+25"),
-        RADEK_2: createStats("Max. ZB:", "+4100", "+4200", "+4400", "+4600", "+4800", "+5000", "+5200", "+6000", "+7000", "+8000"),
-        RADEK_3: createStats("Průměrná odol. proti škodě:", "6%", "6%", "6%", "6%", "7%", "7%", "7%", "8%", "9%", "12%"),
-        RADEK_12: createStats("Odolnost proti lidem: ", "6%", "6%", "6%", "6%", "7%", "7%", "7%", "8%", "9%", "10%"),
+        RADEK_1: createStats("VIT, INT, SIL, POH", "+20", "+20", "+20", "+20", "+21", "+21", "+21", "+22", "+23", "+25"),
+        RADEK_2: createStats("Max. ZB:", "+6000", "+6250", "+6500", "+6750", "+7000", "+7250", "+7750", "+8250", "+9000", "+10000"),
+        RADEK_3: createStats("Průměrná odol. proti škodě:", "3%", "3%", "3%", "4%", "4%", "4%", "5%", "5%", "6%", "7%"),
+        RADEK_12: createStats("Odolnost proti lidem: ", "9%", "9%", "10%", "10%", "11%", "11%", "12%", "13%", "14%", "16%"),
         MEZERA_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_6: createStats("Šance: ", "100%", "100%", "100%", "100%", "100%", "100%", "100%", "100%", "100%", "100%"),
         RADEK_7: createStats("Cena: ", "2kkk", "500kk", "500kk", "500kk", "500kk", "500kk", "500kk", "500kk", "500kk", "500kk"),
@@ -236,9 +238,9 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
       createEquipmentItem(10,'Náušnice Slun. nefritu', './items/17580.png', 'Překov z Náušnic Temn. nefritu', {
         RADEK_0: createStats("Od úrovně:", 115, 115, 115, 115, 115, 115, 115, 116, 118, 120),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-        RADEK_1: createStats("VIT, INT, SIL, POH", "+25", "+25", "+25", "+26", "+26", "+26", "+26", "+27", "+28", "+30"),
+        RADEK_1: createStats("VIT, INT, SIL, POH", "+25", "+25", "+25", "+25", "+26", "+26", "+26", "+27", "+28", "+30"),
         RADEK_2: createStats("Silný proti příšerám:", "31%", "32%", "33%", "34%", "35%", "36%", "38%", "41%", "45%", "50%"),
-        RADEK_3: createStats("Poškození je abs. MB:", "16%", "16%", "16%", "17%", "17%", "17%", "17%", "18%", "19%", "20%"),
+        RADEK_3: createStats("Poškození je abs. MB:", "15%", "15%", "15%", "16%", "16%", "16%", "17%", "18%", "19%", "20%"),
         RADEK_4: createStats("Obnovení ZB:", "21%", "21%", "22%", "22%", "23%", "23%", "24%", "25%", "27%", "30%"),
         MEZERA_X: createStats(),
         RADEK_6: createStats("Šance: ", "33%", "1%", "1%", "1%", "1%", "25%", "20%", "15%", "10%", "5%"),

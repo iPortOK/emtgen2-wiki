@@ -139,13 +139,13 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_10: createImage("", "./items/Dračí šupiny.png", "", "", "", "", "", "", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
       }),
 
-      createEquipmentItem(10,'Rubínový náhrdelník', './items/16500.png', 'Craft', {
+      createEquipmentItem(10,'Rubínový náhrdelník', './items/16500.png', 'Craft', { // last edited 04/03/2025
         RADEK_0: createStats("Od úrovně:", 90, 90, 90, 90, 90, 90, 90, 90, 90, 90),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-        RADEK_1: createStats("Rychlost kouzla:", "+1%", "+2%", "+3%", "+4%", "+5%", "+7%", "+8%", "+11%", "+15%", "+20%"),
-        RADEK_2: createStats("Silný proti ninjům:", "+1%", "+1%", "+2%", "+3%", "+4%", "+5%", "+6%", "+9%", "+13%", "+18%"),
-        RADEK_3: createStats("Silný proti šamanům:", "+1%", "+1%", "+2%", "+3%", "+4%", "+5%", "+6%", "+9%", "+13%", "+18%"),
-        RADEK_4: createStats("Poškození schopností:", "1%", "1%", "1%", "1%", "2%", "2%", "2%", "3%", "4%", "6%"),
+        RADEK_1: createStats("Rychlost kouzla:", "1%", "2%", "3%", "4%", "5%", "7%", "8%", "11%", "15%", "20%"),
+        RADEK_2: createStats("Silný proti ninjům:", "1%", "1%", "2%", "2%", "3%", "4%", "5%", "6%", "8%", "10%"),
+        RADEK_3: createStats("Silný proti šamanům:", "1%", "1%", "2%", "2%", "3%", "4%", "5%", "6%", "8%", "10%"),
+        RADEK_4: createStats("Poškození schopností:", "1%", "1%", "1%", "1%", "2%", "2%", "2%", "3%", "3%", "4%"),
         MEZERA_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_6: createStats("Šance: ", "100%", "100%", "80%", "65%", "50%", "40%", "30%", "25%", "20%", "15%"),
         RADEK_7: createStats("cena: ", "500kk", "2kk", "8kk", "10kk", "20kk", "30kk", "40kk", "50kk", "60kk", "70kk"),
@@ -171,12 +171,12 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_10: createImage("", "", "", "", "", "", "", "", "./items/Dračí šupiny.png", "./items/Žlutá perla.png", "./items/Žlutá perla.png"),
       }),
 
-      createEquipmentItem(10,'Náhrdelník Temn. nefritu', './items/16600.png', 'Překov z Náhrdelníku Kouř. nefritu', {
+      createEquipmentItem(10,'Náhrdelník Temn. nefritu', './items/16600.png', 'Překov z Náhrdelníku Kouř. nefritu', { // last edited 04/03/2025
         RADEK_0: createStats("Od úrovně:", 105, 105, 105, 105, 105, 105, 105, 105, 105, 105),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-        RADEK_1: createStats("Rychlost kouzla:", "+15%", "+15%", "+15%", "+15%", "+16%", "+16%", "+16%", "+17%", "+18%", "+20%"),
-        RADEK_2: createStats("Silný proti bossům:", "+25%", "+26%", "+27%", "+28%", "+29%", "+30%", "+31%", "+33%", "+36%", "+40%"),
-        RADEK_3: createStats("Poškození je Abs. ZB:", "+5%", "+5%", "+5%", "+6%", "+6%", "+6%", "+7%", "+8%", "+9%", "+10%"),
+        RADEK_1: createStats("Rychlost kouzla:", "15%", "15%", "15%", "15%", "16%", "16%", "16%", "17%", "18%", "20%"),
+        RADEK_2: createStats("Silný proti bossům:", "25%", "26%", "27%", "28%", "29%", "30%", "31%", "33%", "36%", "40%"),
+        RADEK_3: createStats("Poškození je Abs. ZB:", "5%", "5%", "5%", "6%", "6%", "6%", "7%", "8%", "9%", "10%"),
         RADEK_4: createStats("Hodnota útoku:", "+85", "+90", "+95", "+100", "+105", "+110", "+115", "+120", "+135", "+160"),
         MEZERA_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_6: createStats("Šance: ", "100%", "1%", "1%", "1%", "1%", "30%", "25%", "20%", "15%", "10%"),
@@ -203,13 +203,13 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_10: createImage("", "./items/Ztracený list.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Niť žáru.png", "./items/Niť žáru.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
       }),
 
-            createEquipmentItem(10,'Safírový náhrdelník', './items/16560.png', 'Překov z Rubínového náhrdelník', {
+            createEquipmentItem(10,'Safírový náhrdelník', './items/16560.png', 'Překov z Rubínového náhrdelník', { // last edited 04/03/2025
         RADEK_0: createStats("Od úrovně:", 105, 105, 105, 105, 105, 105, 105, 105, 105, 105),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-        RADEK_1: createStats("Rychlost útoku:", "+21%", "+21%", "+21%", "+22%", "+22%", "+22%", "+23%", "+24%", "+26%", "+30%"),
-        RADEK_2: createStats("Silný proti surům:", "+19%", "+19%", "+20%", "+21%", "+22%", "+23%", "+24%", "+27%", "+31%", "+36%"),
-        RADEK_3: createStats("Silný proti válečníkům:", "+19%", "+19%", "+20%", "+21%", "+22%", "+23%", "+24%", "+27%", "+31%", "+36%"),
-        RADEK_4: createStats("Silný proti lidem:", "6%", "6%", "6%", "6%", "7%", "7%", "7%", "8%", "10%", "12%"),
+        RADEK_1: createStats("Rychlost kouzla:", "21%", "21%", "21%", "22%", "22%", "22%", "23%", "24%", "26%", "30%"),
+        RADEK_2: createStats("Silný proti ninjům:", "11%", "11%", "12%", "12%", "13%", "14%", "15%", "16%", "18%", "20%"),
+        RADEK_3: createStats("Silný proti šamanům:", "11%", "11%", "12%", "12%", "13%", "14%", "15%", "16%", "18%", "20%"),
+        RADEK_4: createStats("Poškození schopností:", "5%", "5%", "5%", "5%", "6%", "6%", "6%", "7%", "7%", "8%"),
         MEZERA_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_6: createStats("Šance: ", "100%", "100%", "100%", "100%", "100%", "100%", "100%", "100%", "100%", "100%"),
         RADEK_7: createStats("Cena: ", "2kkk", "500kk", "500kk", "500kk", "500kk", "500kk", "500kk", "500kk", "500kk", "500kk"),
@@ -235,12 +235,12 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_10: createImage("", "./items/Ohnivý kámen.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png"),
       }),
 
-      createEquipmentItem(10,'Náhrdelník Slun. nefritu', './items/16590.png', 'Překov z Náhrdelníku Temn. nefritu', {
+      createEquipmentItem(10,'Náhrdelník Slun. nefritu', './items/16590.png', 'Překov z Náhrdelníku Temn. nefritu', {  // last edited 04/03/2025
         RADEK_0: createStats("Od úrovně:", 115, 115, 115, 115, 115, 115, 115, 116, 118, 120),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-        RADEK_1: createStats("Rychlost kouzla:", "+20%", "+20%", "+20%", "+20%", "+21%", "+21%", "+21%", "+22%", "+23%", "+25%"),
+        RADEK_1: createStats("Rychlost kouzla:", "20%", "20%", "20%", "20%", "21%", "21%", "21%", "22%", "23%", "25%"),
         RADEK_2: createStats("Silný proti bossům:", "41%", "42%", "43%", "44%", "45%", "46%", "48%", "51%", "55%", "60%"),
-        RADEK_3: createStats("Poškození je abs. ZB:", "+10%", "+10%", "+10%", "+11%", "+11%", "+11%", "+12%", "+13%", "+14%", "+15%"),
+        RADEK_3: createStats("Poškození je abs. ZB:", "10%", "10%", "10%", "11%", "11%", "11%", "12%", "13%", "14%", "15%"),
         RADEK_4: createStats("PvM hodnota útoku:", "+165", "+170", "+175", "+180", "+185", "+190", "+195", "+205", "+220", "+240"),
         MEZERA_X: createStats(),
         RADEK_6: createStats("Šance: ", "33%", "1%", "1%", "1%", "1%", "25%", "20%", "15%", "10%", "5%"),
