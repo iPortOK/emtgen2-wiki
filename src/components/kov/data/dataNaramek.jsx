@@ -107,13 +107,13 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_9: createImage("", "", "", "", "", "", "", "", "./items/Bílá perla.png", "./items/Žlutá perla.png", "./items/Žlutá perla.png"),
       }),
 
-      createEquipmentItem(10,'Náramek Kouř. nefritu', './items/14610.png', 'Překov z Náramku krystalu duše', {
+      createEquipmentItem(10,'Náramek Kouř. nefritu', './items/14610.png', 'Překov z Náramku krystalu duše', { // last updated 04/03/2025
         RADEK_0: createStats("Od úrovně:", 90, 90, 90, 90, 90, 90, 90, 90, 90, 90),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-        RADEK_1: createStats("Rychlost útoku:", "+15%", "+15%", "+15%", "+16%", "+16%", "+17%", "+17%", "+18%", "+19%", "+20%"),
-        RADEK_2: createStats("Silný proti kamenům:", "11%", "11%", "11%", "12%", "12%", "12%", "12%", "13%", "16%", "20%"),
-        RADEK_3: createStats("Šance na kritický zásah:", "+10%", "+11%", "+11%", "+12%", "+12%", "+12%", "+12%", "+13%", "+14%", "+15%"),
-        RADEK_4: createStats("Průměrná škoda:", "1%", "1%", "2%", "2%", "2%", "2%", "2%", "3%", "4%", "5%"),
+        RADEK_1: createStats("Rychlost útoku:", "15%", "15%", "15%", "16%", "16%", "17%", "17%", "18%", "19%", "20%"),
+        RADEK_2: createStats("Silný proti kamenům:", "11%", "11%", "11%", "11%", "12%", "12%", "12%", "13%", "16%", "20%"),
+        RADEK_3: createStats("Šance na kritický zásah:", "10%", "11%", "11%", "11%", "12%", "12%", "12%", "13%", "14%", "15%"),
+        RADEK_4: createStats("Průměrná škoda:", "1%", "1%", "1%", "1%", "2%", "2%", "2%", "3%", "4%", "5%"),
         MEZERA_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_6: createStats("Šance: ", "100%", "100%", "80%", "65%", "50%", "40%", "30%", "25%", "20%", "15%"),
         RADEK_7: createStats("cena: ", "500kk", "2kk", "8kk", "10kk", "20kk", "30kk", "40kk", "50kk", "60kk", "70kk"),

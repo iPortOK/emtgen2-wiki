@@ -107,12 +107,12 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_9: createImage("", "", "", "", "", "", "", "", "./items/Bílá perla.png", "./items/Žlutá perla.png", "./items/Žlutá perla.png"),
       }),
 
-      createEquipmentItem(10,'Náhrdelník Kouř. nefritu', './items/16610.png', 'Překov z Náhrdelníku krystalu duše', {
+      createEquipmentItem(10,'Náhrdelník Kouř. nefritu', './items/16610.png', 'Překov z Náhrdelníku krystalu duše', { // last edited 04/03/2025
         RADEK_0: createStats("Od úrovně:", 90, 90, 90, 90, 90, 90, 90, 90, 90, 90),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-        RADEK_1: createStats("Rychlost kouzla:", "+10%", "+10%", "+10%", "+11%", "+11%", "+12%", "+12%", "+13%", "+14%", "+15%"),
-        RADEK_2: createStats("Silný proti bossům:", "11%", "11%", "11%", "12%", "12%", "12%", "12%", "13%", "16%", "20%"),
-        RADEK_3: createStats("Poškození je Abs. ZB:", "+1%", "+1%", "+1%", "+1%", "+2%", "+2%", "+2%", "+3%", "+4%", "+5%"),
+        RADEK_1: createStats("Rychlost kouzla:", "10%", "10%", "10%", "10%", "11%", "11%", "11%", "12%", "13%", "15%"),
+        RADEK_2: createStats("Silný proti bossům:", "11%", "11%", "11%", "12%", "12%", "12%", "13%", "16%", "20%", "25%"),
+        RADEK_3: createStats("Poškození je Abs. ZB:", "1%", "1%", "1%", "1%", "2%", "2%", "2%", "3%", "4%", "5%"),
         RADEK_4: createStats("Hodnota útoku:", "+1", "+3", "+5", "+10", "+15", "+20", "+25", "+30", "+45", "+80"),
         MEZERA_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_6: createStats("Šance: ", "100%", "100%", "80%", "65%", "50%", "40%", "30%", "25%", "20%", "15%"),
