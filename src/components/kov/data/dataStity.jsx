@@ -174,13 +174,13 @@ import { createStats, createImage, createEquipmentItem, } from './funkce.js';
         IMG_9: createImage("", "", "", "", "", "", "", "", "./items/Bílá perla.png", "./items/Žlutá perla.png", "./items/Žlutá perla.png"),
       }),
 
-      createEquipmentItem(10,'Štít třech císařů', './items/13160.png', 'Překovem z Titánský štít', {
+      createEquipmentItem(10,'Štít třech císařů', './items/13160.png', 'Překovem z Titánský štít', { // last changed 03/02/2025
         RADEK_0: createStats("Od úrovně:", 90, 90, 90, 90, 90, 90, 90, 90, 90, 90),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_1: createStats("Obrana", "+109", "+115", "+123", "+133", "+145", "+157", "+175", "+197", "+225", "+263"),
         RADEK_2: createStats("Silný proti bossům:", "+1%", "+2%", "+3%", "+4%", "+5%", "+6%", "+7%", "+9%", "+11%", "+15%"),
-        RADEK_3: createStats("Průměrná odolnost proti škoda:", "10%", "11%", "11%", "12%", "12%", "12%", "12%", "13%", "14%", "15%"),
-        RADEK_4: createStats("Odolnost proti poškození schopností:", "10%", "11%", "11%", "12%", "12%", "12%", "12%", "13%", "14%", "15%"),
+        RADEK_3: createStats("Průměrná odolnost proti škoda:", "10%", "11%", "11%", "11%", "12%", "12%", "12%", "13%", "14%", "15%"),
+        RADEK_4: createStats("Odolnost proti poškození schopností:", "5%", "6%", "6%", "6%", "7%", "7%", "7%", "8%", "9%", "10%"),
         RADEK_5: createStats("Hodnota útoku:", "+10", "+15", "+20", "+25", "+30", "+35", "+40", "+50", "+60", "+80"),
         MEZERA_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_6: createStats("Šance: ", "100%", "100%", "80%", "65%", "50%", "40%", "30%", "25%", "20%", "15%"),
@@ -207,14 +207,14 @@ import { createStats, createImage, createEquipmentItem, } from './funkce.js';
         IMG_10: createImage("", "./items/Plán zbroje.png", "", "", "", "", "", "", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png"),
         IMG_11: createImage("", "./items/Dračí šupiny.png", "", "", "", "", "", "", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
       }),
-      createEquipmentItem(10,'Štít prokletí', './items/13210.png', 'Překovem z Štít třech císařů', {
+      createEquipmentItem(10,'Štít prokletí', './items/13210.png', 'Překovem z Štít třech císařů', { // last changed 03/02/2025
         RADEK_0: createStats("Od úrovně:", 105, 105, 105, 105, 105, 105, 105, 105, 105, 105),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_1: createStats("Obrana", "+300", "+300", "+300", "+300", "+300", "+300", "+300", "+300", "+300", "+300"),
-        RADEK_2: createStats("Silný proti bossům:", "+16%", "+17%", "+18%", "+19%", "+20%", "+21%", "+22%", "+24%", "+26%", "+30%"),
+        RADEK_2: createStats("Silný proti bossům:", "16%", "16%", "16%", "16%", "17%", "17%", "17%", "18%", "21%", "30%"),
         RADEK_3: createStats("Průměrná odolnost proti škoda:", "15%", "15%", "15%", "16%", "16%", "16%", "17%", "18%", "19%", "20%"),
-        RADEK_4: createStats("Odolnost proti poškození schopností:", "15%", "15%", "15%", "16%", "16%", "16%", "17%", "18%", "19%", "20%"),
-        RADEK_5: createStats("Hodnota útoku:", "+90", "+95", "+100", "+105", "+110", "+115", "+120", "+130", "+140", "+160"),
+        RADEK_4: createStats("Odolnost proti poškození schopností:", "10%", "11%", "11%", "11%", "12%", "12%", "12%", "13%", "14%", "15%"),
+        RADEK_5: createStats("Hodnota útoku:", "+85", "+90", "+95", "+100", "+105", "+110", "+115", "+120", "+135", "+160"),
         MEZERA_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_6: createStats("Šance: ", "100%", "1%", "1%", "1%", "1%", "30%", "25%", "20%", "15%", "10%"),
         RADEK_7: createStats("cena: ", "2kkk", "1,5kkk", "1,5kkk", "1,5kkk", "1,5kkk", "150kk", "150kk", "150kk", "150kk", "150kk"),
@@ -241,13 +241,13 @@ import { createStats, createImage, createEquipmentItem, } from './funkce.js';
         IMG_11: createImage("", "./items/Ztracený list.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Niť žáru.png", "./items/Niť žáru.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
       }),
 
-      createEquipmentItem(10,'Štít Zarytosti', './items/11976.png', 'Překovem z Štítu prokletí', {
+      createEquipmentItem(10,'Štít Zarytosti', './items/11976.png', 'Překovem z Štítu prokletí', { // last changed 03/02/2025
         RADEK_0: createStats("Od úrovně:", 115, 115, 115, 115, 115, 115, 115, 116, 118, 120),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_1: createStats("Obrana", "+350", "+350", "+350", "+350", "+350", "+350", "+350", "+350", "+350", "+350"),
-        RADEK_2: createStats("Silný proti bossům:", "+31%", "+32%", "+33%", "+34%", "+35%", "+36%", "+38%", "+41%", "+45%", "+50%"),
+        RADEK_2: createStats("Silný proti bossům:", "31%", "32%", "33%", "34%", "35%", "36%", "38%", "41%", "45%", "50%"),
         RADEK_3: createStats("Průměrná odolnost proti škoda:", "20%", "20%", "20%", "21%", "21%", "21%", "22%", "23%", "24%", "25%"),
-        RADEK_4: createStats("Odolnost proti poš. schopností:", "20%", "20%", "20%", "21%", "21%", "21%", "22%", "23%", "24%", "25%"),
+        RADEK_4: createStats("Odolnost proti poš. schopností:", "15%", "16%", "16%", "16%", "16%", "17%", "17%", "18%", "19%", "20%"),
         RADEK_5: createStats("Hodnota útoku:", "+165", "+170", "+175", "+180", "+185", "+190", "+195", "+205", "+220", "+240"),
         MEZERA_X: createStats(),
         RADEK_6: createStats("Šance: ", "33%", "1%", "1%", "1%", "1%", "25%", "20%", "15%", "10%", "5%"),
@@ -274,7 +274,7 @@ import { createStats, createImage, createEquipmentItem, } from './funkce.js';
         IMG_10: createImage("", "./items/Skeletoní lebka.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png"),
         IMG_11: createImage("", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Světlo z jiného světa.png", "./items/Světlo z jiného světa.png", "./items/Světlo z jiného světa.png", "./items/Světlo z jiného světa.png"),
     }),
-    createEquipmentItem(10,'Hadí štít', './items/hadi_gear/Hadí štít.png', 'Překov z Štítu Zarytosti', {
+    createEquipmentItem(10,'Hadí štít', './items/hadi_gear/Hadí štít.png', 'Překov z Štítu Zarytosti', { // last changed February 26th, 2025
       RADEK_0: createStats("Od úrovně:", 121, 121, 121, 121, 121, 121, 121, 121, 121, 121),
       RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
       RADEK_1: createStats("Obrana", "+350", "+350", "+350", "+350", "+350", "+350", "+350", "+350", "+350", "+350"),
