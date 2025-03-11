@@ -107,7 +107,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_9: createImage("", "", "", "", "", "", "", "", "./items/Bílá perla.png", "./items/Žlutá perla.png", "./items/Žlutá perla.png"),
       }),
 
-      createEquipmentItem(10,'Náušnice Kouř. nefritu', './items/17600.png', 'Překov z Náušnic krystalu duše', {
+      createEquipmentItem(10,'Náušnice Kouř. nefritu', './items/Náušnice Kouř. nefritu.png', 'Překov z Náušnic krystalu duše', {
         RADEK_0: createStats("Od úrovně:", 90, 90, 90, 90, 90, 90, 90, 90, 90, 90),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_1: createStats("VIT, INT, SIL, POH", "+15", "+15", "+15", "+16", "+16", "+16", "+16", "+17", "+18", "+20"),
@@ -197,7 +197,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_5: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_6: createImage("", "", "", "", "", "", "", "", "", "", ""),
         MEZERA_Y: createStats(),
-        IMG_7: createImage("", "./items/17600.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png"),
+        IMG_7: createImage("", "./items/Náušnice Kouř. nefritu.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png"),
         IMG_8: createImage("", "./items/Oxid titaničitý.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Niť zloby.png", "./items/Niť zloby.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png"),
         IMG_9: createImage("", "./items/Šupiny Hydry.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Niť soumraku.png", "./items/Niť soumraku.png", "./items/Ztracený list.png", "./items/Ztracený list.png", "./items/Ztracený list.png"),
         IMG_10: createImage("", "./items/Ztracený list.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Niť žáru.png", "./items/Niť žáru.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),

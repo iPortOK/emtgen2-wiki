@@ -1,7 +1,7 @@
 import { createStats, createImage, createEquipmentItem } from './funkce.js';
 
   export const rukaviceData = [
-    createEquipmentItem(10,'Rukavice (SIL)', './items/23050.png', 'Hydra', {
+    createEquipmentItem(10,'Rukavice (SIL)', './items/Rukavice (SIL).png', 'Hydra', {
       RADEK_0: createStats("Od úrovně:", 76, 76, 76, 76, 76, 76, 76, 76, 76, 76),
       RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
       RADEK_1: createStats("Síla:", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10"),
@@ -27,13 +27,13 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
       IMG_5: createImage("", "", "", "", "", "", "", "", "", "", ""),
       IMG_6: createImage("", "", "", "", "", "", "", "", "", "", ""),
       RADEK_XXX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-      IMG_7: createImage("", "", "./items/Shuriken.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png"),
+      IMG_7: createImage("", "", "./items/Shuriken.png", "./items/Rukavice (SIL).png", "./items/Rukavice (SIL).png", "./items/Rukavice (SIL).png", "./items/Rukavice (SIL).png", "./items/Rukavice (SIL).png", "./items/Rukavice (SIL).png", "./items/Rukavice (SIL).png", "./items/Rukavice (SIL).png"),
       IMG_8: createImage("", "", "./items/Zub Orka.png", "./items/Srdce Atlantídy.png", "./items/Kapka krve.png", "./items/Dračí šupiny.png", "./items/Ohnivý kámen.png", "./items/Ledový kámen.png", "./items/Oxid titaničitý.png", "./items/Šupiny Hydry.png", "./items/Ztracený list.png"),
       IMG_9: createImage("", "", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
       IMG_10: createImage("", "", "./items/Pavoučí noha.png", "", "", "", "", "", "", "", ""),
     }),
 
-      createEquipmentItem(10,'Rukavice (VIT)', './items/23060.png', 'Hydra', {
+      createEquipmentItem(10,'Rukavice (VIT)', './items/Rukavice (VIT).png', 'Hydra', {
         RADEK_0: createStats("Od úrovně:", 76, 76, 76, 76, 76, 76, 76, 76, 76, 76),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_1: createStats("Vitalita:", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10"),
@@ -59,13 +59,13 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_5: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_6: createImage("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_XXX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-        IMG_7: createImage("", "", "./items/Shuriken.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png"),
+        IMG_7: createImage("", "", "./items/Shuriken.png", "./items/Rukavice (VIT).png", "./items/Rukavice (VIT).png", "./items/Rukavice (VIT).png", "./items/Rukavice (VIT).png", "./items/Rukavice (VIT).png", "./items/Rukavice (VIT).png", "./items/Rukavice (VIT).png", "./items/Rukavice (VIT).png"),
         IMG_8: createImage("", "", "./items/Zub Orka.png", "./items/Srdce Atlantídy.png", "./items/Kapka krve.png", "./items/Dračí šupiny.png", "./items/Ohnivý kámen.png", "./items/Ledový kámen.png", "./items/Oxid titaničitý.png", "./items/Šupiny Hydry.png", "./items/Ztracený list.png"),
         IMG_9: createImage("", "", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
         IMG_10: createImage("", "", "./items/Pavoučí noha.png", "", "", "", "", "", "", "", ""),
       }),
 
-      createEquipmentItem(10,'Rukavice (POH)', './items/23070.png', 'Hydra', {
+      createEquipmentItem(10,'Rukavice (POH)', './items/Rukavice (POH).png', 'Hydra', {
         RADEK_0: createStats("Od úrovně:", 76, 76, 76, 76, 76, 76, 76, 76, 76, 76),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_1: createStats("Pohyblivost:", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10"),
@@ -91,13 +91,13 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_5: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_6: createImage("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_XXX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-        IMG_7: createImage("", "", "./items/Shuriken.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png"),
+        IMG_7: createImage("", "", "./items/Shuriken.png", "./items/Rukavice (POH).png", "./items/Rukavice (POH).png", "./items/Rukavice (POH).png", "./items/Rukavice (POH).png", "./items/Rukavice (POH).png", "./items/Rukavice (POH).png", "./items/Rukavice (POH).png", "./items/Rukavice (POH).png"),
         IMG_8: createImage("", "", "./items/Zub Orka.png", "./items/Srdce Atlantídy.png", "./items/Kapka krve.png", "./items/Dračí šupiny.png", "./items/Ohnivý kámen.png", "./items/Ledový kámen.png", "./items/Oxid titaničitý.png", "./items/Šupiny Hydry.png", "./items/Ztracený list.png"),
         IMG_9: createImage("", "", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
         IMG_10: createImage("", "", "./items/Pavoučí noha.png", "", "", "", "", "", "", "", ""),
       }),
 
-      createEquipmentItem(10,'Rukavice (INT)', './items/23080.png', 'Hydra', {
+      createEquipmentItem(10,'Rukavice (INT)', './items/Rukavice (INT).png', 'Hydra', {
         RADEK_0: createStats("Od úrovně:", 76, 76, 76, 76, 76, 76, 76, 76, 76, 76),
         RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_1: createStats("Inteligence:", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10"),
@@ -123,7 +123,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_5: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_6: createImage("", "", "", "", "", "", "", "", "", "", ""),
         RADEK_XXX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-        IMG_7: createImage("", "", "./items/Shuriken.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png"),
+        IMG_7: createImage("", "", "./items/Shuriken.png", "./items/Rukavice (INT).png", "./items/Rukavice (INT).png", "./items/Rukavice (INT).png", "./items/Rukavice (INT).png", "./items/Rukavice (INT).png", "./items/Rukavice (INT).png", "./items/Rukavice (INT).png", "./items/Rukavice (INT).png"),
         IMG_8: createImage("", "", "./items/Zub Orka.png", "./items/Srdce Atlantídy.png", "./items/Kapka krve.png", "./items/Dračí šupiny.png", "./items/Ohnivý kámen.png", "./items/Ledový kámen.png", "./items/Oxid titaničitý.png", "./items/Šupiny Hydry.png", "./items/Ztracený list.png"),
         IMG_9: createImage("", "", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
         IMG_10: createImage("", "", "./items/Pavoučí noha.png", "", "", "", "", "", "", "", ""),
@@ -158,10 +158,10 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         RADEK_XXX: createStats("", "", "", "", "", "", "", "", "", "", ""),
         IMG_7: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_8: createImage("", "", "", "", "", "", "", "", "", "", ""),
-        IMG_9: createImage("", "./items/Božské ovoce.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png", "./items/23050.png"),
-        IMG_10: createImage("", "./items/Dračí kovadlina.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png", "./items/23060.png"),
-        IMG_11: createImage("", "./items/Stínový klenot.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png", "./items/23070.png"),
-        IMG_12: createImage("", "./items/Hadí hlava.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png", "./items/23080.png"),
+        IMG_9: createImage("", "./items/Božské ovoce.png", "./items/Rukavice (SIL).png", "./items/Rukavice (SIL).png", "./items/Rukavice (SIL).png", "./items/Rukavice (SIL).png", "./items/Rukavice (SIL).png", "./items/Rukavice (SIL).png", "./items/Rukavice (SIL).png", "./items/Rukavice (SIL).png", "./items/Rukavice (SIL).png"),
+        IMG_10: createImage("", "./items/Dračí kovadlina.png", "./items/Rukavice (VIT).png", "./items/Rukavice (VIT).png", "./items/Rukavice (VIT).png", "./items/Rukavice (VIT).png", "./items/Rukavice (VIT).png", "./items/Rukavice (VIT).png", "./items/Rukavice (VIT).png", "./items/Rukavice (VIT).png", "./items/Rukavice (VIT).png"),
+        IMG_11: createImage("", "./items/Stínový klenot.png", "./items/Rukavice (POH).png", "./items/Rukavice (POH).png", "./items/Rukavice (POH).png", "./items/Rukavice (POH).png", "./items/Rukavice (POH).png", "./items/Rukavice (POH).png", "./items/Rukavice (POH).png", "./items/Rukavice (POH).png", "./items/Rukavice (POH).png"),
+        IMG_12: createImage("", "./items/Hadí hlava.png", "./items/Rukavice (INT).png", "./items/Rukavice (INT).png", "./items/Rukavice (INT).png", "./items/Rukavice (INT).png", "./items/Rukavice (INT).png", "./items/Rukavice (INT).png", "./items/Rukavice (INT).png", "./items/Rukavice (INT).png", "./items/Rukavice (INT).png"),
         IMG_13: createImage("", "", "", "", "", "", "", "", "", "", ""),
       }),
 
