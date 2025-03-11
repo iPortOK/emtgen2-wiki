@@ -2,7 +2,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
 
 
   export const opasekData = [
-    createEquipmentItem(10, 'Lněný opasek', './items/18000.png', 'Truhla Pavoučí Baronky', {
+    createEquipmentItem(10, 'Lněný opasek', './items/Lněný opasek.png', 'Truhla Pavoučí Baronky', {
         R_0: createStats("Od úrovně:", "75", "75", "75", "75", "75", "75", "75", "75", "75", "75"),
         R_1: createStats("", "", "", "", "", "", "", "", "", "", ""),
         R_2: createStats("Silný proti kamenům:", "1%", "1%", "1%", "1%", "2%", "2%", "2%", "3%", "4%", "5%"),
@@ -22,13 +22,13 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_4: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_5: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_6: createImage("", "", "", "", "", "", "", "", "", "", ""),
-        IMG_7: createImage("", "", "./items/Shuriken.png", "./items/18000.png", "./items/18000.png", "./items/18000.png", "./items/18000.png", "./items/18000.png", "./items/18000.png", "./items/18000.png", "./items/18000.png"),
+        IMG_7: createImage("", "", "./items/Shuriken.png", "./items/Lněný opasek.png", "./items/Lněný opasek.png", "./items/Lněný opasek.png", "./items/Lněný opasek.png", "./items/Lněný opasek.png", "./items/Lněný opasek.png", "./items/Lněný opasek.png", "./items/Lněný opasek.png"),
         IMG_8: createImage("", "", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
         IMG_9: createImage("", "", "", "", "", "", "", "", "./items/Shuriken.png", "./items/Zub Orka.png", "./items/Srdce Atlantídy.png"),
         IMG_10: createImage("", "", "", "", "", "", "", "", "", "", "./items/Bílá perla.png"),
       }),
 
-      createEquipmentItem(10, 'Kožený opasek', './items/18010.png', 'Truhla Vrchního orka', {
+      createEquipmentItem(10, 'Kožený opasek', './items/Kožený opasek.png', 'Truhla Vrchního orka', {
         R_0: createStats("Od úrovně:", "75", "75", "75", "75", "75", "75", "75", "75", "75", "75"),
         R_1: createStats("", "", "", "", "", "", "", "", "", "", ""),
         R_2: createStats("Silný proti bossům:", "1%", "1%", "1%", "1%", "2%", "2%", "2%", "3%", "4%", "5%"),
@@ -48,13 +48,13 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_4: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_5: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_6: createImage("", "", "", "", "", "", "", "", "", "", ""),
-        IMG_7: createImage("", "", "./items/Shuriken.png", "./items/18010.png", "./items/18010.png", "./items/18010.png", "./items/18010.png", "./items/18010.png", "./items/18010.png", "./items/18010.png", "./items/18010.png"),
+        IMG_7: createImage("", "", "./items/Shuriken.png", "./items/Kožený opasek.png", "./items/Kožený opasek.png", "./items/Kožený opasek.png", "./items/Kožený opasek.png", "./items/Kožený opasek.png", "./items/Kožený opasek.png", "./items/Kožený opasek.png", "./items/Kožený opasek.png"),
         IMG_8: createImage("", "", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
         IMG_9: createImage("", "", "", "", "", "", "", "", "./items/Shuriken.png", "./items/Zub Orka.png", "./items/Srdce Atlantídy.png"),
         IMG_10: createImage("", "", "", "", "", "", "", "", "", "", "./items/Bílá perla.png"),
       }),
 
-      createEquipmentItem(10, 'Velkolepý opasek', './items/18020.png', 'Truhla Vrchního orka', {
+      createEquipmentItem(10, 'Velkolepý opasek', './items/Velkolepý opasek.png', 'Truhla Vrchního orka', {
         R_0: createStats("Od úrovně:", "75", "75", "75", "75", "75", "75", "75", "75", "75", "75"),
         R_1: createStats("", "", "", "", "", "", "", "", "", "", ""),
         R_2: createStats("Silný proti lidem:", "1%", "1%", "1%", "1%", "2%", "2%", "2%", "3%", "4%", "5%"),
@@ -74,13 +74,13 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_4: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_5: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_6: createImage("", "", "", "", "", "", "", "", "", "", ""),
-        IMG_7: createImage("", "", "./items/Shuriken.png", "./items/18020.png", "./items/18020.png", "./items/18020.png", "./items/18020.png", "./items/18020.png", "./items/18020.png", "./items/18020.png", "./items/18020.png"),
+        IMG_7: createImage("", "", "./items/Shuriken.png", "./items/Velkolepý opasek.png", "./items/Velkolepý opasek.png", "./items/Velkolepý opasek.png", "./items/Velkolepý opasek.png", "./items/Velkolepý opasek.png", "./items/Velkolepý opasek.png", "./items/Velkolepý opasek.png", "./items/Velkolepý opasek.png"),
         IMG_8: createImage("", "", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
         IMG_9: createImage("", "", "", "", "", "", "", "", "./items/Shuriken.png", "./items/Zub Orka.png", "./items/Srdce Atlantídy.png"),
         IMG_10: createImage("", "", "", "", "", "", "", "", "", "", "./items/Bílá perla.png"),
       }),
 
-      createEquipmentItem(10, 'Opasek moudrosti', './items/18030.png', 'Truhla Pavoučí Baronky', {
+      createEquipmentItem(10, 'Opasek moudrosti', './items/Opasek moudrosti.png', 'Truhla Pavoučí Baronky', {
         R_0: createStats("Od úrovně:", "75", "75", "75", "75", "75", "75", "75", "75", "75", "75"),
         R_1: createStats("", "", "", "", "", "", "", "", "", "", ""),
         R_2: createStats("Poškození schopností:", "1%", "1%", "1%", "1%", "2%", "2%", "2%", "2%", "3%", "4%"),
@@ -100,13 +100,13 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_4: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_5: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_6: createImage("", "", "", "", "", "", "", "", "", "", ""),
-        IMG_7: createImage("", "", "./items/Shuriken.png", "./items/18030.png", "./items/18030.png", "./items/18030.png", "./items/18030.png", "./items/18030.png", "./items/18030.png", "./items/18030.png", "./items/18030.png"),
+        IMG_7: createImage("", "", "./items/Shuriken.png", "./items/Opasek moudrosti.png", "./items/Opasek moudrosti.png", "./items/Opasek moudrosti.png", "./items/Opasek moudrosti.png", "./items/Opasek moudrosti.png", "./items/Opasek moudrosti.png", "./items/Opasek moudrosti.png", "./items/Opasek moudrosti.png"),
         IMG_8: createImage("", "", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Runa I.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
         IMG_9: createImage("", "", "", "", "", "", "", "", "./items/Shuriken.png", "./items/Zub Orka.png", "./items/Srdce Atlantídy.png"),
         IMG_10: createImage("", "", "", "", "", "", "", "", "", "", "./items/Bílá perla.png"),
       }),
       
-      createEquipmentItem(10, 'Královský opasek', './items/18040.png', 'Craftem u Starosty', {
+      createEquipmentItem(10, 'Královský opasek', './items/Královský opasek.png', 'Craftem u Starosty', {
         R_0: createStats("Od úrovně:", "90", "90", "90", "90", "90", "90", "90", "90", "90", "90"),
         R_1: createStats("", "", "", "", "", "", "", "", "", "", ""),
         R_2: createStats("Silný proti bossům:", "5%", "5%", "5%", "5%", "6%", "6%", "6%", "7%", "8%", "10%"),
@@ -131,14 +131,14 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_6: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_7: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_8: createStats("", "", "", "", "", "", "", "", "", "", ""),
-        IMG_9: createImage("", "./items/18000.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
-        IMG_10: createImage("", "./items/18010.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Ledový kámen.png", "./items/Ledový kámen.png", "./items/Ledový kámen.png"),
-        IMG_13: createImage("", "./items/Plán zbroje.png", "", "", "", "", "", "", "", "", ""),
-        IMG_11: createImage("", "./items/Dračí šupiny.png", "", "", "", "", "", "", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png"),
-        IMG_12: createImage("", "./items/Ledový kámen.png", "", "", "", "", "", "", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png"),
+        IMG_9: createImage("", "./items/Lněný opasek.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
+        IMG_10: createImage("", "./items/Kožený opasek.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Ledový kámen.png", "./items/Ledový kámen.png", "./items/Ledový kámen.png"),
+        IMG_13: createImage("", "./items/Plán zbroje.png", "", "", "", "", "", "", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png"),
+        IMG_11: createImage("", "./items/Dračí šupiny.png", "", "", "", "", "", "", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png"),
+        IMG_12: createImage("", "./items/Ledový kámen.png", "", "", "", "", "", "", "", "", ""),
       }),
 
-      createEquipmentItem(10, 'Opasek stínů', './items/18050.png', 'Craftem u Starosty', {
+      createEquipmentItem(10, 'Opasek stínů', './items/Opasek stínů.png', 'Craftem u Starosty', {
         R_0: createStats("Od úrovně:", "90", "90", "90", "90", "90", "90", "90", "90", "90", "90"),
         R_1: createStats("", "", "", "", "", "", "", "", "", "", ""),
         R_2: createStats("Silný proti lidem:", "5%", "5%", "5%", "5%", "6%", "6%", "6%", "7%", "8%", "10%"),
@@ -161,14 +161,14 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_6: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_7: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_8: createStats("", "", "", "", "", "", "", "", "", "", ""),
-        IMG_9: createImage("", "./items/18000.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
-        IMG_10: createImage("", "./items/18010.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Ledový kámen.png", "./items/Ledový kámen.png", "./items/Ledový kámen.png"),
-        IMG_13: createImage("", "./items/Plán zbroje.png", "", "", "", "", "", "", "", "", ""),
-        IMG_11: createImage("", "./items/Dračí šupiny.png", "", "", "", "", "", "", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png"),
-        IMG_12: createImage("", "./items/Ledový kámen.png", "", "", "", "", "", "", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png"),
+        IMG_9: createImage("", "./items/Velkolepý opasek.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
+        IMG_10: createImage("", "./items/Opasek moudrosti.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Ledový kámen.png", "./items/Ledový kámen.png", "./items/Ledový kámen.png"),
+        IMG_13: createImage("", "./items/Plán zbroje.png", "", "", "", "", "", "", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png"),
+        IMG_11: createImage("", "./items/Dračí šupiny.png", "", "", "", "", "", "", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png"),
+        IMG_12: createImage("", "./items/Ledový kámen.png", "", "", "", "", "", "", "", "", ""),
       }),
 
-      createEquipmentItem(10, 'Runový opasek', './items/18060.png', 'Craftem u Starosty', {
+      createEquipmentItem(10, 'Runový opasek', './items/Runový opasek.png', 'Craftem u Starosty', {
         R_0: createStats("Od úrovně:", "105", "105", "105", "105", "105", "105", "105", "105", "105", "105"),
         R_1: createStats("", "", "", "", "", "", "", "", "", "", ""),
         R_13: createStats("Max. ZB", "+100", "+200", "+400", "+600", "+800", "+1000", "+1200", "+1400", "+1600", "+2000"),
@@ -195,14 +195,14 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_8: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_9: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_14: createImage("", "", "", "", "", "", "", "", "", "", ""),
-        IMG_10: createImage("", "./items/18040.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png"),
+        IMG_10: createImage("", "./items/Královský opasek.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png"),
         IMG_11: createImage("", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png"),
         IMG_12: createImage("", "./items/Emerald vody.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Emerald vody.png", "./items/Emerald vody.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
         IMG_13: createImage("", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png"),
         IMG_15: createImage("", "./items/Fénixův prapor.png", "", "", "", "", "", "", "", "", ""),
       }),
 
-      createEquipmentItem(10, 'Medvědí opasek', './items/18070.png', 'Craftem u Starosty', {
+      createEquipmentItem(10, 'Medvědí opasek', './items/Medvědí opasek.png', 'Craftem u Starosty', {
         R_0: createStats("Od úrovně:", "105", "105", "105", "105", "105", "105", "105", "105", "105", "105"),
         R_1: createStats("", "", "", "", "", "", "", "", "", "", ""),
         R_13: createStats("Max. ZB", "+100", "+200", "+400", "+600", "+800", "+1000", "+1200", "+1400", "+1600", "+2000"),
@@ -227,14 +227,14 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_7: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_8: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_9: createImage("", "", "", "", "", "", "", "", "", "", ""),
-        IMG_10: createImage("", "./items/18040.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png"),
+        IMG_10: createImage("", "./items/Královský opasek.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png"),
         IMG_11: createImage("", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png"),
         IMG_12: createImage("", "./items/Emerald vody.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Emerald vody.png", "./items/Emerald vody.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
         IMG_13: createImage("", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png"),
         IMG_15: createImage("", "./items/Fénixův prapor.png", "", "", "", "", "", "", "", "", ""),
       }),
 
-      createEquipmentItem(10, 'Opasek duší', './items/18080.png', 'Craftem u Starosty', {
+      createEquipmentItem(10, 'Opasek duší', './items/Opasek duší.png', 'Craftem u Starosty', {
         R_0: createStats("Od úrovně:", "120", "120", "120", "120", "120", "120", "120", "120", "120", "120"),
         R_1: createStats("", "", "", "", "", "", "", "", "", "", ""),
         R_13: createStats("Max. ZB", "+2600", "+2800", "+3000", "+3200", "+3400", "+3600", "+3800", "+4000", "+4400", "+5000"),
@@ -265,10 +265,10 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_12: createImage("", "./items/Světlo z jiného světa.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png"),
         IMG_13: createImage("", "./items/Starověký svitek.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
         IMG_14: createImage("", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Emerald vody.png", "./items/Emerald vody.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png"),
-        IMG_15: createImage("", "./items/18060.png", "", "", "", "", "", "", "", "", ""),
+        IMG_15: createImage("", "./items/Runový opasek.png", "", "", "", "", "", "", "", "", ""),
       }),
 
-      createEquipmentItem(10, 'Opasek zatracení', './items/18100.png', 'Craftem u Starosty', {
+      createEquipmentItem(10, 'Opasek zatracení', './items/Opasek zatracení.png', 'Craftem u Starosty', {
         R_0: createStats("Od úrovně:", "120", "120", "120", "120", "120", "120", "120", "120", "120", "120"),
         R_1: createStats("", "", "", "", "", "", "", "", "", "", ""),
         R_13: createStats("Max. ZB", "+2600", "+2800", "+3000", "+3200", "+3400", "+3600", "+3800", "+4000", "+4400", "+5000"),
@@ -297,7 +297,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_12: createImage("", "./items/Světlo z jiného světa.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png"),
         IMG_13: createImage("", "./items/Starověký svitek.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
         IMG_14: createImage("", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Emerald vody.png", "./items/Emerald vody.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png"),
-        IMG_15: createImage("", "./items/18070.png", "", "", "", "", "", "", "", "", ""),
+        IMG_15: createImage("", "./items/Medvědí opasek.png", "", "", "", "", "", "", "", "", ""),
       }),
       createEquipmentItem(10,'Hadí opasek', './items/hadi_gear/Hadí opasek.png', 'Craftem u Karim - Dva světy Nilu', {
         RADEK_0: createStats("Od úrovně:", 121, 121, 121, 121, 121, 121, 121, 121, 121, 121),

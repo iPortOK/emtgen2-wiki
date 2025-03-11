@@ -117,7 +117,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_9: createImage("", "", "", "", "", "", "", "", "./items/Bílá perla.png", "./items/Žlutá perla.png", "./items/Žlutá perla.png"),
       }),
     
-      createEquipmentItem(10,'Ohnivé boty', './items/15440.png', 'Překovem z Ostnatých bot', { // last changed 03/02/2025
+      createEquipmentItem(10,'Ohnivé boty', './items/Ohnivé boty.png', 'Překovem z Ostnatých bot', { // last changed 03/02/2025
         RADEK_0: createStats("Od úrovně:", 90, 90, 90, 90, 90, 90, 90, 90, 90, 90),
         RADEK_XX: createStats(),
         RADEK_1: createStats("Obrana", "+17", "+19", "+20", "+22", "+23", "+25", "+26", "+28", "+29", "+32"),
@@ -179,7 +179,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_6: createImage("", "", "", "", "", "", "", "", "", "", ""),
         IMG_7: createImage("", "", "", "", "", "", "", "", "", "", ""),
         MEZERA_Y: createStats(),
-        IMG_8: createImage("", "./items/15440.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png"),
+        IMG_8: createImage("", "./items/Ohnivé boty.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png"),
         IMG_9: createImage("", "./items/Oxid titaničitý.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Niť zloby.png", "./items/Niť zloby.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png"),
         IMG_10: createImage("", "./items/Šupiny Hydry.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Niť soumraku.png", "./items/Niť soumraku.png", "./items/Šupiny Hydry.png", "./items/Šupiny Hydry.png", "./items/Šupiny Hydry.png"),
         IMG_11: createImage("", "./items/Ztracený list.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Niť žáru.png", "./items/Niť žáru.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
