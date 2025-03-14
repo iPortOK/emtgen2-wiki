@@ -439,4 +439,38 @@ export const helmyData = [
     IMG_18: createImage("", "",       "", "", "", "", "", "", "", "", "./items/Energetické jádro Sfingy.png"),
 }),
 
+createEquipmentItem(10, "helma_iport", "./items/helma_iport.png", "", {
+  RADEK_0: createStats("Od úrovně:", 120, 120, 120, 120, 120, 120, 120, 120, 120, 120),
+  RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
+  RADEK_1: createStats("Magická hodnota útoku", "+250", "+255", "+260", "+265", "+270", "+275", "+280", "+290", "+300", "+320"),
+  RADEK_2: createStats("Navýšení ZB výbavy", "74%", "78%", "82%", "86%", "90%", "96%", "106%", "118%", "132%", "150%"),
+  RADEK_3: createStats("Odolnost proti kritickým zásahům", "1%", "2%", "3%", "4%", "5%", "6%", "8%", "10%", "14%", "20%"),
+  RADEK_4: createStats("Odolnost proti lidem", "1%", "2%", "3%", "4%", "5%", "6%", "8%", "10%", "14%", "20%"),
+  MEZERA_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
+  RADEK_6: createStats("Šance: ", "XXX%", "XXX%", "XXX%", "XXX%", "XXX%", "XXX%", "XXX%", "XXX%", "XXX%", "XXX%"),
+  RADEK_7: createStats("cena: ", "XXXkkk", "XXXkkk", "XXXkkk", "XXXkkk", "XXXkkk", "XXXkk", "XXXkk", "XXXkk", "XXXkk", "XXXkk"),
+  MEZERA_Y: createStats(),
+  RADEK_8: createStats("Potřebné předměty:", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx"),
+  RADEK_9: createStats("", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx"),
+  RADEK_10: createStats("", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx"),
+  RADEK_11: createStats("", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx"),
+}, {
+  IMG_0: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_1: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_2: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_3: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_4: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  RADEK_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_6: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_7: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  MEZERA_Y: createStats("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_8: createImage("", "./items/Dračí helma.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png", "./items/Runa IV.png"),
+  IMG_9: createImage("", "./items/Oxid titaničitý.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Niť zloby.png", "./items/Niť zloby.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png", "./items/Kámen kováře.png"),
+  IMG_10: createImage("", "./items/Šupiny Hydry.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Niť soumraku.png", "./items/Niť soumraku.png", "./items/Šupiny Hydry.png", "./items/Šupiny Hydry.png", "./items/Šupiny Hydry.png"),
+  IMG_11: createImage("", "./items/Ztracený list.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Niť žáru.png", "./items/Niť žáru.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
+}),
+
+
+
   ];

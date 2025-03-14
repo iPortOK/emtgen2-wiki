@@ -305,4 +305,38 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
       IMG_18: createImage("", "",       "", "", "", "", "", "", "", "", "./items/Energetické jádro Sfingy.png"),
   }),
 
+  createEquipmentItem(10, "pvp_nausky_130", "./items/pvp_nausky_130.png", "", {
+    RADEK_0: createStats("Od úrovně:", 120, 120, 120, 120, 120, 120, 120, 120, 120, 120),
+    RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
+    RADEK_1: createStats("Max. ZB", "+11000", "+11250", "+11500", "+11750", "+12000", "+12250", "+12750", "+13250", "+14000", "+15000"),
+    RADEK_2: createStats("Odolnost proti lidem", "17%", "17%", "18%", "18%", "19%", "19%", "21%", "22%", "23%", "25%"),
+    RADEK_3: createStats("Průměrná odolnost proti škoda", "8%", "8%", "8%", "8%", "9%", "9%", "9%", "10%", "11%", "12%"),
+    RADEK_4: createStats("VIT,INT,SIL,POH", "26%", "26%", "26%", "26%", "27%", "27%", "27%", "28%", "29%", "30%"),    
+    MEZERA_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
+    RADEK_6: createStats("Šance: ", "XXX%", "XXX%", "XXX%", "XXX%", "XXX%", "XXX%", "XXX%", "XXX%", "XXX%", "XXX%"),
+    RADEK_7: createStats("cena: ", "XXXkkk", "XXXkkk", "XXXkkk", "XXXkkk", "XXXkkk", "XXXkk", "XXXkk", "XXXkk", "XXXkk", "XXXkk"),
+    MEZERA_Y: createStats(),
+    RADEK_8: createStats("Potřebné předměty:", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx"),
+    RADEK_9: createStats("", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx"),
+    RADEK_10: createStats("", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx"),
+    RADEK_11: createStats("", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx", "XXXx"),
+  }, {
+    IMG_0: createImage("", "", "", "", "", "", "", "", "", "", ""),
+    RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
+    IMG_1: createImage("", "", "", "", "", "", "", "", "", "", ""),
+    IMG_2: createImage("", "", "", "", "", "", "", "", "", "", ""),
+    IMG_3: createImage("", "", "", "", "", "", "", "", "", "", ""),
+    IMG_12: createImage("", "", "", "", "", "", "", "", "", "", ""),
+    RADEK_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
+    IMG_5: createImage("", "", "", "", "", "", "", "", "", "", ""),
+    IMG_6: createImage("", "", "", "", "", "", "", "", "", "", ""),
+    MEZERA_Y: createStats(),
+    IMG_7: createImage("","./items/Kámen kováře.png","./items/Runa III.png","./items/Runa III.png","./items/Runa III.png","./items/Runa III.png","./items/Runa IV.png","./items/Runa IV.png","./items/Runa IV.png","./items/Runa IV.png","./items/Runa IV.png",),
+    IMG_8: createImage("", "./items/Safír.png", "./items/Safírová ruda.png", "./items/Safírová ruda.png", "./items/Safírová ruda.png", "./items/Safírová ruda.png", "./items/Safír.png", "./items/Safír.png", "./items/Safír.png", "./items/Safír.png", "./items/Safír.png"),
+    IMG_9: createImage("", "./items/Ledový kámen.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Ohnivý kámen.png", "./items/Ledový kámen.png", "./items/Ztracený list.png", "./items/Šupiny Hydry.png", "./items/Oxid titaničitý.png"),
+    IMG_10: createImage("", "./items/Ohnivý kámen.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png"),
+  }),
+
+
+
   ];
