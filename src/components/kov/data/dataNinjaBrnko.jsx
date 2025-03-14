@@ -202,7 +202,7 @@ createEquipmentItem(10, 'Oblek modrého draka', './items/12030.png', 'Craft u Vi
     IMG_11: createImage("", "/items/Plán zbroje.png", "", "", "", "", "", "", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
     IMG_12: createImage("", "/items/Bílá perla.png", "", "", "", "", "", "", "./items/Žlutá perla.png", "./items/Žlutá perla.png", "./items/Žlutá perla.png"),
     IMG_13: createImage("", "/items/Dračí šupiny.png", "", "", "", "", "", "", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png"),
-    IMG_14: createImage("", "/items/11490.png", "", "", "", "", "", "", "", "", ""),
+    IMG_14: createImage("", "/items/Oblek černého větru.png", "", "", "", "", "", "", "", "", ""),
 
     }),
 	
@@ -234,10 +234,10 @@ createEquipmentItem(10, 'Oblek dračího jezdce', './items/20250.png', 'Craft u 
     IMG_8: createImage("", "", "", "", "", "", "", "", "", "", ""),
     IMG_9: createImage("", "", "", "", "", "", "", "", "", "", ""),
     IMG_10: createImage("", "./items/Plán zbroje.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png"),
-    IMG_11: createImage("", "./items/11460.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "/items/Plán zbroje.png"),
-    IMG_12: createImage("", "./items/11470.png", "", "", "", "", "", "./items/Dračí šupiny.png", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png"),
-    IMG_13: createImage("", "./items/11480.png", "", "", "", "", "", "", "./items/Ledový kámen.png", "./items/Ledový kámen.png", "./items/Ledový kámen.png"),
-    IMG_14: createImage("", "./items/11490.png", "", "", "", "", "", "", "", "", ""),
+    IMG_11: createImage("", "./items/Oblek mladého draka.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "/items/Plán zbroje.png"),
+    IMG_12: createImage("", "./items/Oblek vražedného větru.png", "", "", "", "", "", "./items/Dračí šupiny.png", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png"),
+    IMG_13: createImage("", "./items/Fuchsiový oblek.png", "", "", "", "", "", "", "./items/Ledový kámen.png", "./items/Ledový kámen.png", "./items/Ledový kámen.png"),
+    IMG_14: createImage("", "./items/Oblek černého větru.png", "", "", "", "", "", "", "", "", ""),
     }),
     
 createEquipmentItem(10, 'Kyanitový oblek', './items/12060.png', 'Překov z Obleku dračího jezdce', {
@@ -273,7 +273,7 @@ createEquipmentItem(10, 'Kyanitový oblek', './items/12060.png', 'Překov z Oble
     IMG_13: createImage("", "./items/Ohnivý kámen.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png"),
     }),
 	
-createEquipmentItem(10, 'Oblek proměny', './items/20870.png', 'Překov z Obleku modrého draka', {
+createEquipmentItem(10, 'Oblek proměny', './items/Oblek proměny.png', 'Překov z Obleku modrého draka', {
       R_0: createStats("Od úrovně:", "105", "105", "105", "105", "105", "105", "105", "106", "108", "110"),
     R_1mezera: createStats("", "", "", "", "", "", "", "", "", "", ""),
     R_2: createStats("Obrana", "240", "250", "254", "260", "270", "284", "304", "334", "376", "440"),
@@ -339,6 +339,6 @@ createEquipmentItem(10, 'Oblek proměny', './items/20870.png', 'Překov z Obleku
       IMG_10: createImage("", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png"),
       IMG_11: createImage("", "./items/Světlo z jiného světa.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png"),
       IMG_12: createImage("", "./items/Fénixův prapor.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png"),
-      IMG_13: createImage("", "./items/20870.png", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+      IMG_13: createImage("", "./items/Oblek proměny.png", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
     }),
   ];

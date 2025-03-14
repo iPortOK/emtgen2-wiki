@@ -220,7 +220,7 @@ createEquipmentItem(10, 'Chakram křídla ďábla', './items/01130.png', 'Morkho
   IMG_14: createImage("", "", "", "", "", "", "", "", "", "", "./items/Žlutá perla.png"),
     }),
   
-createEquipmentItem(10, 'Nůž bez duše', './items/04040.png', 'Craftem u Bývalého Válečníka', {
+createEquipmentItem(10, 'Nůž bez duše', './items/Nůž bez duše.png', 'Craftem u Bývalého Válečníka', {
       R_0: createStats("Od úrovně:", "80", "80", "82", "82", "84", "84", "86", "86", "88", "90"),
   R_1mezera: createStats("", "", "", "", "", "", "", "", "", "", ""),
   R_2: createStats("Hodnota útoku", "148-162", "171-188", "200-220", "225-247", "256-282", "283-311", "316-348", "345-379", "417-458", "524-576"),
@@ -253,7 +253,7 @@ createEquipmentItem(10, 'Nůž bez duše', './items/04040.png', 'Craftem u Býva
   IMG_12: createImage("", "./items/Bílá perla.png", "", "", "", "", "", "", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
   IMG_13: createImage("", "./items/Dračí šupiny.png", "", "", "", "", "", "", "./items/Žlutá perla.png", "./items/Žlutá perla.png", "./items/Žlutá perla.png"),
   IMG_14: createImage("", "./items/Kapka krve.png", "", "", "", "", "", "", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png"),
-  IMG_15: createImage("", "./items/01100.png", "", "", "", "", "", "", "", "", ""),
+  IMG_15: createImage("", "./items/Dračí nůž.png", "", "", "", "", "", "", "", "", ""),
 }),
   
 createEquipmentItem(10, 'Nože pěti elementů', './items/01340.png', 'Craftem u Černokněžníka', {
@@ -285,7 +285,7 @@ createEquipmentItem(10, 'Nože pěti elementů', './items/01340.png', 'Craftem u
   IMG_10: createImage("", "./items/Plán zbroje.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png"),
   IMG_11: createImage("", "./items/Ohnivý kámen.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "/items/Plán zbroje.png"),
   IMG_12: createImage("", "./items/Ledový kámen.png", "", "", "", "", "", "./items/Dračí šupiny.png", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png"),
-  IMG_13: createImage("", "./items/04040.png", "", "", "", "", "", "", "./items/Ledový kámen.png", "./items/Ledový kámen.png", "./items/Ledový kámen.png"),
+  IMG_13: createImage("", "./items/Nůž bez duše.png", "", "", "", "", "", "", "./items/Ledový kámen.png", "./items/Ledový kámen.png", "./items/Ledový kámen.png"),
   }),
   
 createEquipmentItem(10, 'Kyanitové dýky', './items/1500.png', 'Překov z Nože pěti elementů', {
@@ -321,7 +321,7 @@ createEquipmentItem(10, 'Kyanitové dýky', './items/1500.png', 'Překov z Nože
   IMG_13: createImage("", "./items/Ohnivý kámen.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png"),
     }),
   
-createEquipmentItem(10, 'Dýky zvěrokruhu', './items/1180.png', 'Garm', {
+createEquipmentItem(10, 'Dýky zvěrokruhu', './items/Dýky zvěrokruhu.png', 'Garm', {
       R_0: createStats("Od úrovně:", "105", "105", "105", "105", "105", "105", "105", "106", "108", "110"),
   R_1mezera: createStats("", "", "", "", "", "", "", "", "", "", ""),
   R_2: createStats("Hodnota útoku", "500-550", "522-574", "544-598", "566-623", "588-647", "612-673", "634-697", "676-743", "719-790", "788-866"),
@@ -391,7 +391,7 @@ createEquipmentItem(16, 'Hadí dýka', './items/01210.png', 'Craft u Pirátskéh
   IMG_10: createImage("", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png"),
   IMG_11: createImage("", "./items/Světlo z jiného světa.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png"),
   IMG_12: createImage("", "./items/Fénixův prapor.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png"),
-  IMG_13: createImage("", "./items/1180.png", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+  IMG_13: createImage("", "./items/Dýky zvěrokruhu.png", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
 }),
 ];
 
@@ -615,7 +615,7 @@ createEquipmentItem(16, 'Hadí dýka', './items/01210.png', 'Craft u Pirátskéh
     IMG_14: createImage("", "", "", "", "", "", "", "", "", "", "./items/Žlutá perla.png"),
     }),
     
-    createEquipmentItem(10, 'Velký ďábelský luk', './items/02160.png', 'Craftem u Bývalého Válečníka', {
+    createEquipmentItem(10, 'Velký ďábelský luk', './items/Velký ďábelský luk.png', 'Craftem u Bývalého Válečníka', {
       R_0: createStats("Od úrovně:", "80", "80", "82", "82", "84", "84", "86", "86", "88", "90"),
     R_1mezera: createStats("", "", "", "", "", "", "", "", "", "", ""),
     R_2: createStats("Hodnota útoku", "154-169", "178-195", "207-228", "233-256", "266-292", "293-322", "328-361", "358-393", "432-475", "544-598"),
@@ -648,7 +648,7 @@ createEquipmentItem(16, 'Hadí dýka', './items/01210.png', 'Craft u Pirátskéh
     IMG_12: createImage("", "./items/Bílá perla.png", "", "", "", "", "", "", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
     IMG_13: createImage("", "./items/Dračí šupiny.png", "", "", "", "", "", "", "./items/Žlutá perla.png", "./items/Žlutá perla.png", "./items/Žlutá perla.png"),
     IMG_14: createImage("", "./items/Kapka krve.png", "", "", "", "", "", "", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png"),
-    IMG_15: createImage("", "./items/02140.png", "", "", "", "", "", "", "", "", ""),
+    IMG_15: createImage("", "./items/Velký žlutý dračí luk.png", "", "", "", "", "", "", "", "", ""),
   }),
     
     createEquipmentItem(10, 'Luk fénixe', './items/02370.png', 'Craftem u Černokněžníka', {
@@ -680,7 +680,7 @@ createEquipmentItem(16, 'Hadí dýka', './items/01210.png', 'Craft u Pirátskéh
     IMG_10: createImage("", "./items/Plán zbroje.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png"),
     IMG_11: createImage("", "./items/Ohnivý kámen.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "/items/Plán zbroje.png"),
     IMG_12: createImage("", "./items/Ledový kámen.png", "", "", "", "", "", "./items/Dračí šupiny.png", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png"),
-    IMG_13: createImage("", "./items/02160.png", "", "", "", "", "", "", "./items/Ledový kámen.png", "./items/Ledový kámen.png", "./items/Ledový kámen.png"),
+    IMG_13: createImage("", "./items/Velký ďábelský luk.png", "", "", "", "", "", "", "./items/Ledový kámen.png", "./items/Ledový kámen.png", "./items/Ledový kámen.png"),
     }),
     
     createEquipmentItem(10, 'Kyanitový luk', './items/2500.png', 'Překov z Luku fénixe', {
@@ -786,7 +786,7 @@ createEquipmentItem(16, 'Hadí dýka', './items/01210.png', 'Craft u Pirátskéh
   IMG_10: createImage("", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png"),
   IMG_11: createImage("", "./items/Světlo z jiného světa.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png"),
   IMG_12: createImage("", "./items/Fénixův prapor.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png"),
-  IMG_13: createImage("", "./items/2200.png", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+  IMG_13: createImage("", "./items/Luk Zvěrokruhu.png", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
 }),
     
       

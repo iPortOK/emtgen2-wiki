@@ -54,7 +54,7 @@ createEquipmentItem(10, 'Sluneční oblečení', './items/11850.png', 'Dropuje z
     IMG_10: createImage("", "", "", "", "", "", "", "", "", "", ""),
     }),
     
-createEquipmentItem(10, 'Oblečení morálky', './items/11860.png', 'Dropuje z mobek xd', {
+createEquipmentItem(10, 'Oblečení morálky', './items/Oblečení morálky.png', 'Dropuje z mobek xd', {
       R_0: createStats("Od úrovně:", "48", "48", "48", "48", "48", "48", "48", "48", "48", "48"),
     R_1mezera: createStats("", "", "", "", "", "", "", "", "", "", ""),
     R_2: createStats("Obrana", "64", "70", "76", "82", "88", "94", "100", "106", "112", "118"),
@@ -83,7 +83,7 @@ createEquipmentItem(10, 'Oblečení morálky', './items/11860.png', 'Dropuje z m
     IMG_11: createImage("", "", "", "", "", "", "", "", "", "./items/Shuriken.png", "./items/Zub Orka.png"),
     }),
     
-createEquipmentItem(10, 'Oranž. kočičí oblečení', './items/11870.png', 'Dropuje z mobek xd', {
+createEquipmentItem(10, 'Oranž. kočičí oblečení', './items/Oranžové kočičí oblečení.png', 'Dropuje z mobek xd', {
       R_0: createStats("Od úrovně:", "54", "54", "54", "54", "54", "54", "54", "54", "54", "54"),
     R_1mezera: createStats("", "", "", "", "", "", "", "", "", "", ""),
     R_2: createStats("Obrana", "72", "78", "84", "90", "96", "102", "108", "114", "120", "126"),
@@ -112,7 +112,7 @@ createEquipmentItem(10, 'Oranž. kočičí oblečení', './items/11870.png', 'Dr
     IMG_11: createImage("", "", "", "", "", "", "", "", "", "", "./items/Pavoučí noha.png"),
     }),
     
-createEquipmentItem(10, 'Oblečení baronky', './items/11880.png', 'Dropuje ze Silnýho vrchního orka', {
+createEquipmentItem(10, 'Oblečení baronky', './items/Oblečení baronky.png', 'Dropuje ze Silnýho vrchního orka', {
       R_0: createStats("Od úrovně:", "61", "61", "61", "61", "61", "61", "61", "61", "61", "61"),
     R_1mezera: createStats("", "", "", "", "", "", "", "", "", "", ""),
     R_2: createStats("Obrana", "81", "87", "93", "99", "105", "111", "117", "123", "129", "135"),
@@ -141,7 +141,7 @@ createEquipmentItem(10, 'Oblečení baronky', './items/11880.png', 'Dropuje ze S
     
     }),
     
-createEquipmentItem(10, 'Černé oblečení', './items/11890.png', 'Dropuje z Morkhota', {
+createEquipmentItem(10, 'Černé oblečení', './items/Černé oblečení.png', 'Dropuje z Morkhota', {
       R_0: createStats("Od úrovně:", "66", "66", "66", "67", "67", "68", "68", "69", "69", "70"),
     R_1mezera: createStats("", "", "", "", "", "", "", "", "", "", ""),
     R_2: createStats("Obrana", "90", "96", "102", "108", "114", "120", "126", "132", "138", "144"),
@@ -203,7 +203,7 @@ createEquipmentItem(10, 'Oblečení draka', './items/12040.png', 'Craft u Vincen
     IMG_11: createImage("", "/items/Plán zbroje.png", "", "", "", "", "", "", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png"),
     IMG_12: createImage("", "/items/Bílá perla.png", "", "", "", "", "", "", "./items/Žlutá perla.png", "./items/Žlutá perla.png", "./items/Žlutá perla.png"),
     IMG_13: createImage("", "/items/Dračí šupiny.png", "", "", "", "", "", "", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png", "./items/Dračí šupiny.png"),
-    IMG_14: createImage("", "/items/11890.png", "", "", "", "", "", "", "", "", ""),
+    IMG_14: createImage("", "/items/Černé oblečení.png", "", "", "", "", "", "", "", "", ""),
 
     }),
 	
@@ -235,10 +235,10 @@ createEquipmentItem(10, 'Zlatý oblek', './items/20500.png', 'Craft u Cecilia', 
     IMG_8: createImage("", "", "", "", "", "", "", "", "", "", ""),
     IMG_9: createImage("", "", "", "", "", "", "", "", "", "", ""),
     IMG_10: createImage("", "./items/Plán zbroje.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png", "./items/Runa III.png"),
-    IMG_11: createImage("", "./items/11860.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "/items/Plán zbroje.png"),
-    IMG_12: createImage("", "./items/11870.png", "", "", "", "", "", "./items/Dračí šupiny.png", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png"),
-    IMG_13: createImage("", "./items/11880.png", "", "", "", "", "", "", "./items/Ledový kámen.png", "./items/Ledový kámen.png", "./items/Ledový kámen.png"),
-    IMG_14: createImage("", "./items/11890.png", "", "", "", "", "", "", "", "", ""),
+    IMG_11: createImage("", "./items/Oblečení morálky.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Runa II.png", "./items/Plán zbroje.png", "./items/Plán zbroje.png", "/items/Plán zbroje.png"),
+    IMG_12: createImage("", "./items/Oranžové kočičí oblečení.png", "", "", "", "", "", "./items/Dračí šupiny.png", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png", "./items/Ohnivý kámen.png"),
+    IMG_13: createImage("", "./items/Oblečení baronky.png", "", "", "", "", "", "", "./items/Ledový kámen.png", "./items/Ledový kámen.png", "./items/Ledový kámen.png"),
+    IMG_14: createImage("", "./items/Černé oblečení.png", "", "", "", "", "", "", "", "", ""),
     }),
     
 createEquipmentItem(10, 'Kyanitový róba', './items/12080.png', 'Překov ze Zlatého obleku', {
@@ -274,7 +274,7 @@ createEquipmentItem(10, 'Kyanitový róba', './items/12080.png', 'Překov ze Zla
     IMG_13: createImage("", "./items/Ohnivý kámen.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png"),
     }),
 	
-createEquipmentItem(10, 'Šaty harmonie', './items/20890.png', 'Překov z Oblečení draka', {
+createEquipmentItem(10, 'Šaty harmonie', './items/Šaty harmonie.png', 'Překov z Oblečení draka', {
       R_0: createStats("Od úrovně:", "105", "105", "105", "105", "105", "105", "105", "106", "108", "110"),
     R_1mezera: createStats("", "", "", "", "", "", "", "", "", "", ""),
     R_2: createStats("Obrana", "240", "250", "254", "260", "270", "284", "304", "334", "376", "440"),
@@ -339,6 +339,6 @@ createEquipmentItem(10, 'Šaty harmonie', './items/20890.png', 'Překov z Obleč
       IMG_10: createImage("", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png"),
       IMG_11: createImage("", "./items/Světlo z jiného světa.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png"),
       IMG_12: createImage("", "./items/Fénixův prapor.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png"),
-      IMG_13: createImage("", "./items/20890.png", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+      IMG_13: createImage("", "./items/Šaty harmonie.png", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
     }),
   ];
