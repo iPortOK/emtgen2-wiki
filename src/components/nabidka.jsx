@@ -23,9 +23,10 @@ const ostatni = [
   { name: 'Biolog', path: 'biolog', imageSrc: 'https://img.m2icondb.com/30006.png' },
   { name: 'Krystaly', path: 'krystaly', imageSrc: './items/Krystal Celestium.png' },
   { name: 'Denní úkoly', path: 'denni_ukoly', imageSrc: 'https://img.m2icondb.com/scroll_close.png' },
-  { name: 'Bonusy', path: 'bonusy', imageSrc: 'https://img.m2icondb.com/71084.png' },
-  { name: 'PVP - systém', path: 'pvp', imageSrc: 'https://img.m2icondb.com/71084.png' },
+//  { name: 'Bonusy', path: 'bonusy', imageSrc: 'https://img.m2icondb.com/71084.png' },
+//  { name: 'PVP - systém', path: 'pvp', imageSrc: 'https://img.m2icondb.com/71084.png' },
   { name: 'Tržnice', path: 'https://emtgen2.cc/item/search.php', imageSrc: 'https://img.m2icondb.com/50200.png' },
+  { name: 'FAQ', path: 'faq', imageSrc: 'https://img.m2icondb.com/72060.png' },
 ];
 
 const lovecke_ukoly = [
@@ -110,10 +111,12 @@ const Nabidka = () => {
   const navigate = useNavigate();
   
   const handleItemButtonClick = (itemPath) => {
-    if (itemPath.slice(0,4) === "http"){
-      window.location.href = itemPath
-    }else if (typeof itemPath === 'string') {
-      navigate(`/${itemPath.toLowerCase()}`);
+    if (typeof itemPath === 'string') {
+      if (itemPath.slice(0,4) === "http"){
+        window.location.href = itemPath
+      } else {
+        navigate(`/${itemPath.toLowerCase()}`);
+      }
     }else {
       console.error('Invalid itemPath:', itemPath);
     }
