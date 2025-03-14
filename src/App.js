@@ -38,6 +38,7 @@ import Prezentace from './components/ostatni/prezentace';
 import Kamenologie from './components/loveckeukoly/kamenologie';
 import Bossologie from './components/loveckeukoly/bossologie';
 import Mobologie from './components/loveckeukoly/mobologie';
+import FAQ from './components/ostatni/faq';
 
 function ScrollToTopOnNavigate() {
   const { pathname } = useLocation();
@@ -104,7 +105,8 @@ function App() {
               <Route path="/prezentace" element={<Prezentace />} />
               <Route path="/kamenologie" element={<Kamenologie />} />
               <Route path="/bossologie" element={<Bossologie />} />
-              <Route path="/mobologie" element={<Mobologie />} />              
+              <Route path="/mobologie" element={<Mobologie />} />       
+              <Route path="/faq" element={<FAQ />} />         
             </Layout>
           }
         />

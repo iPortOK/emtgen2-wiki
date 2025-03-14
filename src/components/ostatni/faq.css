@@ -1,0 +1,28 @@
+details>summary {
+ 
+    list-style: none;
+  }
+  summary::-webkit-details-marker {
+    display: none
+  }
+  
+  .faqbox {
+    position: relative;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
+  padding: 10px 20px 10px 10px;
+  margin-top: 7px;
+  
+  }
+  
+  .faqbox::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  
+  .faqbox > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
