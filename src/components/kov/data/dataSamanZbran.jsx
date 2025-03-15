@@ -527,7 +527,7 @@ createEquipmentItem(10, 'Kyanitový vějíř', './items/7500.png', 'Překov z Ru
   IMG_13: createImage("", "./items/Ohnivý kámen.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png"),
     }),
    
-createEquipmentItem(10, 'Vějíř zvěrokruhu', './items/Vějíř zvěrokruhu.png', 'Garm', {
+createEquipmentItem(10, 'Vějíř zvěrokruhu', './items/Vějíř Zvěrokruhu.png', 'Garm', {
       R_0: createStats("Od úrovně:", "105", "105", "105", "105", "105", "105", "105", "106", "108", "110"),
   R_1mezera: createStats("", "", "", "", "", "", "", "", "", "", ""),
   R_2: createStats("Hodnota útoku", "250-275", "261-287", "272-299", "283-311", "294-323", "306-336", "317-348", "338-371", "359-395", "394-433"),

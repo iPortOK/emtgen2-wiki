@@ -181,7 +181,7 @@ const FAQ = () => {
         <Box className="faqbox"><details><summary>   
           <Typography className="boxnadpis2">Kolik počítačů může mít najednou přístup na jeden účet?</Typography></summary><br></br>
             <Typography paragraph className="text1">
-            Maximálně lze mít povoleny dvě HWID počítařů zároveň.<br></br>
+            Maximálně lze mít povoleny dvě HWID počítačů zároveň.<br></br>
             </Typography>
         </details></Box>
 
