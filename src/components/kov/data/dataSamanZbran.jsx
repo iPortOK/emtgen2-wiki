@@ -527,7 +527,7 @@ createEquipmentItem(10, 'Kyanitový vějíř', './items/7500.png', 'Překov z Ru
   IMG_13: createImage("", "./items/Ohnivý kámen.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png"),
     }),
    
-createEquipmentItem(10, 'Vějíř zvěrokruhu', './items/Vějíř zvěrokruhu.png', 'Garm', {
+createEquipmentItem(10, 'Vějíř zvěrokruhu', './items/Vějíř Zvěrokruhu.png', 'Garm', {
       R_0: createStats("Od úrovně:", "105", "105", "105", "105", "105", "105", "105", "106", "108", "110"),
   R_1mezera: createStats("", "", "", "", "", "", "", "", "", "", ""),
   R_2: createStats("Hodnota útoku", "250-275", "261-287", "272-299", "283-311", "294-323", "306-336", "317-348", "338-371", "359-395", "394-433"),
@@ -599,5 +599,42 @@ createEquipmentItem(16, 'Hadí vějíř', './items/07330.png', 'Craft u Pirátsk
   IMG_12: createImage("", "./items/Fénixův prapor.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png"),
   IMG_13: createImage("", "./items/Vějíř zvěrokruhu.png", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
 }),
+createEquipmentItem(10, "Vějíř temného draka", "./items/Vějíř temného draka.png", "Překov z Kyanitového vějíře", {
+  R_0: createStats("Od úrovně:", 120, 120, 120, 120, 120, 120, 120, 120, 120, 120),
+  R_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
+  R_2: createStats("Magická hodnota útoku", "898-987", "919-1011", "941-1035", "964-1060", "987-1085", "1010-1111", "1033-1136", "1064-1170", "1111-1222", "1158-1274"),
+  R_3: createStats("Hodnota útoku", "449-493", "459-505", "470-517", "482-530", "493-542", "505-555", "516-568", "532-585", "555-611", "579-636"),
+  R_4: createStats("Rychlost útoku", "35%", "35%", "35%", "35%", "35%", "35%", "35%", "35%", "35%", "35%"),
+  R_5: createStats("Silný proti lidem", "25%", "25%", "26%", "26%", "27%", "28%", "29%", "31%", "35%", "40%"),  
+  R_9mezera: createStats("", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+  R_10: createStats("Šance: ",             "100%",   "45%",   "41%",     "37%",    "33%",      "29%",    "25%",      "21%",    "17%",      "13%"),
+  R_11: createStats("cena: ",              "100kkk", "10kkk", "12,5kkk", "15kkk",  "17,5kkk",  "20kkk",  "22,5kkk",  "25kkk",  "27,5kkk",  "30kkk"),
+  R_12mezera: createStats(),
+  R_13: createStats("Potřebné předměty:", "750x",   "100x",  "120x",    "140x",   "160x",     "180x",   "200x",     "250x",   "350x",     "500x"),
+  R_14: createStats("",                   "5x",     "40x",   "48x",     "56x",    "64x",      "80x",    "88x",      "96x",    "102x",     "118x"),
+  R_15: createStats("",                   "200x",   "8x",    "10x",     "8x",     "10x",      "4x",     "5x",       "6x",     "8x",       "10x"),
+  R_16: createStats("",                   "20x",    "3x",    "3x",      "4x",     "4x",       "5x",     "5x",       "6x",     "7x",       "8x"),
+  R_17: createStats("",                   "20x",    "2x",    "2x",      "3x",     "3x",       "4x",     "5x",       "6x",     "7x",       "8x"),
+  R_18: createStats("",                   "35x",    "300x",  "400x",    "500x",   "600x",     "800x",   "1000x",    "1250x",  "1500x",    "2000x"),
+}, {
+  IMG_0: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_1: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_2: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_3: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_4: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  RADEK_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_6: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_7: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  MEZERA_Y: createStats("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_9: createImage("", "./items/Kyanit.png",                  "./items/Kyanit.png",             "./items/Kyanit.png",           "./items/Kyanit.png",                 "./items/Kyanit.png",                 "./items/Kyanit.png",             "./items/Kyanit.png",           "./items/Kyanit.png",             "./items/Kyanit.png",             "./items/Kyanit.png"),
+  IMG_10: createImage("", "./items/Studentova poznámka.png",     "./items/Lokiho dýka.png",    "./items/Lokiho dýka.png",  "./items/Lokiho dýka.png",        "./items/Lokiho dýka.png",        "./items/Lokiho dýka.png",    "./items/Lokiho dýka.png",  "./items/Lokiho dýka.png",    "./items/Lokiho dýka.png",    "./items/Lokiho dýka.png"),
+  IMG_11: createImage("", "./items/Lebka piráta.png",           "./items/Fénixův prapor.png",     "./items/Fénixův prapor.png",   "./items/Světlo z jiného světa.png",  "./items/Světlo z jiného světa.png",  "./items/Kapka jedu.png",         "./items/Kapka jedu.png",       "./items/Kapka jedu.png",         "./items/Kapka jedu.png",         "./items/Kapka jedu.png"),
+  IMG_12: createImage("", "./items/Fénixův prapor.png",         "./items/Sindriho slitina.png",   "./items/Sindriho slitina.png", "./items/Sindriho slitina.png",       "./items/Sindriho slitina.png",       "./items/Sindriho slitina.png",   "./items/Sindriho slitina.png", "./items/Sindriho slitina.png",   "./items/Sindriho slitina.png",   "./items/Sindriho slitina.png"),
+  IMG_13: createImage("", "./items/Světlo z jiného světa.png",  "./items/Dračí kovadlina.png",    "./items/Dračí kovadlina.png",  "./items/Dračí kovadlina.png",        "./items/Dračí kovadlina.png",        "./items/Dračí kovadlina.png",    "./items/Dračí kovadlina.png",  "./items/Dračí kovadlina.png",    "./items/Dračí kovadlina.png",    "./items/Dračí kovadlina.png"),
+  IMG_14: createImage("", "./items/Smaragd.png",                "./items/Runa V.png",             "./items/Runa V.png",           "./items/Runa V.png",                 "./items/Runa V.png",                 "./items/Runa V.png",             "./items/Runa V.png",           "./items/Runa V.png",             "./items/Runa V.png",             "./items/Runa V.png"),
+}),
+
+
 ];
 

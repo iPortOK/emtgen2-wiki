@@ -439,4 +439,42 @@ export const helmyData = [
     IMG_18: createImage("", "",       "", "", "", "", "", "", "", "", "./items/Energetické jádro Sfingy.png"),
 }),
 
+createEquipmentItem(10, "Smaragdová helma", "./items/Smaragdová helma.png", "Překov z Helmy Zarytosti", {
+  RADEK_0: createStats("Od úrovně:", 120, 120, 120, 120, 120, 120, 120, 120, 120, 120),
+  RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
+  RADEK_1: createStats("Magická hodnota útoku", "+250", "+255", "+260", "+265", "+270", "+275", "+280", "+290", "+300", "+320"),
+  RADEK_2: createStats("Navýšení ZB výbavy", "74%", "78%", "82%", "86%", "90%", "96%", "106%", "118%", "132%", "150%"),
+  RADEK_3: createStats("Odolnost proti kritickým zásahům", "1%", "2%", "3%", "4%", "5%", "6%", "8%", "10%", "14%", "20%"),
+  RADEK_4: createStats("Odolnost proti lidem", "1%", "2%", "3%", "4%", "5%", "6%", "8%", "10%", "14%", "20%"),
+  MEZERA_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
+  RADEK_6: createStats("Šance: ",             "100%",   "85%",   "85%",     "85%",    "85%",      "85%",    "85%",      "85%",    "85%",      "85%"),
+  RADEK_7: createStats("cena: ",              "100kkk", "10kkk", "12,5kkk", "15kkk",  "17,5kkk",  "20kkk",  "22,5kkk",  "25kkk",  "27,5kkk",  "30kkk"),
+  MEZERA_Y: createStats(),
+  RADEK_8: createStats("Potřebné předměty:",  "750x",   "200x",  "280x",    "360x",   "440x",     "500x",   "560x",     "700x",   "1000x",    "1500x"),
+  RADEK_9: createStats("",                    "5x",     "40x",   "48x",     "56x",    "64x",      "80x",    "88x",      "96x",    "102x",     "118x"),
+  RADEK_10: createStats("",                   "200x",   "10x",   "15x",     "10x",    "15x",      "10x",    "12x",      "14x",    "16x",      "18x"),
+  RADEK_11: createStats("",                   "20x",    "5x",    "6x",      "7x",     "8x",       "10x",    "11x",      "12x",    "13x",      "15x"),
+  RADEK_12: createStats("",                   "20x",    "5x",    "5x",      "5x",     "5x",       "6x",     "7x",       "8x",     "9x",       "10x"),
+  RADEK_13: createStats("",                   "35x",    "500x",  "600x",    "700x",   "800x",     "1200x",  "1600x",    "2000x",  "2500x",    "3000x"),
+}, {
+  IMG_0: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_1: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_2: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_3: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_4: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  RADEK_X: createStats("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_6: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_7: createImage("", "", "", "", "", "", "", "", "", "", ""),
+  MEZERA_Y: createStats("", "", "", "", "", "", "", "", "", "", ""),
+  IMG_8: createImage("", "./items/Kyanit.png",                  "./items/Kyanit.png",             "./items/Kyanit.png",           "./items/Kyanit.png",                 "./items/Kyanit.png",                 "./items/Kyanit.png",             "./items/Kyanit.png",           "./items/Kyanit.png",             "./items/Kyanit.png",             "./items/Kyanit.png"),
+  IMG_9: createImage("", "./items/Studentova poznámka.png",     "./items/Thorovo kladivo.png",    "./items/Thorovo kladivo.png",  "./items/Thorovo kladivo.png",        "./items/Thorovo kladivo.png",        "./items/Thorovo kladivo.png",    "./items/Thorovo kladivo.png",  "./items/Thorovo kladivo.png",    "./items/Thorovo kladivo.png",    "./items/Thorovo kladivo.png"),
+  IMG_10: createImage("", "./items/Lebka piráta.png",           "./items/Fénixův prapor.png",     "./items/Fénixův prapor.png",   "./items/Světlo z jiného světa.png",  "./items/Světlo z jiného světa.png",  "./items/Kapka jedu.png",         "./items/Kapka jedu.png",       "./items/Kapka jedu.png",         "./items/Kapka jedu.png",         "./items/Kapka jedu.png"),
+  IMG_11: createImage("", "./items/Fénixův prapor.png",         "./items/Sindriho slitina.png",   "./items/Sindriho slitina.png", "./items/Sindriho slitina.png",       "./items/Sindriho slitina.png",       "./items/Sindriho slitina.png",   "./items/Sindriho slitina.png", "./items/Sindriho slitina.png",   "./items/Sindriho slitina.png",   "./items/Sindriho slitina.png"),
+  IMG_12: createImage("", "./items/Světlo z jiného světa.png",  "./items/Dračí kovadlina.png",    "./items/Dračí kovadlina.png",  "./items/Dračí kovadlina.png",        "./items/Dračí kovadlina.png",        "./items/Dračí kovadlina.png",    "./items/Dračí kovadlina.png",  "./items/Dračí kovadlina.png",    "./items/Dračí kovadlina.png",    "./items/Dračí kovadlina.png"),
+  IMG_13: createImage("", "./items/Smaragd.png",                "./items/Runa V.png",             "./items/Runa V.png",           "./items/Runa V.png",                 "./items/Runa V.png",                 "./items/Runa V.png",             "./items/Runa V.png",           "./items/Runa V.png",             "./items/Runa V.png",             "./items/Runa V.png"),
+}),
+
+
+
   ];
