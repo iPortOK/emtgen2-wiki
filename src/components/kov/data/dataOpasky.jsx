@@ -336,7 +336,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
         IMG_17: createImage("", "",       "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png", "./items/Kapka jedu.png"),
         IMG_18: createImage("", "",       "", "", "", "", "", "", "", "", "./items/Energetické jádro Sfingy.png"),
     }),
-    createEquipmentItem(10, "iport_opasek", "./items/iport_opasek.png", "", {
+    createEquipmentItem(10, "Smaragdový opasek", "./items/Smaragdový opasek.png", "Překov z Opasku Zatracení", {
       R_0: createStats("Od úrovně:", 120, 120, 120, 120, 120, 120, 120, 120, 120, 120),
       R_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
       R_1: createStats("Max. ZB", "+6500", "+7000", "+7250", "+7500", "+7750", "+8000", "+8250", "+8500", "+9000", "+10000"),

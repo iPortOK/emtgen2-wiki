@@ -262,7 +262,7 @@ import { createStats, createImage, createEquipmentItem } from './funkce.js';
 
     }),
 
-    createEquipmentItem(10, "boty_iport", "./items/boty_iport.png", "Překov z Bot Zarytosti", {
+    createEquipmentItem(10, "Smaragdové boty", "./items/Smaragdové boty.png", "Překov z Bot Zarytosti", {
       RADEK_0: createStats("Od úrovně:", 120, 120, 120, 120, 120, 120, 120, 120, 120, 120),
       RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
       RADEK_1: createStats("Navýšení ZB výbavy", "5%", "5%", "10%", "10%", "15%", "20%", "25%", "30%", "40%", "50%"),

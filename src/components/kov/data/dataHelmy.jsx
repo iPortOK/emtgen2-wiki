@@ -439,7 +439,7 @@ export const helmyData = [
     IMG_18: createImage("", "",       "", "", "", "", "", "", "", "", "./items/Energetické jádro Sfingy.png"),
 }),
 
-createEquipmentItem(10, "helma_iport", "./items/helma_iport.png", "Překov z Helmy Zarytosti", {
+createEquipmentItem(10, "Smaragdová helma", "./items/Smaragdová helma.png", "Překov z Helmy Zarytosti", {
   RADEK_0: createStats("Od úrovně:", 120, 120, 120, 120, 120, 120, 120, 120, 120, 120),
   RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
   RADEK_1: createStats("Magická hodnota útoku", "+250", "+255", "+260", "+265", "+270", "+275", "+280", "+290", "+300", "+320"),

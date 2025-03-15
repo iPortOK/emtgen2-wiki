@@ -39,7 +39,7 @@ const WarriorSkills = ({ schopnosti, nadpis }) => {
 
 const WarSchopnost = () => {
   const warrior1Skills = [
-    { obrazek: 'https://img3.m2icondb.com/heuksin_03.png', nazev: 'Temná ochrana', popis: 'Přidá  PvM hodnotu útoku a obranu , zesílení pomocí INT.' },
+    { obrazek: 'https://img3.m2icondb.com/heuksin_03.png', nazev: 'Temná ochrana', popis: 'Přidá PvM hodnotu útoku a obranu, zesílení pomocí INT.' },
     { obrazek: 'https://img3.m2icondb.com/muyeong_03.png', nazev: 'Duch plamene', popis: 'Vyvolání ducha plamene, které způsobuje dodatečné poškození.' },
     { obrazek: 'https://img3.m2icondb.com/tusok_03.png', nazev: 'Rána ducha', popis: ' Menší plošné poškození na dálku.' },
     { obrazek: 'https://img3.m2icondb.com/hwayeom_03.png', nazev: 'Rána plameny', popis: 'Plošné poškození na blízko.' },
@@ -48,7 +48,7 @@ const WarSchopnost = () => {
   ];
 
   const warrior2Skills = [
-    { obrazek: 'https://img3.m2icondb.com/gwigeom_03.png', nazev: 'Začarovaná čepel', popis: ' Přidá hodnotu útoku a absorbaci ZB, zesílení pomocí INT. ' },
+    { obrazek: 'https://img3.m2icondb.com/gwigeom_03.png', nazev: 'Začarovaná čepel', popis: ' Přidá hodnotu útoku a absorbaci ZB, zesílení pomocí INT.' },
     { obrazek: 'https://img3.m2icondb.com/jumagap_03.png', nazev: 'Začarované brnění', popis: 'Zvyšuje obranu a šanci na přímé odrážení útoku.' },
     { obrazek: 'https://img3.m2icondb.com/gongpo_03.png', nazev: 'Strach', popis: 'Snížení poškození, které obdržíš v boji.' },
     { obrazek: 'https://img3.m2icondb.com/yonggwon_03.png', nazev: 'Dračí vír', popis: 'Efektivní plošné poškození.' },

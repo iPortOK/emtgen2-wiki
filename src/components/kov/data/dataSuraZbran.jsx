@@ -524,7 +524,7 @@ createEquipmentItem(16, 'Hadí meč', './items/00380.png', 'Craft u Pirátského
   IMG_12: createImage("", "./items/Fénixův prapor.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png"),
   IMG_13: createImage("", "./items/Meč zvěrokruhu.png", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
 }),
-createEquipmentItem(10, "Dýka temného draka", "./items/Dýka temného draka.png", "Překov z Kyanitových dýk", {
+createEquipmentItem(10, "Meč temného draka", "./items/Meč temného draka.png", "Překov z Kyanitového meče", {
   R_0: createStats("Od úrovně:", 120, 120, 120, 120, 120, 120, 120, 120, 120, 120),
   R_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
   R_2: createStats("Hodnota útoku", "898-987", "919-1011", "941-1035", "964-1060", "987-1085", "1010-1111", "1033-1136", "1064-1170", "1111-1222", "1158-1274"),
@@ -560,11 +560,11 @@ createEquipmentItem(10, "Dýka temného draka", "./items/Dýka temného draka.pn
   IMG_14: createImage("", "./items/Smaragd.png",                "./items/Runa V.png",             "./items/Runa V.png",           "./items/Runa V.png",                 "./items/Runa V.png",                 "./items/Runa V.png",             "./items/Runa V.png",           "./items/Runa V.png",             "./items/Runa V.png",             "./items/Runa V.png"),
 }),
 
-createEquipmentItem(10, "Dýka temného draka", "./items/Dýka temného draka.png", "Překov z Kyanitových dýk", {
+createEquipmentItem(10, "Šavle temného draka", "./items/Šavle temného draka.png", "Překov z Kyanitové šavle", {
   R_0: createStats("Od úrovně:", 120, 120, 120, 120, 120, 120, 120, 120, 120, 120),
   R_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
-  R_2: createStats("Hodnota útoku", "898-987", "919-1011", "941-1035", "964-1060", "987-1085", "1010-1111", "1033-1136", "1064-1170", "1111-1222", "1158-1274"),
-  R_3: createStats("Magická hodnota útoku", "449-493", "459-505", "470-517", "482-530", "493-542", "505-555", "516-568", "532-585", "555-611", "579-636"),
+  R_2: createStats("Magická hodnota útoku", "898-987", "919-1011", "941-1035", "964-1060", "987-1085", "1010-1111", "1033-1136", "1064-1170", "1111-1222", "1158-1274"),
+  R_3: createStats("Hodnota útoku", "449-493", "459-505", "470-517", "482-530", "493-542", "505-555", "516-568", "532-585", "555-611", "579-636"),
   R_4: createStats("Rychlost útoku", "35%", "35%", "35%", "35%", "35%", "35%", "35%", "35%", "35%", "35%"),
   R_5: createStats("Silný proti lidem", "25%", "25%", "26%", "26%", "27%", "28%", "29%", "31%", "35%", "40%"),  
   R_9mezera: createStats("", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),

@@ -48,7 +48,7 @@ const WarSchopnost = () => {
   ];
 
   const warrior2Skills = [
-    { obrazek: 'https://img3.m2icondb.com/cheongeun_03.png', nazev: 'Silné tělo', popis: 'Přidá  PvM hodnotu útoku a obranu , Zesílení pomocí síly. ' },
+    { obrazek: 'https://img3.m2icondb.com/cheongeun_03.png', nazev: 'Silné tělo', popis: 'Přidá  PvM hodnotu útoku a obranu, zesílení pomocí síly.' },
     { obrazek: 'https://img3.m2icondb.com/gigongcham_03.png', nazev: 'Průraz', popis: 'Silné plošné poškození.' },
     { obrazek: 'https://img3.m2icondb.com/daejin_03.png', nazev: 'Dupnutí', popis: 'Plošné poškození.' },
     { obrazek: 'https://img3.m2icondb.com/geompung_03.png', nazev: 'Rána mečem', popis: 'Poškození na dálku.' },
