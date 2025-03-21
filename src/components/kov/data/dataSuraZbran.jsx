@@ -452,7 +452,7 @@ createEquipmentItem(10, 'Kyanitový šavle', './items/500.png', 'Překov z Ozube
   IMG_13: createImage("", "./items/Ohnivý kámen.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png", "./items/Studentova poznámka.png"),
 }),
   
-createEquipmentItem(10, 'Meč zvěrokruhu', './items/Meč zvěrokruhu.png', 'Garm', {
+createEquipmentItem(10, 'Meč zvěrokruhu', './items/Meč Zvěrokruhu.png', 'Garm', {
       R_0: createStats("Od úrovně:", "105", "105", "105", "105", "105", "105", "105", "106", "108", "110"),
   R_1mezera: createStats("", "", "", "", "", "", "", "", "", "", ""),
   R_2: createStats("Hodnota útoku", "500-550", "522-574", "544-598", "566-623", "588-647", "612-673", "634-697", "676-743", "719-790", "788-866"),
@@ -522,7 +522,7 @@ createEquipmentItem(16, 'Hadí meč', './items/00380.png', 'Craft u Pirátského
   IMG_10: createImage("", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Temná perla.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png", "./items/Dračí kovadlina.png"),
   IMG_11: createImage("", "./items/Světlo z jiného světa.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Starověký svitek.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png", "./items/Lebka piráta.png"),
   IMG_12: createImage("", "./items/Fénixův prapor.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Pirátská mince.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png", "./items/Perla sedmi moří.png"),
-  IMG_13: createImage("", "./items/Meč zvěrokruhu.png", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+  IMG_13: createImage("", "./items/Meč Zvěrokruhu.png", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
 }),
 createEquipmentItem(10, "Meč temného draka", "./items/Meč temného draka.png", "Překov z Kyanitového meče", {
   R_0: createStats("Od úrovně:", 120, 120, 120, 120, 120, 120, 120, 120, 120, 120),

@@ -99,6 +99,8 @@ const ItemTable = ({ stats, images, item }) => {
                           className='objazek'
                           src={images[statIndex][imageKeys[index]]}
                           alt={``}
+                          width="32" 
+                          height="32"
                         />
                         <span className='tooltip'>
                           {images[statIndex][imageKeys[index]].split('/').pop().replace('.png', '')}
