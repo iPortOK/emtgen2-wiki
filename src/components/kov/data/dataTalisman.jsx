@@ -181,7 +181,7 @@ export const talismanData = [
       RADEK_10: createStats("Šance:", "-",                        "100%", "100%", "100%",   "100%",   "100%", "100%", "", "", ""),
       RADEK_11: createStats("Cena:", "-",                         "1kkk", "10kkk","10kkk",  "10kkk",  "100kkk", "200kkk", "", "", ""),
       RADEK_12: createStats("", "", "", "", "", "", "", "", "", "", ""),
-      RADEK_13: createStats("Craft:", "-",                        "10x", "14x",   "18x",    "22x",   "26x Duše Klamu", "30x Duše Klamu", "", "", ""),
+      RADEK_13: createStats("Craft:", "-",                        "10x", "14x",   "18x",    "22x",   "26x", "30x", "", "", ""),
       RADEK_14: createStats("", "",                               "300x", "100x", "125x",   "150x",  "400x", "800x", "", "", ""),
       RADEK_15: createStats("", "",                               "300x", "24x",  "36x",    "48x",    "400x", "800x", "", "", ""),
       RADEK_16: createStats("", "",                               "",     "5x",   "3x",     "2x",     "35x", "20x", "", "", ""),
