@@ -1,6 +1,6 @@
 import React from 'react';
-import { krystalyData } from './krystalyData';
-import Tabulkos from './tabulkos';
+import { krystalyData } from './data/krystalyData';
+import Tabulkos from '../ostatni/tabulkos';
 
 const Krystaly = () => {
     return <Tabulkos equipmentType="krystaly" data={krystalyData} />;

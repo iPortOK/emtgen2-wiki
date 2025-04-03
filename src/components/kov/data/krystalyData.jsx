@@ -1,4 +1,4 @@
-import { createStats, createImage, createEquipmentItem } from './funkceTabulkos.js';
+import { createStats, createImage, createEquipmentItem } from '../../ostatni/funkceTabulkos.js';
 
   export const krystalyData = [      
       createEquipmentItem(10, 'Krystal Lunaris', './items/Krystal Lunaris.png', 'Lze získat z cechovního World Bosse - Bestie', {

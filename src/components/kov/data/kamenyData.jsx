@@ -1,4 +1,4 @@
-import { createStats, createImage, createEquipmentItem } from './funkceTabulkos.js';
+import { createStats, createImage, createEquipmentItem } from '../../ostatni/funkceTabulkos.js';
 
   export const kamenyData = [      
       createEquipmentItem(10, 'Kámen průniku', 'https://img.m2icondb.com/28000.png', '', {
