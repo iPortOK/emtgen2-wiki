@@ -397,7 +397,7 @@ export const helmyData = [
       IMG_10: createImage("", "./items/Skeletoní lebka.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png", "./items/Božské ovoce.png"),
       IMG_11: createImage("", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Fénixův prapor.png", "./items/Světlo z jiného světa.png", "./items/Světlo z jiného světa.png", "./items/Světlo z jiného světa.png", "./items/Světlo z jiného světa.png"),
   }),
-  createEquipmentItem(10,'Hadí helma', './items/hadi_gear/Hadí helma.png', 'Překov z Helmy Zarytosti', { // last changed February 26th, 2025
+  createEquipmentItem(10,'Hadí helma', './items/hadi_gear/Hadí helma.png', 'Překov z Helmy Zarytosti', { // last changed 01/04/2025
     RADEK_0: createStats("Od úrovně:", 121, 121, 121, 121, 121, 121, 121, 121, 121, 121),
     RADEK_XX: createStats("", "", "", "", "", "", "", "", "", "", ""),
     RADEK_1: createStats("Obrana", "+23", "+27", "+31", "+41", "+51", "+61", "+71", "+81", "+91", "+101"),
@@ -405,7 +405,7 @@ export const helmyData = [
     RADEK_3: createStats("Rychlost kouzla:", "+41%", "+41%", "+42%", "+42%", "+43%", "+43%", "+44%", "+45%", "+47%", "+50%"),
     RADEK_4: createStats("Silný proti příšerám:", "+52%", "+53%", "+54%", "+55%", "+56%", "+58%", "+60%", "+64%", "+69%", "+75%"),
     RADEK_5: createStats("Navýšení ZB výbavy:", "+74%", "+78%", "+82%", "+86%", "+90%", "+96%", "+106%", "+118%", "+132%", "+150%"),
-    RADEK_6: createStats("Silný proti lidem:", "-25%", "-25%", "-25%", "-25%", "-25%", "-25%", "-25%", "-25%", "-25%", "-25%"),
+    RADEK_6: createStats("Proražení elementům:", "1%", "1%", "1%", "1%", "2%", "2%", "2%", "3%", "4%", "5%"),
     MEZERA_X: createStats(),
     RADEK_10: createStats("Šance: ", "100%", "35%", "31%", "27%", "23%", "19%", "15%", "11%", "7%", "3%"),
     RADEK_11: createStats("cena: ", "250kkk", "12,5kkk", "15kkk", "17,5kkk", "20kkk", "22,5kkk", "25kkk", "27,5kkk", "30kkk", "32,5kkk"),

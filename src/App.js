@@ -32,13 +32,14 @@ import SuraSchopnost from './components/kov/sura_schopnost';
 import Dungeony from './components/mapy/dungeony';
 import ZakladniMapy from './components/mapy/zakladni_mapy';
 import Biolog from './components/ostatni/biolog';
-import Krystaly from './components/ostatni/krystaly';
+import Krystaly from './components/kov/krystaly';
 import Ukoly from './components/ostatni/ukoly';
 import Prezentace from './components/ostatni/prezentace';
 import Kamenologie from './components/loveckeukoly/kamenologie';
 import Bossologie from './components/loveckeukoly/bossologie';
 import Mobologie from './components/loveckeukoly/mobologie';
 import FAQ from './components/ostatni/faq';
+import Kameny from './components/kov/kameny';
 
 function ScrollToTopOnNavigate() {
   const { pathname } = useLocation();
@@ -106,7 +107,8 @@ function App() {
               <Route path="/kamenologie" element={<Kamenologie />} />
               <Route path="/bossologie" element={<Bossologie />} />
               <Route path="/mobologie" element={<Mobologie />} />       
-              <Route path="/faq" element={<FAQ />} />         
+              <Route path="/faq" element={<FAQ />} />
+              <Route path="/kameny" element={<Kameny />} />         
             </Layout>
           }
         />
